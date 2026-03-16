@@ -65,8 +65,10 @@
       "items": [
         "Jawline",
         "Chin Augmentation",
+        "Under-Eye Circles",
         "Lip Wrinkles",
         "Lip Augmentation",
+        "Russian Lips",
         "Marionette Lines",
         "Cheek Augmentation",
         "Nasolabial Fold"
@@ -76,7 +78,9 @@
       "subtitle": "Further Treatments",
       "items": [
         "Hylase",
+        "Botox®️",
         "Mesotherapy",
+        "Polynucleotides (PDRN)",
         "Skinbooster",
         "Profhilo",
         "Fat Dissolving Injection",
@@ -199,19 +203,24 @@
       "hyaluronOptions": [
         "Jawline",
         "Chin Augmentation",
+        "Under-Eye Circles",
         "Lip Wrinkles",
         "Lip Augmentation",
+        "Russian Lips",
         "Marionette Lines",
         "Cheek Augmentation",
         "Nasolabial Fold"
       ],
       "weitereOptions": [
+        "Hylase",
+        "Botox®️",
         "Mesotherapy",
         "Skinbooster",
         "Profhilo",
         "Fat Dissolving Injection",
         "PRP Hair Loss Therapy",
         "Vampire Lifting / PRP",
+        "Infusion Therapy",
         "Radiofrequency Microneedling",
         "Hydrafacial"
       ],
@@ -285,12 +294,20 @@
           "description": "In chin augmentation, hyaluronic acid is precisely injected into the chin to optimise its shape. This can serve to lengthen the chin, add volume or balance asymmetries, making the face appear more harmonious."
         },
         {
+          "name": "Under-Eye Circles",
+          "description": "Hyaluronic acid can be used under the eyes to gently balance hollow areas and create a fresher, more awake appearance."
+        },
+        {
           "name": "Lip Wrinkles",
           "description": "This treatment aims to smooth the fine lines around the lips. With hyaluronic acid, the wrinkles are filled in so that the skin looks smoother and plumper again."
         },
         {
           "name": "Lip Augmentation",
           "description": "Here, hyaluronic acid is injected into the lips to give them more volume, shape and definition. This technique is used to enlarge thin lips or give them more fullness while maintaining a natural appearance."
+        },
+        {
+          "name": "Russian Lips",
+          "description": "Russian Lips is a specialised lip technique designed to build height, definition and elegant lip shape with a precise vertical focus."
         },
         {
           "name": "Marionette Lines",
@@ -314,8 +331,16 @@
           "description": "Hylase is an enzyme that specifically breaks down and dissolves hyaluronic acid. It is used to correct unwanted results from hyaluron treatments or to gently remove excess hyaluron. The treatment is precise and enables a rapid reversal of unwanted effects."
         },
         {
+          "name": "Botox®️",
+          "description": "Botox is used to relax overactive muscles in a targeted way and can be applied for forehead lines, frown lines, crow's feet, downturned mouth corners, strawberry chin, bunny lines, brow lift, baby BTX, face slimming, lip flip, masseter/teeth grinding, sweat gland treatment and migraine."
+        },
+        {
           "name": "Mesotherapy",
           "description": "Mesotherapy is a minimally invasive treatment in which individually tailored active ingredient cocktails are injected directly into the skin. These contain vitamins, minerals, amino acids and hyaluronic acid to intensively nourish the skin, promote circulation and improve skin structure."
+        },
+        {
+          "name": "Polynucleotides (PDRN)",
+          "description": "Polynucleotides (PDRN) support skin regeneration, improve skin quality and promote a fresher, more resilient complexion through biostimulating processes."
         },
         {
           "name": "Skinbooster",
@@ -499,6 +524,49 @@
           "You prefer to avoid surgical procedures"
         ]
       },
+      "augenringe": {
+        "name": "Under-Eye Circles",
+        "metaTitle": "Under-Eye Circles Basel | Skinbloom Aesthetics",
+        "metaDescription": "Treat under-eye circles in Basel with hyaluronic acid for a fresher, more awake look.",
+        "shortDescription": "A fresher look through targeted volume balancing under the eyes.",
+        "definition": "When hollow areas appear under the eyes, hyaluronic acid can be used to gently balance under-eye circles and create a fresher expression. The treatment is tailored to anatomy and skin condition for a natural result.",
+        "benefits": [
+          "Fresher, more awake appearance",
+          "Gentle correction of hollow under-eye areas",
+          "Minimally invasive treatment",
+          "Natural, harmonious results",
+          "Short treatment time"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "approx. 6–12 months",
+        "downtime": "Mild swelling or small bruises possible",
+        "process": [
+          "Personal consultation and analysis of the eye area",
+          "Optional numbing cream",
+          "Precise injection of the hyaluronic acid filler",
+          "Gentle assessment and shaping"
+        ],
+        "faq": [
+          {
+            "question": "Is under-eye treatment painful?",
+            "answer": "The treatment is generally well tolerated. Numbing cream can be applied if needed."
+          },
+          {
+            "question": "When will I see the result?",
+            "answer": "The result is often visible immediately, with the final outcome appearing once any swelling has settled."
+          },
+          {
+            "question": "How long does the result last?",
+            "answer": "Depending on metabolism and product, results usually last around 6 to 12 months."
+          }
+        ],
+        "idealFor": [
+          "Hollow under-eye areas should be balanced",
+          "Your expression looks tired or exhausted",
+          "A fresher look without surgery is desired",
+          "A gentle, natural correction is preferred"
+        ]
+      },
       "lippenfalten": {
         "name": "Lip Wrinkles",
         "metaTitle": "Lip Wrinkles Basel | Skinbloom Aesthetics",
@@ -585,6 +653,49 @@
           "Your lips appear asymmetrical or uneven",
           "Natural lip volume has decreased with age",
           "You want fuller, more natural lips without surgery"
+        ]
+      },
+      "russian-lips": {
+        "name": "Russian Lips",
+        "metaTitle": "Russian Lips Basel | Skinbloom Aesthetics",
+        "metaDescription": "Russian Lips in Basel: defined, vertically enhanced lip shape with a precise hyaluronic acid technique.",
+        "shortDescription": "Defined lip shape with a precise Russian Lips technique.",
+        "definition": "Russian Lips is a specialised hyaluronic acid lip technique that focuses on vertical structure and definition. The goal is an elegant, defined lip shape with harmonious projection rather than simply adding width.",
+        "benefits": [
+          "Defined lip contour",
+          "Elegant vertical lip shape",
+          "Precise technique for tailored results",
+          "Minimally invasive treatment",
+          "Immediately visible effect"
+        ],
+        "duration": "approx. 20–30 min.",
+        "longevity": "approx. 6–12 months",
+        "downtime": "Mild swelling for a few days possible",
+        "process": [
+          "Personal consultation and lip shape analysis",
+          "Application of numbing cream",
+          "Precise injection using the Russian Lips technique",
+          "Gentle shaping and final review"
+        ],
+        "faq": [
+          {
+            "question": "How is this different from classic lip augmentation?",
+            "answer": "Russian Lips focuses more strongly on shape, lift and definition than on volume alone."
+          },
+          {
+            "question": "When will I see the result?",
+            "answer": "The result is visible immediately. Mild swelling may influence the appearance during the first days."
+          },
+          {
+            "question": "How long does it last?",
+            "answer": "Depending on metabolism and product, results usually last around 6 to 12 months."
+          }
+        ],
+        "idealFor": [
+          "A precisely defined lip shape is desired",
+          "More lip height rather than only volume is wanted",
+          "An elegant and harmonious lip result is the goal",
+          "A specialised lip technique is preferred"
         ]
       },
       "marionettenfalte": {
@@ -763,6 +874,49 @@
           "Allergic reactions to hyaluronic acid have occurred"
         ]
       },
+      "botox": {
+        "name": "Botox®️",
+        "metaTitle": "Botox Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox treatment in Basel for forehead lines, frown lines, crow's feet, masseter, lip flip, sweat glands and more.",
+        "shortDescription": "Targeted muscle relaxation for expression lines and functional indications.",
+        "definition": "Botox®️ is used to relax overactive muscles in specific areas. Depending on your needs, treatment can be performed for forehead lines, frown lines, crow's feet, mouth corners, strawberry chin, bunny lines, brow lift, baby BTX, face slimming, lip flip, masseter/teeth grinding, sweat glands and migraine.",
+        "benefits": [
+          "Precise treatment of selected areas",
+          "Minimally invasive with short appointment time",
+          "Natural-looking results with correct dosing",
+          "Can also support functional concerns like teeth grinding",
+          "Individually combinable based on your goals"
+        ],
+        "duration": "approx. 15–30 min.",
+        "longevity": "approx. 3–6 months (depending on area)",
+        "downtime": "Usually no downtime",
+        "process": [
+          "Personal consultation and assessment of target areas",
+          "Disinfection and marking of injection points",
+          "Precise injection with a fine needle",
+          "Short aftercare check and recommendations"
+        ],
+        "faq": [
+          {
+            "question": "When does the effect start?",
+            "answer": "First effects usually appear after 2–5 days, with full results after about 10–14 days."
+          },
+          {
+            "question": "How long does Botox last?",
+            "answer": "Depending on the area and metabolism, typically around 3–6 months."
+          },
+          {
+            "question": "Will the result look unnatural?",
+            "answer": "With proper dosing and technique, facial expression remains natural and balanced."
+          }
+        ],
+        "idealFor": [
+          "Expression lines should be reduced in a targeted way",
+          "Teeth grinding or masseter tension should be treated",
+          "Excessive sweating (hyperhidrosis) should be reduced",
+          "A quick non-surgical treatment is preferred"
+        ]
+      },
       "mesotherapie": {
         "name": "Mesotherapy",
         "metaTitle": "Mesotherapy Basel | Skinbloom Aesthetics",
@@ -805,6 +959,49 @@
           "Early signs of skin aging are becoming visible",
           "Fine lines and uneven skin texture need treatment",
           "You want natural skin rejuvenation without dermal fillers"
+        ]
+      },
+      "polynukleotide-pdrn": {
+        "name": "Polynucleotides (PDRN)",
+        "metaTitle": "Polynucleotides PDRN Basel | Skinbloom Aesthetics",
+        "metaDescription": "Polynucleotides (PDRN) in Basel: biostimulating skin regeneration for improved skin quality and a fresher complexion.",
+        "shortDescription": "Biostimulating regeneration for stronger, fresher-looking skin.",
+        "definition": "Polynucleotides (PDRN) are used to support skin regeneration. The treatment aims to improve skin quality, strengthen delicate structures and make the complexion appear fresher, calmer and more resilient.",
+        "benefits": [
+          "Supports natural skin regeneration",
+          "Improves skin quality and elasticity",
+          "Fresher, calmer complexion",
+          "Minimally invasive treatment",
+          "Combines well with other skin health treatments"
+        ],
+        "duration": "approx. 30–45 min.",
+        "longevity": "A treatment course is recommended, with refreshers as needed",
+        "downtime": "Mild redness or small swellings possible",
+        "process": [
+          "Consultation and skin assessment",
+          "Skin preparation and optional numbing cream",
+          "Targeted injection of polynucleotides",
+          "Short aftercare check and guidance"
+        ],
+        "faq": [
+          {
+            "question": "What are polynucleotides used for?",
+            "answer": "Polynucleotides are used to improve skin quality, support regeneration and encourage a fresher-looking complexion."
+          },
+          {
+            "question": "How many sessions are recommended?",
+            "answer": "Depending on the starting point, a course of several sessions is often recommended."
+          },
+          {
+            "question": "When will I see results?",
+            "answer": "Skin improvement develops gradually over the weeks following treatment."
+          }
+        ],
+        "idealFor": [
+          "Skin quality should be improved long term",
+          "A regenerative, biostimulating approach is desired",
+          "Fine structures and elasticity should be supported",
+          "A fresher, calmer complexion is the goal"
         ]
       },
       "skinbooster": {

@@ -5,17 +5,21 @@ export const CATEGORY_IMAGES = {
 };
 
 export const treatments = [
-  // HYALURON (7)
+  // HYALURON (9)
   { slug: "jawline", category: "hyaluron", related: ["kinn-aufbau", "wangenaufbau", "nasolabialfalte"] },
   { slug: "kinn-aufbau", category: "hyaluron", related: ["jawline", "wangenaufbau", "marionettenfalte"] },
+  { slug: "augenringe", category: "hyaluron", related: ["nasolabialfalte", "wangenaufbau", "skinbooster"] },
   { slug: "lippenfalten", category: "hyaluron", related: ["lippenunterspritzung", "nasolabialfalte", "marionettenfalte"] },
   { slug: "lippenunterspritzung", category: "hyaluron", related: ["lippenfalten", "nasolabialfalte", "hylase"] },
+  { slug: "russian-lips", category: "hyaluron", related: ["lippenunterspritzung", "lippenfalten", "hylase"] },
   { slug: "marionettenfalte", category: "hyaluron", related: ["nasolabialfalte", "lippenunterspritzung", "jawline"] },
   { slug: "wangenaufbau", category: "hyaluron", related: ["jawline", "kinn-aufbau", "vampire-lifting-prp"] },
   { slug: "nasolabialfalte", category: "hyaluron", related: ["marionettenfalte", "wangenaufbau", "skinbooster"] },
-  // WEITERE (10)
+  // WEITERE (12)
   { slug: "hylase", category: "weitere", related: ["lippenunterspritzung", "jawline", "skinbooster"] },
+  { slug: "botox", category: "weitere", related: ["jawline", "hylase", "nasolabialfalte"] },
   { slug: "mesotherapie", category: "weitere", related: ["skinbooster", "profhilo", "vampire-lifting-prp"] },
+  { slug: "polynukleotide-pdrn", category: "weitere", related: ["skinbooster", "profhilo", "mesotherapie"] },
   { slug: "skinbooster", category: "weitere", related: ["profhilo", "mesotherapie", "vampire-lifting-prp"] },
   { slug: "profhilo", category: "weitere", related: ["skinbooster", "mesotherapie", "vampire-lifting-prp"] },
   { slug: "fett-weg-spritze", category: "weitere", related: ["mesotherapie", "hydrafacial", "carboxytherapie"] },

@@ -52,11 +52,31 @@ function Preisliste({ isOpen, handleClose }) {
           <div className="preisliste-divider" />
           <PriceRowGroup
             name="Hyaluron"
-            subitems={["Jawline", "Kinn-Aufbau", "Lippenfalten", "Lippenunterspritzung", "Marionettenfalte", "Wangenaufbau", "Nasolabialfalte"]}
+            subitems={["Jawline", "Kinn-Aufbau", "Augenringe", "Lippenfalten", "Lippenunterspritzung", "Russian Lips", "Marionettenfalte", "Wangenaufbau", "Nasolabialfalte"]}
             price="ab CHF 249.-"
+          />
+          <PriceRowGroup
+            name="Botox®️"
+            subitems={[
+              "Zornesfalte - CHF 150.-",
+              "Stirnfalten - CHF 150.-",
+              "Krähenfüße - CHF 150.-",
+              "Mundwinkel - CHF 150.-",
+              "Lipflip - CHF 150.-",
+              "Erdbeerkinn - CHF 150.-",
+              "Bunny Lines - CHF 150.-",
+              "Browlift - CHF 150.-",
+              "Baby BTX - CHF 150.-",
+              "Migräne - CHF 299.-",
+              "Schweißdrüsenbehandlung - CHF 350.-",
+              "Face Slimming / Verschmälerung - CHF 389.-",
+              "Masseter / Zähneknirschen - CHF 400.-",
+            ]}
+            price=""
           />
           <PriceRow name="Hylase" price="ab CHF 150.-" />
           <PriceRow name="Mesotherapie" price="ab CHF 199.-" />
+          <PriceRow name="Polynukleotide (PDRN)" price="CHF 399.-" />
           <PriceRow name="Skinbooster" price="ab CHF 199.-" />
           <PriceRow name="Profhilo" price="CHF 349.-" />
           <PriceRow name="Fettwegspritze" price="CHF 200.-" />

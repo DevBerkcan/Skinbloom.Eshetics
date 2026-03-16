@@ -36,8 +36,7 @@
           "Hyaluron",
           "PRP",
           "Skinbooster",
-          "Vampire Lifting",
-          "Heilpraktikerin"
+          "Vampire Lifting"
         ],
         "description": "Mit ihrer fundierten medizinischen Ausbildung und ihrer Vision als Gründerin von Skinbloom leitet Marianna die Praxis mit höchster Präzision und fachlicher Tiefe. Sie schloss 2016 ihre Ausbildung zur medizinischen Fachperson erfolgreich ab und sammelte wertvolle Erfahrungen im klinischen sowie notfallmedizinischen Bereich, was ihr sicheres Arbeiten garantiert.\nSeit 2020 liegt ihr Fokus spezialisiert auf der ästhetischen Medizin und minimalinvasiven Behandlungen. Ihr Ansatz vereint technisches Können mit einem ausgeprägten Blick für Ästhetik, um stets natürlich wirkende Ergebnisse und eine optimale Hautgesundheit zu erzielen.\nIhre Expertise wird durch ihren unternehmerischen Hintergrund und ihren aktuellen akademischen Weg stetig vertieft:\n• Founder von Skinbloom – Innovative Konzepte für ganzheitliche Skin-Health.\n• Studium der Zahnmedizin zur Erweiterung der Kenntnisse in Anatomie und funktionellen Zusammenhängen des Gesichts.\n• Spezialisierung auf präzise Injektionstechniken und minimalinvasive Ästhetik.\nDurch die Kombination aus praktischer Erfahrung, Unternehmertum und laufender wissenschaftlicher Weiterbildung bietet Marianna Behandlungen auf höchstem medizinischem Niveau. Als Medical Aesthetics Specialist steht sie für Sicherheit, Präzision und eine ganzheitliche Beratung für dein perfektes Ergebnis."
       },
@@ -65,8 +64,10 @@
       "items": [
         "Jawline",
         "Kinn-Aufbau",
+        "Augenringe",
         "Lippenfalten",
         "Lippenunterspritzung",
+        "Russian Lips",
         "Marionettenfalte",
         "Wangenaufbau",
         "Nasolabialfalte"
@@ -76,7 +77,9 @@
       "subtitle": "Weitere Behandlungen",
       "items": [
         "Hylase",
+        "Botox®️",
         "Mesotherapie",
+        "Polynukleotide (PDRN)",
         "Skinbooster",
         "Profhilo",
         "Fett-weg-Spritze",
@@ -199,15 +202,19 @@
       "hyaluronOptions": [
         "Jawline",
         "Kinn-Aufbau",
+        "Augenringe",
         "Lippenfalten",
         "Lippenunterspritzung",
+        "Russian Lips",
         "Marionettenfalte",
         "Wangenaufbau",
         "Nasolabialfalte"
       ],
       "weitereOptions": [
         "Hylase",
+        "Botox®️",
         "Mesotherapie",
+        "Polynukleotide (PDRN)",
         "Skinbooster",
         "Profhilo",
         "Fett-weg-Spritze",
@@ -287,12 +294,20 @@
           "description": "Beim Kinnaufbau wird Hyaluronsäure gezielt in das Kinn injiziert, um dessen Form zu optimieren. Dies kann dazu dienen, das Kinn zu verlängern, Volumen hinzuzufügen oder Asymmetrien auszugleichen, wodurch das Gesicht harmonischer wirkt."
         },
         {
+          "name": "Augenringe",
+          "description": "Bei Augenringen kann Hyaluronsäure gezielt eingesetzt werden, um eingesunkene Bereiche unter den Augen sanft auszugleichen und einen frischeren, wacheren Ausdruck zu unterstützen."
+        },
+        {
           "name": "Lippenfalten",
           "description": "Diese Behandlung zielt darauf ab, die feinen Falten um die Lippen herum zu glätten. Mit Hyaluronsäure werden die Falten aufgefüllt, sodass die Haut wieder glatter und praller aussieht."
         },
         {
           "name": "Lippenunterspritzung",
           "description": "Mit der Lippenunterspritzung können Form, Kontur und Volumen der Lippen sanft angepasst werden. Bei Skinbloom Aesthetics erfolgt die Behandlung individuell für natürlich volle und harmonische Lippen."
+        },
+        {
+          "name": "Russian Lips",
+          "description": "Russian Lips ist eine spezielle Lippen-Technik, bei der Form, Höhe und Definition der Lippen besonders präzise aufgebaut werden, um ein vertikal betontes, elegantes Ergebnis zu erzielen."
         },
         {
           "name": "Marionettenfalte",
@@ -316,8 +331,16 @@
           "description": "Hylase ist ein Enzym, das Hyaluronsäure gezielt abbaut und auflöst. Es wird eingesetzt, um unerwünschte Ergebnisse von Hyaluron-Behandlungen zu korrigieren oder überschüssiges Hyaluron sanft zu entfernen. Die Behandlung ist präzise und ermöglicht eine schnelle Rückbildung unerwünschter Effekte."
         },
         {
+          "name": "Botox®️",
+          "description": "Botox wird zur gezielten Entspannung überaktiver Muskeln eingesetzt und eignet sich für Stirnfalten, Zornesfalte, Krähenfüße, Mundwinkel, Erdbeerkin, Bunny Lines, Browlift, Baby BTX, Face Slimming, Lipflip, Masseter/Zähneknirschen, Schweißdrüsenbehandlung und Migräne."
+        },
+        {
           "name": "Mesotherapie",
           "description": "Die Mesotherapie ist eine minimal-invasive Behandlung, bei der individuell abgestimmte Wirkstoffcocktails direkt in die Haut injiziert werden. Diese enthalten Vitamine, Mineralstoffe, Aminosäuren und Hyaluronsäure, um die Haut intensiv zu nähren, die Durchblutung zu fördern und die Hautstruktur zu verbessern."
+        },
+        {
+          "name": "Polynukleotide (PDRN)",
+          "description": "Polynukleotide (PDRN) unterstützen die Regeneration der Haut, verbessern die Hautqualität und fördern ein frisches, gestärktes Hautbild durch biostimulierende Prozesse."
         },
         {
           "name": "Skinbooster",
@@ -412,49 +435,56 @@
       "jawline": {
         "name": "Jawline",
         "metaTitle": "Jawline Basel | Skinbloom Aesthetics",
-        "metaDescription": "Jawline-Behandlung in Basel: Hyaluronsäure entlang der Kieferlinie für klare Gesichtskonturen. Jetzt Termin buchen.",
-        "shortDescription": "Klare, definierte Kieferlinie mit Hyaluronsäure.",
-        "definition": "Bei der Jawline-Behandlung wird Hyaluronsäure entlang der Kieferlinie injiziert, um diese klarer und definierter erscheinen zu lassen. Das Verfahren betont die Gesichtskonturen und kann die Kieferlinie straffer und jugendlicher wirken lassen.",
+        "metaDescription": "Jawline Konturierung mit Hyaluron in Basel: mehr Definition und eine klarere Kieferlinie bei Skinbloom Aesthetics.",
+        "shortDescription": "Mehr Definition und eine klare Jawline.",
+        "definition": "Eine definierte Jawline trägt maßgeblich zu einem harmonischen Gesichtsprofil bei. Mit einer gezielten Jawline-Behandlung kann die Kontur der Kieferlinie verbessert und das Gesicht klarer definiert wirken. Bei der Jawline-Konturierung wird ein Hyaluron-Filler präzise entlang der Kieferlinie injiziert. Dadurch kann die Form der Jawline betont und die Gesichtskontur klarer definiert werden. Die Behandlung eignet sich unter anderem bei schwach ausgeprägter Kieferlinie, fehlender Definition im unteren Gesichtsbereich, leichten Asymmetrien der Kieferkontur oder einem weicher wirkenden Gesichtsprofil.",
         "benefits": [
-          "Definierte, klare Gesichtskonturen",
-          "Sofortiges, sichtbares Ergebnis",
-          "Minimal-invasiv ohne Ausfallzeit",
-          "Natürliches Aussehen durch gezielte Injektion",
-          "Langanhaltende Wirkung"
+          "Klarere und definierte Kieferlinie",
+          "Verbesserung des Gesichtsprofils",
+          "Minimal-invasive Behandlung",
+          "Schnelle Behandlung mit kurzer Ausfallzeit",
+          "Sofort sichtbares Ergebnis"
         ],
-        "duration": "ca. 30–45 Min.",
+        "duration": "ca. 20–30 Min.",
         "longevity": "9–12 Monate",
-        "downtime": "Keine",
+        "downtime": "Leichte Schwellung/Rötung oder Druckempfindlichkeit für wenige Tage möglich",
         "process": [
-          "Persönliche Beratung & Analyse der Kieferlinie",
-          "Reinigung & Desinfektion der Haut",
-          "Auftragen der Betäubungscreme",
-          "Präzise Hyaluron-Injektion entlang der Kieferlinie",
-          "Abschlusskontrolle & Pflegeempfehlungen"
+          "Persönliche Beratung und Analyse der Gesichtsproportionen",
+          "Auftragen einer betäubenden Creme für angenehmen Komfort",
+          "Präzise Injektion des Hyaluron-Fillers entlang der Kieferlinie",
+          "Sanfte Modellierung der Kontur"
         ],
         "faq": [
           {
-            "question": "Wie lange hält das Jawline-Ergebnis?",
-            "answer": "Die Ergebnisse halten in der Regel 9 bis 12 Monate an. Eine individuelle Auffrischung verlängert das Resultat."
-          },
-          {
-            "question": "Ist die Behandlung schmerzhaft?",
-            "answer": "Dank einer Betäubungscreme ist die Behandlung sehr gut verträglich. Viele Klienten berichten nur von einem leichten Druckgefühl."
+            "question": "Ist die Jawline Behandlung schmerzhaft?",
+            "answer": "Die Behandlung ist in der Regel gut verträglich. Vor der Injektion wird eine betäubende Creme aufgetragen, sodass die Behandlung für die meisten Patienten kaum spürbar ist."
           },
           {
             "question": "Wann sieht man erste Ergebnisse?",
-            "answer": "Das Ergebnis ist sofort sichtbar. Nach 7–14 Tagen, wenn leichte Schwellungen abgeklungen sind, zeigt sich das finale Resultat."
+            "answer": "Das Ergebnis ist in der Regel direkt nach der Behandlung sichtbar. In den ersten Tagen kann eine leichte Schwellung bestehen, bevor sich das endgültige Resultat zeigt."
           },
           {
-            "question": "Für wen ist die Jawline-Behandlung geeignet?",
-            "answer": "Die Behandlung eignet sich für alle, die eine klarere Kieferlinie wünschen – unabhängig von Alter oder Geschlecht."
+            "question": "Wie lange hält eine Jawline Konturierung mit Hyaluron?",
+            "answer": "Die Haltbarkeit liegt durchschnittlich bei etwa 9 bis 12 Monaten, abhängig vom individuellen Stoffwechsel, der verwendeten Fillerart und der behandelten Menge."
+          },
+          {
+            "question": "Für wen eignet sich eine Jawline Behandlung?",
+            "answer": "Die Behandlung eignet sich für Personen, die sich eine klarere Kieferlinie und mehr Definition im unteren Gesichtsbereich wünschen oder leichte Asymmetrien der Kieferkontur ausgleichen möchten."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten nach der Behandlung?",
+            "answer": "In der Regel sind Patienten sofort wieder gesellschaftsfähig. Leichte Schwellungen oder kleine Druckempfindlichkeiten können auftreten und klingen meist innerhalb weniger Tage ab."
+          },
+          {
+            "question": "Was sollte nach der Jawline Behandlung beachtet werden?",
+            "answer": "In den ersten 24 Stunden sollten intensive körperliche Belastung, Sauna, starke Hitze und Druck auf den behandelten Bereich vermieden werden."
           }
         ],
         "idealFor": [
-          "Sie einen schärferen, definierten Kieferbereich wünschen",
-          "Ihr Gesicht an Kontur und Struktur verloren hat",
-          "Sie einen jugendlicheren, definierten Look anstreben",
-          "Sie nicht-chirurgische Alternativen bevorzugen"
+          "Die Kieferlinie klarer und definierter wirken soll",
+          "Leichte Asymmetrien der Kieferkontur ausgeglichen werden sollen",
+          "Das Gesichtsprofil harmonischer und markanter erscheinen soll",
+          "Eine sanfte Konturierung ohne Operation gewünscht wird"
         ]
       },
       "kinn-aufbau": {
@@ -502,6 +532,49 @@
           "Kleine Unregelmäßigkeiten oder Asymmetrien ausgeglichen werden sollen",
           "Die Proportionen zum restlichen Gesicht harmonisiert werden sollen",
           "Sie eine sanfte Kinnkorrektur ohne Operation wünschen"
+        ]
+      },
+      "augenringe": {
+        "name": "Augenringe",
+        "metaTitle": "Augenringe Basel | Skinbloom Aesthetics",
+        "metaDescription": "Augenringe mit Hyaluron in Basel behandeln: frischerer, wacherer Blick durch sanften Volumenausgleich.",
+        "shortDescription": "Frischerer Blick durch gezielten Volumenausgleich unter den Augen.",
+        "definition": "Bei eingesunkenen Bereichen unter den Augen kann Hyaluron gezielt eingesetzt werden, um Augenringe sanft auszugleichen und den Blick frischer wirken zu lassen. Die Behandlung wird individuell an Anatomie und Hautbeschaffenheit angepasst, damit ein natürliches Ergebnis entsteht.",
+        "benefits": [
+          "Frischerer und wacherer Ausdruck",
+          "Sanfter Ausgleich eingesunkener Augenpartien",
+          "Minimal-invasive Behandlung",
+          "Natürliche, harmonische Ergebnisse",
+          "Kurze Behandlungsdauer"
+        ],
+        "duration": "ca. 20–30 Min.",
+        "longevity": "ca. 6–12 Monate",
+        "downtime": "Leichte Schwellung oder kleine Blutergüsse möglich",
+        "process": [
+          "Persönliche Beratung und Analyse der Augenpartie",
+          "Auftragen einer Betäubungscreme bei Bedarf",
+          "Präzise Injektion des Hyaluron-Fillers",
+          "Sanfte Kontrolle und Formanpassung"
+        ],
+        "faq": [
+          {
+            "question": "Ist die Behandlung von Augenringen schmerzhaft?",
+            "answer": "Die Behandlung ist in der Regel gut verträglich. Bei Bedarf wird eine Betäubungscreme aufgetragen."
+          },
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Das Ergebnis ist meist direkt nach der Behandlung sichtbar, das endgültige Resultat zeigt sich nach Abklingen möglicher Schwellungen."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Je nach Stoffwechsel und Produkt hält das Ergebnis im Durchschnitt etwa 6 bis 12 Monate."
+          }
+        ],
+        "idealFor": [
+          "Eingesunkene Augenpartien ausgeglichen werden sollen",
+          "Der Blick müde oder erschöpft wirkt",
+          "Ein frischerer Ausdruck ohne Operation gewünscht wird",
+          "Eine sanfte Unterfütterung mit natürlichem Ergebnis gesucht wird"
         ]
       },
       "lippenfalten": {
@@ -595,6 +668,49 @@
           "Sie sich natürlich vollere Lippen ohne Operation wünschen"
         ]
       },
+      "russian-lips": {
+        "name": "Russian Lips",
+        "metaTitle": "Russian Lips Basel | Skinbloom Aesthetics",
+        "metaDescription": "Russian Lips in Basel: definierte, vertikal betonte Lippenform mit präziser Hyaluron-Technik.",
+        "shortDescription": "Definierte Lippenform mit präziser Russian-Lips-Technik.",
+        "definition": "Russian Lips ist eine spezielle Hyaluron-Technik, bei der die Lippenform gezielt vertikal aufgebaut wird. Ziel ist eine definierte, elegante Lippenkontur mit klarer Form und harmonischer Projektion, ohne die Lippen unnatürlich breit wirken zu lassen.",
+        "benefits": [
+          "Definierte Lippenkontur",
+          "Vertikal betonte, elegante Form",
+          "Präzise Technik für individuelle Ergebnisse",
+          "Minimal-invasive Behandlung",
+          "Sofort sichtbarer Effekt"
+        ],
+        "duration": "ca. 20–30 Min.",
+        "longevity": "ca. 6–12 Monate",
+        "downtime": "Leichte Schwellung für wenige Tage möglich",
+        "process": [
+          "Persönliche Beratung und Formanalyse",
+          "Auftragen einer Betäubungscreme",
+          "Präzise Injektion mit Russian-Lips-Technik",
+          "Sanfte Modellierung und Abschlusskontrolle"
+        ],
+        "faq": [
+          {
+            "question": "Was ist der Unterschied zu klassischer Lippenunterspritzung?",
+            "answer": "Russian Lips fokussiert stärker die Form, Höhe und Definition der Lippen als reines Volumen."
+          },
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Das Ergebnis ist direkt sichtbar. Leichte Schwellungen können das Resultat in den ersten Tagen beeinflussen."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Je nach Stoffwechsel und Produkt bleibt das Ergebnis meist etwa 6 bis 12 Monate erhalten."
+          }
+        ],
+        "idealFor": [
+          "Eine präzise definierte Lippenform gewünscht wird",
+          "Mehr Höhe statt nur Volumen gewünscht ist",
+          "Ein elegantes, harmonisches Lippenbild angestrebt wird",
+          "Eine spezialisierte Lippen-Technik bevorzugt wird"
+        ]
+      },
       "marionettenfalte": {
         "name": "Marionettenfalte",
         "metaTitle": "Marionettenfalte Basel | Skinbloom Aesthetics",
@@ -642,133 +758,198 @@
       "wangenaufbau": {
         "name": "Wangenaufbau",
         "metaTitle": "Wangenaufbau Basel | Skinbloom Aesthetics",
-        "metaDescription": "Wangenaufbau mit Hyaluronsäure in Basel: jugendliche Fülle und definierte Wangenpartie. Jetzt Termin buchen.",
-        "shortDescription": "Jugendliche Wangenfülle und betonte Wangenknochen.",
-        "definition": "Bei dieser Behandlung wird Hyaluronsäure in die Wangen injiziert, um Volumenverlust auszugleichen oder die Wangenknochen stärker zu betonen. Dies verleiht dem Gesicht eine jugendliche Fülle und definiert die Wangenpartie.",
+        "metaDescription": "Wangenaufbau mit Hyaluron in Basel: mehr Volumen und definierte, harmonische Wangenkonturen.",
+        "shortDescription": "Mehr Volumen und Definition.",
+        "definition": "Ein gezielter Wangenaufbau mit Hyaluron kann Volumenverluste ausgleichen oder die Wangenkonturen präzise formen. Bei Skinbloom Aesthetics wird die Behandlung individuell auf Ihre Gesichtsstruktur abgestimmt, sodass die Wangen harmonisch modelliert werden. Beim Wangenaufbau wird ein hochwertiger Hyaluron-Filler gezielt in die Wangen injiziert. Dadurch können Volumenverluste ausgeglichen, die Gesichtskontur klarer definiert und Asymmetrien ausgeglichen werden.",
         "benefits": [
-          "Jugendliche Fülle und Definition",
-          "Ausgleich von Volumenverlust",
-          "Betonung der Wangenknochen",
-          "Natürliches, frisches Ergebnis",
-          "Langanhaltende Wirkung"
+          "Gezielter Volumenaufbau",
+          "Definierte und harmonische Wangenkontur",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Sofort sichtbares Ergebnis"
         ],
-        "duration": "ca. 30–45 Min.",
-        "longevity": "12–18 Monate",
-        "downtime": "Keine bis leichte Schwellung",
+        "duration": "ca. 20–30 Min.",
+        "longevity": "ca. 9–12 Monate",
+        "downtime": "Leichte Schwellung oder kleine Blutergüsse für wenige Tage möglich",
         "process": [
-          "Analyse der Gesichtsproportionen & Symmetrie",
-          "Reinigung & Desinfektion",
-          "Auftragen der Betäubungscreme",
-          "Volumenaufbau per Injektion in beide Wangen",
-          "Symmetrie-Check & Abschlusskontrolle"
+          "Persönliche Beratung und Analyse der Gesichtsproportionen",
+          "Auftragen einer lokalen Betäubungscreme",
+          "Präzise Injektion des Hyaluron-Fillers in die Wangenregion",
+          "Sanfte Modellierung für gleichmäßige Volumenverteilung"
         ],
         "faq": [
           {
-            "question": "Wie viel Hyaluron wird bei einem Wangenaufbau verwendet?",
-            "answer": "Das hängt von Ihrer individuellen Gesichtsstruktur ab. In der Beratung planen wir gemeinsam das Ergebnis – in der Regel zwischen 1 und 3 ml pro Seite."
+            "question": "Ist der Wangenaufbau schmerzhaft?",
+            "answer": "Die Behandlung ist gut verträglich. Vor der Injektion wird eine Betäubungscreme aufgetragen, wodurch die Injektionen kaum spürbar sind."
           },
           {
-            "question": "Wie lange hält der Wangenaufbau?",
-            "answer": "Durch das tiefere Gewebe hält Hyaluron an den Wangen besonders lange – typischerweise 12–18 Monate."
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Das Ergebnis ist direkt nach der Behandlung sichtbar. Leichte Schwellungen können auftreten."
           },
           {
-            "question": "Verändert das mein gesamtes Gesicht?",
-            "answer": "Ein gut ausgeführter Wangenaufbau hebt die gesamten Gesichtskonturen harmonisch an und wirkt verjüngend, ohne künstlich auszusehen."
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Wirkung hält durchschnittlich 9–12 Monate, abhängig vom Stoffwechsel und der verwendeten Fillerart."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Patienten sind in der Regel sofort wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Was sollte nach der Behandlung beachtet werden?",
+            "answer": "Für etwa 24 Stunden sollten intensive körperliche Belastungen, Sauna oder starke Hitze vermieden werden."
           }
         ],
         "idealFor": [
-          "Die Wangen an Volumen und Kontur verloren haben",
-          "Hohe, ausgeprägte Wangenknochen gewünscht werden",
-          "Das Gesicht eingefallen oder erschöpft wirkt",
-          "Ein jugendlicheres, modelliertes Gesicht angestrebt wird"
+          "Volumenverluste in der Wangenregion ausgeglichen werden sollen",
+          "Die Gesichtskontur klarer und definierter wirken soll",
+          "Leichte Asymmetrien der Wangenform harmonisiert werden sollen",
+          "Ein frisches, natürlich modelliertes Ergebnis gewünscht wird"
         ]
       },
       "nasolabialfalte": {
         "name": "Nasolabialfalte",
         "metaTitle": "Nasolabialfalte Basel | Skinbloom Aesthetics",
-        "metaDescription": "Nasolabialfalten behandeln in Basel – sanft auffüllen für ein entspannteres Aussehen. Jetzt Termin buchen.",
-        "shortDescription": "Nasolabialfalten sanft glätten für ein entspannteres Gesicht.",
-        "definition": "Diese Falten verlaufen von den Nasenflügeln zu den Mundwinkeln. Mit Hyaluronsäure werden diese Linien sanft aufgefüllt, um die Falten zu glätten und das Gesicht weicher und weniger müde wirken zu lassen.",
+        "metaDescription": "Nasolabialfalte mit Hyaluron behandeln in Basel: glattere Übergänge zwischen Nase und Mund bei Skinbloom Aesthetics.",
+        "shortDescription": "Glattere Übergänge zwischen Nase und Mund.",
+        "definition": "Die Nasolabialfalte verläuft von den Nasenflügeln bis zu den Mundwinkeln und gehört zu den häufigsten Falten im Gesicht. Mit zunehmendem Alter oder durch Volumenverlust kann sie stärker sichtbar werden. Mit einer gezielten Behandlung mit Hyaluron kann die Nasolabialfalte sanft aufgepolstert und das Hautbild im mittleren Gesichtsbereich harmonisiert werden. Bei der Behandlung wird ein Hyaluron-Filler präzise in den Bereich der Nasolabialfalte injiziert. Dadurch kann die Falte angehoben und das Gewebe zwischen Nase und Mund unterstützt werden.",
         "benefits": [
-          "Glatteres, ausgeruhtes Aussehen",
-          "Sanfte Auffüllung der Faltenlinien",
-          "Natürliches Ergebnis ohne OP",
-          "Schnelle Behandlung ohne Ausfallzeit",
-          "Langanhaltend wirksam"
+          "Sanfte Glättung der Nasolabialfalte",
+          "Frischer wirkender Gesichtsausdruck",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Sofort sichtbares Ergebnis"
         ],
         "duration": "ca. 20–30 Min.",
-        "longevity": "9–12 Monate",
-        "downtime": "Keine",
+        "longevity": "ca. 6–12 Monate",
+        "downtime": "Leichte Schwellung/Rötung oder Druckempfindlichkeit für wenige Tage möglich",
         "process": [
-          "Beratung & Tiefenanalyse der Falten",
-          "Reinigung der Behandlungszone",
-          "Auftragen der Betäubungscreme",
-          "Gezielte Injektion entlang der Nasolabialfalten",
-          "Sanfte Massage & Abschlusskontrolle"
+          "Persönliche Beratung und Analyse der Gesichtsstruktur",
+          "Auftragen einer betäubenden Creme",
+          "Präzise Injektion des Hyaluron-Fillers in die Nasolabialfalte",
+          "Sanfte Modellierung des behandelten Bereichs"
         ],
         "faq": [
           {
-            "question": "Was sind Nasolabialfalten?",
-            "answer": "Nasolabialfalten verlaufen von den Nasenflügeln zu den Mundwinkeln. Sie entstehen durch Volumenverlust und Hautalterung – Hyaluron füllt sie effektiv auf."
+            "question": "Ist die Behandlung der Nasolabialfalte schmerzhaft?",
+            "answer": "Die Behandlung ist in der Regel gut verträglich. Vor der Behandlung wird eine betäubende Creme aufgetragen, wodurch die Injektion für die meisten Patienten nur leicht spürbar ist."
           },
           {
-            "question": "Wie natürlich sieht das Ergebnis aus?",
-            "answer": "Bei einer fachgerechten Behandlung bleibt das Ergebnis sehr natürlich. Ihr Gesicht sieht ausgeruht und frischer aus, nicht behandelt."
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Das Ergebnis ist direkt nach der Behandlung sichtbar. Leichte Schwellungen können in den ersten Tagen auftreten."
           },
           {
-            "question": "Eignet sich die Behandlung auch für jüngere Patienten?",
-            "answer": "Ja, präventive Hyaluron-Behandlungen können die Faltenentwicklung verlangsamen und sind auch ab den 30ern sinnvoll."
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt durchschnittlich bei 6 bis 12 Monaten, abhängig vom individuellen Stoffwechsel und der verwendeten Fillerart."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten nach der Behandlung?",
+            "answer": "Nein. Patienten sind direkt nach der Behandlung wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Was sollte nach der Behandlung beachtet werden?",
+            "answer": "Für etwa 24 Stunden sollten intensive sportliche Aktivitäten, Sauna und starke Hitze vermieden werden."
           }
         ],
         "idealFor": [
-          "Tiefe Falten von der Nase zu den Mundwinkeln entstanden sind",
-          "Das Gesicht älter wirkt als Sie sich fühlen",
-          "Volumenverlust die Nasolabialfalten vertieft hat",
-          "Ein frischeres, entspanntes Gesichtsbild gewünscht wird"
+          "Ausgeprägte Nasolabialfalten gemildert werden sollen",
+          "Volumenverlust im mittleren Gesichtsbereich ausgeglichen werden soll",
+          "Vertiefungen zwischen Nase und Mundwinkel reduziert werden sollen",
+          "Ein frischeres, harmonischeres Hautbild gewünscht wird"
         ]
       },
       "hylase": {
         "name": "Hylase",
         "metaTitle": "Hylase Basel | Skinbloom Aesthetics",
-        "metaDescription": "Hylase in Basel: unerwünschte Hyaluron-Ergebnisse gezielt und sicher korrigieren. Jetzt Termin buchen.",
-        "shortDescription": "Gezielter Abbau von Hyaluronsäure – sicher und präzise.",
-        "definition": "Hylase ist ein Enzym, das Hyaluronsäure gezielt abbaut und auflöst. Es wird eingesetzt, um unerwünschte Ergebnisse von Hyaluron-Behandlungen zu korrigieren oder überschüssiges Hyaluron sanft zu entfernen. Die Behandlung ist präzise und ermöglicht eine schnelle Rückbildung unerwünschter Effekte.",
+        "metaDescription": "Hyalase Behandlung (Hyaluronidase) in Basel: gezielte Auflösung von überschüssigen oder fehlplatzierten Hyaluron-Fillern.",
+        "shortDescription": "Auflösung von Hyaluron-Fillern.",
+        "definition": "Die Hyalase-Behandlung wird eingesetzt, um überschüssiges Hyaluron, fehlplatzierte Filler, Knoten oder migriertes Hyaluron zu korrigieren. Hyalase ist der gebräuchliche Markenname für das Enzym Hyaluronidase, das Hyaluronsäure lokal abbaut. Die Wirkung ist auf die injizierten Bereiche begrenzt, sodass nur überschüssiges oder falsch platziertes Hyaluron aufgelöst wird.",
         "benefits": [
-          "Gezielte Korrektur unerwünschter Ergebnisse",
-          "Schnelle und präzise Wirkung",
-          "Sicheres, geprüftes Verfahren",
-          "Minimale Ausfallzeit",
-          "Individuelle Beratung und Nachsorge"
+          "Präzise Auflösung von Hyaluron-Fillern",
+          "Minimal-invasive Behandlung",
+          "Schnelle Wirkung",
+          "Geringe Ausfallzeiten",
+          "Gezielte Korrektur bei Fehlplatzierungen oder Überkorrekturen"
         ],
-        "duration": "ca. 15–20 Min.",
-        "longevity": "Dauerhaft (löst Hyaluron gezielt auf)",
-        "downtime": "Leichte Schwellung (1–2 Tage)",
+        "duration": "ca. 10–20 Min.",
+        "longevity": "Wirkung meist innerhalb von Stunden, vollständige Auflösung in 2–3 Tagen",
+        "downtime": "Keine Ausfallzeit, leichte Rötung/Schwellung möglich",
         "process": [
-          "Beratung & Analyse des zu korrigierenden Bereichs",
-          "Reinigung & Desinfektion",
-          "Auftragen der Betäubungscreme",
-          "Injektion von Hylase (Hyaluronidase)",
-          "Kontrolle des Auflösungsverlaufs"
+          "Beratung und Analyse des zu korrigierenden Bereichs",
+          "Auftragen einer lokalen Betäubungscreme (optional)",
+          "Gezielte Injektion von Hyaluronidase an den betroffenen Stellen",
+          "Erste Kontrolle nach 2–3 Tagen, ggf. Nachinjektion",
+          "Abschlusskontrolle zur Überprüfung des Ergebnisses"
         ],
         "faq": [
           {
-            "question": "Was ist Hylase und wann wird es eingesetzt?",
-            "answer": "Hylase (Hyaluronidase) ist ein Enzym, das Hyaluronsäure gezielt auflöst. Es wird eingesetzt, um Fehlkorrekturen, Überbehandlungen oder ungewünschte Ergebnisse rückgängig zu machen."
+            "question": "Ist die Behandlung schmerzhaft?",
+            "answer": "Die Behandlung ist gut verträglich; Betäubungscreme kann auf Wunsch verwendet werden."
           },
           {
-            "question": "Ist Hylase sicher?",
-            "answer": "Ja, Hylase ist ein gut verträgliches, erprobtes Enzym. Vor der Behandlung wird ein Allergietest empfohlen."
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "In der Regel innerhalb von Stunden, vollständige Auflösung innerhalb von 2–3 Tagen."
           },
           {
-            "question": "Wie schnell wirkt Hylase?",
-            "answer": "Das Hyaluron wird innerhalb von 24–48 Stunden aufgelöst. In manchen Fällen sind mehrere Sitzungen nötig."
+            "question": "Wie viele Behandlungen sind nötig?",
+            "answer": "Meist eine Sitzung; Nachbehandlung nach 5 Tagen möglich, falls erforderlich."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Patienten sind sofort wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Was sollte nach der Behandlung beachtet werden?",
+            "answer": "Die behandelten Bereiche sollten 24 Stunden nicht massiert oder belastet werden."
           }
         ],
         "idealFor": [
-          "Vorherige Hyaluron-Behandlungen ein unbefriedigendes Ergebnis hinterlassen haben",
-          "Klumpen, Asymmetrien oder Überkorrekturen bestehen",
-          "Sie Hyaluron auflösen möchten, um mit einem sauberen Ergebnis neu zu starten",
-          "Allergische Reaktionen auf Hyaluron aufgetreten sind"
+          "Überkorrekturen nach Fillerbehandlungen korrigiert werden sollen",
+          "Knoten, Verhärtungen oder Unebenheiten bestehen",
+          "Migriertes Hyaluron gezielt aufgelöst werden soll",
+          "Ein natürliches, harmonisches Ergebnis wiederhergestellt werden soll"
+        ]
+      },
+      "botox": {
+        "name": "Botox®️",
+        "metaTitle": "Botox Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox-Behandlung in Basel für Stirnfalten, Zornesfalte, Krähenfüße, Masseter, Lipflip, Schweißdrüsen und mehr.",
+        "shortDescription": "Gezielte Muskelentspannung für Mimikfalten und funktionelle Indikationen.",
+        "definition": "Botox®️ wird zur gezielten Entspannung überaktiver Muskeln eingesetzt. Je nach Bedarf kann die Behandlung bei Stirnfalten, Zornesfalte, Krähenfüßen, Mundwinkeln, Erdbeerkin, Bunny Lines, Browlift, Baby BTX, Face Slimming, Lipflip, Masseter/Zähneknirschen, Schweißdrüsenbehandlung oder Migräne angewendet werden.",
+        "benefits": [
+          "Präzise Behandlung einzelner Areale",
+          "Minimal-invasive Methode mit kurzer Dauer",
+          "Natürlich wirkende Ergebnisse bei korrekter Dosierung",
+          "Auch funktionelle Beschwerden wie Zähneknirschen möglich",
+          "Individuell kombinierbar je nach Behandlungsziel"
+        ],
+        "duration": "ca. 15–30 Min.",
+        "longevity": "ca. 3–6 Monate (je nach Region)",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Persönliche Beratung und Analyse der gewünschten Areale",
+          "Desinfektion und Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Nachkontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Erste Effekte zeigen sich meist nach 2–5 Tagen, das volle Ergebnis nach etwa 10–14 Tagen."
+          },
+          {
+            "question": "Wie lange hält Botox an?",
+            "answer": "Je nach Areal und Stoffwechsel in der Regel etwa 3–6 Monate."
+          },
+          {
+            "question": "Wirkt das Ergebnis unnatürlich?",
+            "answer": "Bei korrekter Dosierung und Technik bleibt die Mimik natürlich und harmonisch."
+          }
+        ],
+        "idealFor": [
+          "Mimikfalten gezielt reduziert werden sollen",
+          "Zähneknirschen oder Masseter-Spannung behandelt werden soll",
+          "Starkes Schwitzen (Hyperhidrose) gemindert werden soll",
+          "Eine schnelle, nicht-operative Behandlung gewünscht ist"
         ]
       },
       "mesotherapie": {
@@ -815,92 +996,151 @@
           "Eine natürliche Hautverjüngung ohne Füller gewünscht wird"
         ]
       },
-      "skinbooster": {
-        "name": "Skinbooster",
-        "metaTitle": "Skinbooster Basel | Skinbloom Aesthetics",
-        "metaDescription": "Skinbooster in Basel: tiefe Feuchtigkeitsversorgung und strahlender Teint durch Hyaluronsäure-Injektionen.",
-        "shortDescription": "Tiefe Feuchtigkeitsversorgung für strahlende, elastische Haut.",
-        "definition": "Skinbooster sind spezielle Hyaluronsäure-Injektionen, die tief in die Haut eindringen und intensive Feuchtigkeit spenden. Sie verbessern die Hautelastizität, reduzieren feine Linien und sorgen für ein frisches, strahlendes Hautbild.",
+      "polynukleotide-pdrn": {
+        "name": "Polynukleotide (PDRN)",
+        "metaTitle": "Polynukleotide PDRN Basel | Skinbloom Aesthetics",
+        "metaDescription": "Polynukleotide (PDRN) in Basel: biostimulierende Hautregeneration für bessere Hautqualität und ein frisches Hautbild.",
+        "shortDescription": "Biostimulierende Regeneration für stärkere, frischere Haut.",
+        "definition": "Polynukleotide (PDRN) werden zur Unterstützung der Hautregeneration eingesetzt. Die Behandlung zielt darauf ab, die Hautqualität zu verbessern, feine Strukturen zu stärken und das Hautbild frischer, ruhiger und widerstandsfähiger wirken zu lassen.",
         "benefits": [
-          "Intensive und langanhaltende Feuchtigkeitspflege",
-          "Verbesserte Hautelastizität",
-          "Frischer, strahlender Teint",
-          "Reduktion feiner Linien",
-          "Sichtbare Ergebnisse nach wenigen Sitzungen"
+          "Unterstützt die natürliche Hautregeneration",
+          "Verbessert Hautqualität und Elastizität",
+          "Frischeres, ruhigeres Hautbild",
+          "Minimal-invasive Behandlung",
+          "Gut kombinierbar mit anderen Skin-Health-Behandlungen"
         ],
         "duration": "ca. 30–45 Min.",
-        "longevity": "6–9 Monate (Kur empfohlen)",
-        "downtime": "Keine bis minimale Rötung",
+        "longevity": "Kur empfohlen, Auffrischungen individuell sinnvoll",
+        "downtime": "Leichte Rötungen oder kleine Schwellungen möglich",
         "process": [
-          "Beratung & Hautanalyse",
-          "Reinigung & Vorbereitung der Haut",
-          "Auftragen der Betäubungscreme",
-          "Gleichmäßige Injektion des Skinboosters in die Haut",
-          "Abschlusspflege & UV-Schutz"
+          "Beratung und Analyse des Hautzustands",
+          "Vorbereitung der Haut und ggf. Betäubungscreme",
+          "Gezielte Injektion der Polynukleotide",
+          "Kurze Nachkontrolle und Pflegehinweise"
         ],
         "faq": [
           {
-            "question": "Was ist der Unterschied zwischen Skinbooster und Filler?",
-            "answer": "Filler fügen Volumen hinzu. Skinbooster befeuchten tief in der Haut und verbessern Textur, Elastizität und Leuchtkraft – ohne sichtbares Volumen."
+            "question": "Wofür werden Polynukleotide eingesetzt?",
+            "answer": "Polynukleotide werden zur Verbesserung der Hautqualität, Regeneration und Unterstützung eines frischen Hautbilds eingesetzt."
+          },
+          {
+            "question": "Wie viele Sitzungen sind sinnvoll?",
+            "answer": "Je nach Ausgangslage wird häufig eine Kur mit mehreren Sitzungen empfohlen."
           },
           {
             "question": "Wann sieht man Ergebnisse?",
-            "answer": "Nach der ersten Sitzung bemerken viele eine sofortige Verbesserung der Feuchtigkeit. Das volle Ergebnis entwickelt sich nach 2–3 Sitzungen."
-          },
-          {
-            "question": "Für wen ist Skinbooster ideal?",
-            "answer": "Besonders für trockene, fahle oder gestresste Haut sowie als präventive Anti-Aging-Maßnahme ab ca. 25 Jahren."
+            "answer": "Die Hautverbesserung entwickelt sich schrittweise über die Wochen nach der Behandlung."
           }
         ],
         "idealFor": [
-          "Die Haut an Feuchtigkeit und Leuchtkraft verloren hat",
-          "Trockene, fahle oder gestresste Haut vorliegt",
-          "Feine Linien durch Dehydratation entstanden sind",
-          "Ein natürliches Strahlen ohne sichtbare Veränderungen gewünscht wird"
+          "Die Hautqualität nachhaltig verbessert werden soll",
+          "Ein regenerativer, biostimulierender Ansatz gewünscht wird",
+          "Feine Strukturen und Spannkraft unterstützt werden sollen",
+          "Ein frisches, ruhigeres Hautbild angestrebt wird"
+        ]
+      },
+      "skinbooster": {
+        "name": "Skinbooster",
+        "metaTitle": "Skinbooster Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbooster Behandlung in Basel: Feuchtigkeit und Spannkraft für Ihre Haut mit Hyaluronsäure.",
+        "shortDescription": "Feuchtigkeit und Spannkraft für Ihre Haut.",
+        "definition": "Mit Skinboostern kann die Haut gezielt mit Hyaluronsäure versorgt werden, um Feuchtigkeit, Spannkraft und Elastizität zu verbessern. Die Behandlung eignet sich für Gesicht, Hals, Dekolleté oder Hände, wenn die Haut trockener wird oder feine Linien sichtbar sind. Ein Skinbooster ist ein Hyaluron-Filler, der in die mittleren Hautschichten injiziert wird. Dort bindet die Hyaluronsäure Wasser, verbessert die Hydration und sorgt für eine glattere, straffere Haut.",
+        "benefits": [
+          "Verbesserte Feuchtigkeit und Spannkraft",
+          "Glatteres Hautbild",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Sofort sichtbare Wirkung"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Meist 3–6 Behandlungen im Abstand von 4–5 Wochen, Auffrischungen sinnvoll",
+        "downtime": "Leichte Rötungen, Schwellungen oder punktuelle Blutergüsse für wenige Tage möglich",
+        "process": [
+          "Persönliche Beratung und Analyse Ihres Hauttyps",
+          "Auftragen einer lokalen Betäubungscreme (falls gewünscht)",
+          "Präzise Injektion des Skinboosters in die gewünschten Hautregionen",
+          "Sanftes Modellieren der Haut für ein gleichmäßiges Ergebnis"
+        ],
+        "faq": [
+          {
+            "question": "Ist die Skinbooster-Behandlung schmerzhaft?",
+            "answer": "Die Behandlung ist gut verträglich. Eine Betäubungscreme kann auf Wunsch aufgetragen werden."
+          },
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Die Haut wird schon nach der ersten Behandlung sichtbar glatter und elastischer."
+          },
+          {
+            "question": "Wie viele Behandlungen sind nötig?",
+            "answer": "Je nach Hautzustand und Ziel werden in der Regel 3–6 Behandlungen im Abstand von 4–5 Wochen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Patienten sind sofort wieder gesellschaftsfähig. Leichte Rötungen oder Schwellungen klingen in wenigen Tagen ab."
+          },
+          {
+            "question": "Was sollte nach der Behandlung beachtet werden?",
+            "answer": "Für etwa 24 Stunden sollten intensive körperliche Belastungen, Sauna oder starke Hitze vermieden werden."
+          }
+        ],
+        "idealFor": [
+          "Feine Linien und erste Falten gemindert werden sollen",
+          "Trockene, spannungsarme Haut intensiver hydratisiert werden soll",
+          "Ein ungleichmäßiges Hautbild ausgeglichen werden soll",
+          "Die Haut wieder frischer und elastischer wirken soll"
         ]
       },
       "profhilo": {
         "name": "Profhilo",
         "metaTitle": "Profhilo Basel | Skinbloom Aesthetics",
-        "metaDescription": "Profhilo in Basel: hochkonzentrierte Hyaluronsäure für Haustraffung und natürliche Verjüngung. Jetzt Termin buchen.",
-        "shortDescription": "Innovative Anti-Aging-Behandlung mit hochkonzentrierter Hyaluronsäure.",
-        "definition": "Profhilo ist eine innovative Anti-Aging-Behandlung, die hochkonzentrierte Hyaluronsäure verwendet, um die Hautstruktur von innen heraus zu verbessern. Es stimuliert die körpereigene Kollagen- und Elastinproduktion, wodurch die Haut gestrafft und verjüngt wird.",
+        "metaDescription": "Profhilo Behandlung in Basel: intensive Hauthydration und Straffung mit hochkonzentrierter Hyaluronsäure.",
+        "shortDescription": "Intensive Hauthydration und Straffung.",
+        "definition": "Profhilo ist ein spezieller Hyaluron-Filler, der die Haut intensiv mit Feuchtigkeit versorgt und die Spannkraft verbessert. Die Behandlung unterstützt die Hautstruktur, mindert feine Linien und sorgt für eine glattere, straffere Haut. Profhilo enthält hochkonzentrierte Hyaluronsäure, die in mehreren kleinen Injektionen gezielt in die Haut eingebracht wird. Anders als klassische Filler füllt Profhilo keine einzelnen Falten auf, sondern verbessert Hydration, Elastizität und Spannkraft des Gewebes.",
         "benefits": [
-          "Stimulation der körpereigenen Kollagenproduktion",
-          "Natürliche Hautraffung und Verjüngung",
-          "Echte Biostimulation ohne Fülleffekte",
-          "Sanft und gut verträglich",
-          "Sichtbare Ergebnisse nach 2 Sitzungen"
+          "Intensive Hauthydration",
+          "Straffung und Verbesserung der Hautstruktur",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Sofort sichtbare Wirkung",
+          "Gleichmäßige, natürliche Ergebnisse"
         ],
-        "duration": "ca. 20–30 Min.",
-        "longevity": "6 Monate (2 Sitzungen à 4 Wochen)",
-        "downtime": "Keine bis leichte Rötung",
+        "duration": "ca. 30–40 Min.",
+        "longevity": "2 Sitzungen im Abstand von 4 Wochen empfohlen, Wirkung mehrere Monate",
+        "downtime": "Keine Ausfallzeit, leichte Rötungen oder punktuelle Schwellungen möglich",
         "process": [
-          "Beratung & Beurteilung der Hautqualität",
-          "Reinigung & Desinfektion",
-          "5 definierte Injektionspunkte pro Seite (BAP-Technik)",
-          "Sanfte Massage zur Verteilung",
-          "Abschlusskontrolle & Empfehlungen"
+          "Beratung und Hautanalyse",
+          "Auftragen einer lokalen Betäubungscreme (optional)",
+          "BAP-Technik: gezielte Mikroinjektionen an 5 Punkten pro Gesichtshälfte",
+          "Verteilung des Fillers zur gleichmäßigen Hydration",
+          "Abschlusskontrolle und ggf. kleine Anpassungen"
         ],
         "faq": [
           {
-            "question": "Was macht Profhilo besonders?",
-            "answer": "Profhilo ist eines der reinsten Hyaluronprodukte auf dem Markt mit besonders hohem Wirkstoffgehalt. Es stimuliert Kollagen und Elastin von innen – ein biologisches Hautumbau-Programm."
+            "question": "Ist die Behandlung schmerzhaft?",
+            "answer": "Gut verträglich, Betäubungscreme kann verwendet werden."
           },
           {
-            "question": "Wie viele Sitzungen brauche ich?",
-            "answer": "Das Grundprotokoll umfasst 2 Sitzungen im Abstand von 4 Wochen, gefolgt von Auffrischungen alle 6 Monate."
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Die Haut wirkt bereits nach der ersten Behandlung glatter und straffer."
           },
           {
-            "question": "Wo kann Profhilo eingesetzt werden?",
-            "answer": "Profhilo eignet sich für Gesicht, Hals, Dekolleté und Hände – überall dort, wo Hautalterung und Volumenverlust sichtbar sind."
+            "question": "Wie viele Behandlungen sind nötig?",
+            "answer": "In der Regel 2 Sitzungen im Abstand von 4 Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Patienten sind sofort wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Was sollte nach der Behandlung beachtet werden?",
+            "answer": "Für etwa 24 Stunden keine intensive Belastung, Sauna oder Make-up auf den behandelten Stellen."
           }
         ],
         "idealFor": [
-          "Die Haut an Straffheit und Elastizität eingebüßt hat",
-          "Halspartie, Dekolleté oder Gesicht schlaff wirken",
-          "Eine intensive Biorevitalisierung mit sofortigem Glow gewünscht wird",
-          "Hautqualitätssteigerung und kein Fülleffekt im Vordergrund steht"
+          "Feine Linien und erste Falten reduziert werden sollen",
+          "Trockene, spannungsarme Haut intensiv hydratisiert werden soll",
+          "Die Elastizität und Spannkraft der Haut nachlässt",
+          "Eine gleichmäßige Hautverbesserung ohne klassisches Auffüllen gewünscht wird"
         ]
       },
       "fett-weg-spritze": {
