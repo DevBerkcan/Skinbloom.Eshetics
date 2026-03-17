@@ -2,7 +2,6 @@
 
 import { faPhone, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Preisliste from "../Modals/Preisliste/Preisliste";
 import React, { useEffect, useRef, useState } from "react";
 import { Link, usePathname } from "../../../i18n/navigation";
 import { Navbar, Nav, Container } from "react-bootstrap";
@@ -16,16 +15,12 @@ const CATEGORIES = [
 ];
 
 export default function Header() {
-  const [activeModal, setActiveModal] = useState(null);
   const [megaOpen, setMegaOpen] = useState(false);
   const closeTimerRef = useRef(null);
   const t = useTranslations("nav");
   const tB = useTranslations("behandlungen");
   const locale = useLocale();
   const pathname = usePathname();
-
-  const openModal = (modalName) => setActiveModal(modalName);
-  const closeModal = () => setActiveModal(null);
 
   const openMegaMenu = () => {
     if (closeTimerRef.current) {
@@ -159,9 +154,7 @@ export default function Header() {
                   </Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <button type="button" className="nav-link" onClick={() => openModal("preisliste")}>
-                    {t("prices")}
-                  </button>
+                  <Link href="/preise" className="nav-link">{t("prices")}</Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Link href="/kontakt" className="nav-link">{t("contact")}</Link>
@@ -171,10 +164,6 @@ export default function Header() {
           </Container>
         </Navbar>
       </header>
-      <Preisliste
-        isOpen={activeModal === "preisliste"}
-        handleClose={closeModal}
-      />
     </>
   );
 }

@@ -79,6 +79,8 @@
         "Hylase",
         "Botox®️",
         "Mesotherapie",
+        "BCN Revita HA",
+        "Fillmed NCTF 135 HA",
         "Polynukleotide (PDRN)",
         "Skinbooster",
         "Profhilo",
@@ -98,7 +100,24 @@
       "Radiofrequenz-Needling",
       "Carboxytherapie",
       "HIFU Ultraschall",
-      "Microneedling"
+      "Microneedling",
+      "Microneedling mit PRP",
+      "Microneedling mit Skinbooster",
+      "Microneedling mit Exosomen",
+      "Oxygen Behandlung",
+      "Skinbloom Signature Cleanse",
+      "Skinbloom Signature Peel",
+      "Skinbloom Signature Glow",
+      "Skinbloom Signature Lift",
+      "Skinbloom Signature Contour",
+      "Fruchtsäurepeeling Gesicht",
+      "Fruchtsäurepeeling Rücken",
+      "Fruchtsäurepeeling Gesicht & Hals",
+      "Fruchtsäurepeeling Gesicht, Hals & Dekolleté",
+      "Lunch Time Express Facial",
+      "Detox & Relax",
+      "Luxury Glow Premium",
+      "Anti-Aging Collagen Lift"
     ],
     "moreDetails": "Mehr Details"
   },
@@ -214,6 +233,8 @@
         "Hylase",
         "Botox®️",
         "Mesotherapie",
+        "BCN Revita HA",
+        "Fillmed NCTF 135 HA",
         "Polynukleotide (PDRN)",
         "Skinbooster",
         "Profhilo",
@@ -229,7 +250,24 @@
         "Radiofrequenz-Needling",
         "Carboxytherapie",
         "HIFU Ultraschall",
-        "Microneedling"
+        "Microneedling",
+        "Microneedling mit PRP",
+        "Microneedling mit Skinbooster",
+        "Microneedling mit Exosomen",
+        "Oxygen Behandlung",
+        "Skinbloom Signature Cleanse",
+        "Skinbloom Signature Peel",
+        "Skinbloom Signature Glow",
+        "Skinbloom Signature Lift",
+        "Skinbloom Signature Contour",
+        "Fruchtsäurepeeling Gesicht",
+        "Fruchtsäurepeeling Rücken",
+        "Fruchtsäurepeeling Gesicht & Hals",
+        "Fruchtsäurepeeling Gesicht, Hals & Dekolleté",
+        "Lunch Time Express Facial",
+        "Detox & Relax",
+        "Luxury Glow Premium",
+        "Anti-Aging Collagen Lift"
       ],
       "message": "Meine Nachricht",
       "submit": "Nachricht absenden",
@@ -339,6 +377,14 @@
           "description": "Die Mesotherapie ist eine minimal-invasive Behandlung, bei der individuell abgestimmte Wirkstoffcocktails direkt in die Haut injiziert werden. Diese enthalten Vitamine, Mineralstoffe, Aminosäuren und Hyaluronsäure, um die Haut intensiv zu nähren, die Durchblutung zu fördern und die Hautstruktur zu verbessern."
         },
         {
+          "name": "BCN Revita HA",
+          "description": "BCN Revita HA ist eine hydratisierende Skin-Health-Behandlung zur Verbesserung von Feuchtigkeit, Frische und Hautqualität."
+        },
+        {
+          "name": "Fillmed NCTF 135 HA",
+          "description": "Fillmed NCTF 135 HA kombiniert Hyaluronsäure mit revitalisierenden Wirkstoffen, um die Hautstruktur zu verbessern und der Haut neue Ausstrahlung zu geben."
+        },
+        {
           "name": "Polynukleotide (PDRN)",
           "description": "Polynukleotide (PDRN) unterstützen die Regeneration der Haut, verbessern die Hautqualität und fördern ein frisches, gestärktes Hautbild durch biostimulierende Prozesse."
         },
@@ -398,6 +444,74 @@
         {
           "name": "Microneedling",
           "description": "Beim Microneedling erzeugen feine Nadeln kontrollierte Mikrokanäle in der Haut, die die körpereigene Kollagen- und Elastinproduktion anregen. Die Behandlung minimiert Narben, verfeinert das Hautbild und verbessert die Textur."
+        },
+        {
+          "name": "Microneedling mit PRP",
+          "description": "Microneedling mit PRP kombiniert die Hautstimulation durch Needling mit körpereigenem Plasma für eine intensivere Regenerations- und Glow-Behandlung."
+        },
+        {
+          "name": "Microneedling mit Skinbooster",
+          "description": "Microneedling mit Skinbooster verbindet Kollagenstimulation mit intensiver Feuchtigkeitsversorgung für glattere, prallere Haut."
+        },
+        {
+          "name": "Microneedling mit Exosomen",
+          "description": "Microneedling mit Exosomen ist eine intensive Regenerationsbehandlung zur Unterstützung von Hauterneuerung, Glow und Hautqualität."
+        },
+        {
+          "name": "Oxygen Behandlung",
+          "description": "Die Oxygen Behandlung versorgt die Haut mit Sauerstoff und pflegenden Wirkstoffen für ein frisches, vitales Hautbild."
+        },
+        {
+          "name": "Skinbloom Signature Cleanse",
+          "description": "Skinbloom Signature Cleanse ist eine intensive Reinigungsbehandlung für ein klares, gepflegtes und ausgeglichenes Hautbild."
+        },
+        {
+          "name": "Skinbloom Signature Peel",
+          "description": "Skinbloom Signature Peel kombiniert Reinigung und gezielte Exfoliation für einen frischeren, ebenmäßigeren Teint."
+        },
+        {
+          "name": "Skinbloom Signature Glow",
+          "description": "Skinbloom Signature Glow wurde entwickelt, um die Haut sichtbar frischer, strahlender und praller wirken zu lassen."
+        },
+        {
+          "name": "Skinbloom Signature Lift",
+          "description": "Skinbloom Signature Lift fokussiert auf Straffung, Spannkraft und ein glatteres Hautbild."
+        },
+        {
+          "name": "Skinbloom Signature Contour",
+          "description": "Skinbloom Signature Contour unterstützt definiertere Gesichtskonturen und ein strafferes, modelliertes Hautbild."
+        },
+        {
+          "name": "Fruchtsäurepeeling Gesicht",
+          "description": "Ein Fruchtsäurepeeling für das Gesicht fördert die Zellerneuerung und verbessert Hautbild, Glow und Ebenmäßigkeit."
+        },
+        {
+          "name": "Fruchtsäurepeeling Rücken",
+          "description": "Das Fruchtsäurepeeling für den Rücken unterstützt bei Unreinheiten, Strukturverbesserung und einem verfeinerten Hautbild."
+        },
+        {
+          "name": "Fruchtsäurepeeling Gesicht & Hals",
+          "description": "Diese Fruchtsäurepeeling-Behandlung umfasst Gesicht und Hals für ein glatteres, frischeres Gesamtbild."
+        },
+        {
+          "name": "Fruchtsäurepeeling Gesicht, Hals & Dekolleté",
+          "description": "Fruchtsäurepeeling für Gesicht, Hals und Dekolleté zur großflächigen Verbesserung von Teint, Struktur und Ausstrahlung."
+        },
+        {
+          "name": "Lunch Time Express Facial",
+          "description": "Eine schnelle, effektive Gesichtsbehandlung für Frische und Pflege in kurzer Zeit."
+        },
+        {
+          "name": "Detox & Relax",
+          "description": "Detox & Relax kombiniert Tiefenreinigung mit entspannender Pflege für ein ausgeglichenes Hautgefühl."
+        },
+        {
+          "name": "Luxury Glow Premium",
+          "description": "Luxury Glow Premium ist eine hochwertige Gesichtsbehandlung für sofortige Ausstrahlung und gepflegte Haut."
+        },
+        {
+          "name": "Anti-Aging Collagen Lift",
+          "description": "Anti-Aging Collagen Lift unterstützt Straffung, Elastizität und ein glatteres, jugendlicheres Hautbild."
         }
       ]
     },
@@ -950,6 +1064,84 @@
           "Zähneknirschen oder Masseter-Spannung behandelt werden soll",
           "Starkes Schwitzen (Hyperhidrose) gemindert werden soll",
           "Eine schnelle, nicht-operative Behandlung gewünscht ist"
+        ]
+      },
+      "bcn-revita-ha": {
+        "name": "BCN Revita HA",
+        "metaTitle": "BCN Revita HA Basel | Skinbloom Aesthetics",
+        "metaDescription": "BCN Revita HA in Basel: hydratisierende Hautbehandlung für mehr Frische und Hautqualität.",
+        "shortDescription": "Hydratisierende Skin-Health-Behandlung für frische, ausgeglichene Haut.",
+        "definition": "BCN Revita HA ist eine feuchtigkeitsspendende Behandlung zur Unterstützung von Hautbild, Frische und Elastizität. Die Behandlung wird eingesetzt, wenn die Haut dehydriert, müde oder spannungsarm wirkt.",
+        "benefits": [
+          "Intensive Hydration",
+          "Frischeres Hautbild",
+          "Unterstützt Spannkraft und Ausstrahlung",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Kur empfohlen",
+        "downtime": "Leichte Rötung möglich",
+        "process": [
+          "Beratung und Hautanalyse",
+          "Vorbereitung der Haut",
+          "Gezielte Einbringung der Wirkstoffe",
+          "Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich BCN Revita HA?",
+            "answer": "Für Haut, die Feuchtigkeit, Frische und Unterstützung der Hautqualität benötigt."
+          },
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Die Haut wirkt oft bereits kurz nach der Behandlung frischer und hydratisierter."
+          }
+        ],
+        "idealFor": [
+          "Die Haut dehydriert wirkt",
+          "Mehr Frische und Ausstrahlung gewünscht wird",
+          "Eine sanfte hydratisierende Behandlung gesucht wird",
+          "Skin-Health im Vordergrund steht"
+        ]
+      },
+      "fillmed-nctf-135-ha": {
+        "name": "Fillmed NCTF 135 HA",
+        "metaTitle": "Fillmed NCTF 135 HA Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fillmed NCTF 135 HA in Basel: revitalisierende Hautbehandlung für Glow und Hautqualität.",
+        "shortDescription": "Revitalisierende Behandlung für Glow, Frische und verbesserte Hautstruktur.",
+        "definition": "Fillmed NCTF 135 HA kombiniert Hyaluronsäure mit revitalisierenden Wirkstoffen, um die Hautqualität zu verbessern und einen frischen, gleichmäßigeren Teint zu unterstützen.",
+        "benefits": [
+          "Revitalisiert die Haut",
+          "Mehr Glow und Frische",
+          "Unterstützt Hautstruktur und Spannkraft",
+          "Minimal-invasive Anwendung",
+          "Gut kombinierbar mit anderen Skin-Health-Behandlungen"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Kur empfohlen",
+        "downtime": "Leichte Rötung möglich",
+        "process": [
+          "Beratung und Analyse",
+          "Vorbereitung der Haut",
+          "Gezielte Applikation",
+          "Abschlusskontrolle"
+        ],
+        "faq": [
+          {
+            "question": "Wofür wird Fillmed NCTF 135 HA eingesetzt?",
+            "answer": "Zur Unterstützung von Frische, Hautqualität und einem glatteren Hautbild."
+          },
+          {
+            "question": "Wie viele Sitzungen sind sinnvoll?",
+            "answer": "Je nach Hautzustand wird häufig eine Kur empfohlen."
+          }
+        ],
+        "idealFor": [
+          "Die Haut revitalisiert werden soll",
+          "Mehr Glow und Ausstrahlung gewünscht ist",
+          "Ein regenerativer Ansatz bevorzugt wird",
+          "Die Hautstruktur unterstützt werden soll"
         ]
       },
       "mesotherapie": {
@@ -1643,6 +1835,2380 @@
           "Die Kollagenproduktion natürlich und schonend stimuliert werden soll",
           "Eine effektive Behandlung mit minimalem Ausfallrisiko bevorzugt wird"
         ]
+      },
+      "microneedling-prp": {
+        "name": "Microneedling mit PRP",
+        "metaTitle": "Microneedling mit PRP Basel | Skinbloom Aesthetics",
+        "metaDescription": "Microneedling mit PRP in Basel: Regeneration, Glow und Hautverbesserung durch Needling und Eigenplasma.",
+        "shortDescription": "Kombination aus Microneedling und PRP für intensive Regeneration.",
+        "definition": "Microneedling mit PRP kombiniert die kollagenstimulierende Wirkung des Needlings mit körpereigenem Plasma, um Regeneration und Hautqualität zusätzlich zu unterstützen.",
+        "benefits": [
+          "Intensivere Regeneration",
+          "Unterstützt Glow und Hautqualität",
+          "Fördert ein glatteres Hautbild",
+          "Minimal-invasive Behandlung",
+          "Beliebt bei müder oder unruhiger Haut"
+        ],
+        "duration": "ca. 45–60 Min.",
+        "longevity": "Kur empfohlen",
+        "downtime": "Rötung für 1–2 Tage möglich",
+        "process": [
+          "Beratung und Hautanalyse",
+          "Vorbereitung und ggf. Blutabnahme",
+          "Microneedling-Behandlung",
+          "Einbringung des PRP"
+        ],
+        "faq": [
+          {
+            "question": "Was ist der Vorteil von PRP beim Microneedling?",
+            "answer": "PRP kann die Regeneration zusätzlich unterstützen und die Haut frischer wirken lassen."
+          },
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Die Hautverbesserung entwickelt sich schrittweise nach der Behandlung."
+          }
+        ],
+        "idealFor": [
+          "Microneedling intensiviert werden soll",
+          "Die Haut Regeneration und Glow braucht",
+          "Ein natürlicher, eigenblutbasierter Zusatz gewünscht wird",
+          "Die Haut müde oder unruhig wirkt"
+        ]
+      },
+      "microneedling-skinbooster": {
+        "name": "Microneedling mit Skinbooster",
+        "metaTitle": "Microneedling mit Skinbooster Basel | Skinbloom Aesthetics",
+        "metaDescription": "Microneedling mit Skinbooster in Basel: Kollagenstimulation und intensive Feuchtigkeit in einer Behandlung.",
+        "shortDescription": "Microneedling kombiniert mit intensiver Feuchtigkeitsversorgung.",
+        "definition": "Microneedling mit Skinbooster verbindet Kollagenstimulation mit zusätzlicher Feuchtigkeitsversorgung für glattere, prallere und frischer wirkende Haut.",
+        "benefits": [
+          "Kombiniert Regeneration und Hydration",
+          "Glatteres Hautbild",
+          "Mehr Spannkraft",
+          "Minimal-invasive Behandlung",
+          "Frischerer Teint"
+        ],
+        "duration": "ca. 45–60 Min.",
+        "longevity": "Kur empfohlen",
+        "downtime": "Rötung für 1–2 Tage möglich",
+        "process": [
+          "Beratung und Hautanalyse",
+          "Vorbereitung der Haut",
+          "Microneedling der Zielareale",
+          "Einbringung des Skinboosters"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich die Kombination?",
+            "answer": "Für Haut, die sowohl Regeneration als auch intensive Feuchtigkeit benötigt."
+          },
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Die Haut wirkt häufig schnell frischer, das endgültige Ergebnis entwickelt sich über die Regeneration."
+          }
+        ],
+        "idealFor": [
+          "Trockene, feine oder müde Haut vorliegt",
+          "Microneedling mit Feuchtigkeit kombiniert werden soll",
+          "Ein glatteres, pralleres Hautbild gewünscht wird",
+          "Eine intensive Skin-Health-Behandlung gesucht wird"
+        ]
+      },
+      "microneedling-exosomen": {
+        "name": "Microneedling mit Exosomen",
+        "metaTitle": "Microneedling mit Exosomen Basel | Skinbloom Aesthetics",
+        "metaDescription": "Microneedling mit Exosomen in Basel: intensive Regeneration und Unterstützung der Hauterneuerung.",
+        "shortDescription": "Intensive Regenerationsbehandlung mit Needling und Exosomen.",
+        "definition": "Microneedling mit Exosomen ist eine intensive Regenerationsbehandlung, die die Hauterneuerung unterstützt und auf Frische, Struktur und Hautqualität abzielt.",
+        "benefits": [
+          "Starke Regenerationsunterstützung",
+          "Verbessert Hautqualität und Frische",
+          "Unterstützt ein glatteres Hautbild",
+          "Minimal-invasive Behandlung",
+          "Geeignet für anspruchsvolle Skin-Health-Konzepte"
+        ],
+        "duration": "ca. 45–60 Min.",
+        "longevity": "Kur empfohlen",
+        "downtime": "Rötung für 1–2 Tage möglich",
+        "process": [
+          "Beratung und Hautanalyse",
+          "Vorbereitung der Haut",
+          "Microneedling der Zielareale",
+          "Einbringung der Exosomen"
+        ],
+        "faq": [
+          {
+            "question": "Wofür wird Microneedling mit Exosomen eingesetzt?",
+            "answer": "Zur intensiven Unterstützung von Regeneration, Hautqualität und Glow."
+          },
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Die Hautverbesserung zeigt sich schrittweise nach der Behandlung."
+          }
+        ],
+        "idealFor": [
+          "Eine intensive Regenerationsbehandlung gewünscht wird",
+          "Die Hautqualität nachhaltig unterstützt werden soll",
+          "Glow und Strukturverbesserung im Vordergrund stehen",
+          "Ein modernes Skin-Health-Konzept gesucht wird"
+        ]
+      },
+      "oxygen-behandlung": {
+        "name": "Oxygen Behandlung",
+        "metaTitle": "Oxygen Behandlung Basel | Skinbloom Aesthetics",
+        "metaDescription": "Oxygen Behandlung in Basel: Sauerstoff und Pflegewirkstoffe für ein frisches, vitales Hautbild.",
+        "shortDescription": "Frische, Vitalität und Glow durch eine Oxygen Behandlung.",
+        "definition": "Die Oxygen Behandlung versorgt die Haut mit Sauerstoff und pflegenden Wirkstoffen, um den Teint frischer, vitaler und strahlender wirken zu lassen.",
+        "benefits": [
+          "Sofortiger Frische-Effekt",
+          "Mehr Glow und Vitalität",
+          "Angenehme Behandlung ohne Ausfallzeit",
+          "Unterstützt ein gepflegtes Hautbild",
+          "Ideal vor Events"
+        ],
+        "duration": "ca. 45–60 Min.",
+        "longevity": "Je nach Hautzustand regelmäßig sinnvoll",
+        "downtime": "Keine",
+        "process": [
+          "Analyse der Haut",
+          "Vorbereitung und Reinigung",
+          "Oxygen-Anwendung mit Wirkstoffen",
+          "Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Die Haut wirkt direkt nach der Behandlung frischer und strahlender."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, die Behandlung ist in der Regel ohne Ausfallzeit."
+          }
+        ],
+        "idealFor": [
+          "Ein sofortiger Glow gewünscht ist",
+          "Die Haut müde oder fahl wirkt",
+          "Eine schonende Frische-Behandlung gesucht wird",
+          "Die Haut vor einem Event vorbereitet werden soll"
+        ]
+      },
+      "skinbloom-signature-cleanse": {
+        "name": "Skinbloom Signature Cleanse",
+        "metaTitle": "Skinbloom Signature Cleanse Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbloom Signature Cleanse in Basel: intensive Reinigung für ein klares und ausgeglichenes Hautbild.",
+        "shortDescription": "Intensive Reinigungsbehandlung für klare, ausgeglichene Haut.",
+        "definition": "Skinbloom Signature Cleanse ist eine intensive Reinigungsbehandlung zur Unterstützung eines klaren, gepflegten und ausgeglichenen Hautbilds.",
+        "benefits": [
+          "Klärende Tiefenreinigung",
+          "Verbessert das Hautgefühl",
+          "Unterstützt ein ausgeglichenes Hautbild",
+          "Sanfte professionelle Pflege",
+          "Geeignet als regelmäßige Basisbehandlung"
+        ],
+        "duration": "ca. 60 Min.",
+        "longevity": "Regelmäßig sinnvoll",
+        "downtime": "Keine",
+        "process": [
+          "Hautanalyse",
+          "Reinigung und Vorbereitung",
+          "Ausreinigung und Pflege",
+          "Abschlussbehandlung"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich Signature Cleanse?",
+            "answer": "Für Haut, die eine professionelle Reinigung und Balance benötigt."
+          }
+        ],
+        "idealFor": [
+          "Die Haut gründlich gereinigt werden soll",
+          "Unreinheiten oder Stauungen bestehen",
+          "Eine regelmäßige Basispflege gewünscht wird",
+          "Ein klares Hautbild angestrebt wird"
+        ]
+      },
+      "skinbloom-signature-peel": {
+        "name": "Skinbloom Signature Peel",
+        "metaTitle": "Skinbloom Signature Peel Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbloom Signature Peel in Basel: gezielte Exfoliation für einen frischeren und ebenmäßigeren Teint.",
+        "shortDescription": "Exfoliation und Frische für einen ebenmäßigeren Teint.",
+        "definition": "Skinbloom Signature Peel kombiniert Reinigung und gezielte Exfoliation, um die Haut frischer, glatter und ebenmäßiger erscheinen zu lassen.",
+        "benefits": [
+          "Frischerer Teint",
+          "Glatteres Hautbild",
+          "Unterstützt Zellerneuerung",
+          "Professionelle Exfoliation",
+          "Verbessert Ausstrahlung"
+        ],
+        "duration": "ca. 60 Min.",
+        "longevity": "Kur oder regelmäßige Anwendung sinnvoll",
+        "downtime": "Leichte Empfindlichkeit möglich",
+        "process": [
+          "Analyse und Auswahl des Peelings",
+          "Reinigung der Haut",
+          "Gezielte Exfoliation",
+          "Beruhigende Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Was bringt Signature Peel?",
+            "answer": "Die Behandlung unterstützt einen glatteren, frischeren und gleichmäßigeren Teint."
+          }
+        ],
+        "idealFor": [
+          "Der Teint frischer wirken soll",
+          "Eine glattere Hautstruktur gewünscht wird",
+          "Exfoliation sinnvoll ist",
+          "Glow und Ebenmäßigkeit verbessert werden sollen"
+        ]
+      },
+      "skinbloom-signature-glow": {
+        "name": "Skinbloom Signature Glow",
+        "metaTitle": "Skinbloom Signature Glow Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbloom Signature Glow in Basel: strahlende, frische Haut mit sichtbarem Glow-Effekt.",
+        "shortDescription": "Glow-Behandlung für sichtbar strahlendere Haut.",
+        "definition": "Skinbloom Signature Glow ist auf sichtbare Ausstrahlung, Frische und einen pralleren Teint ausgerichtet.",
+        "benefits": [
+          "Sichtbarer Glow",
+          "Frischerer Teint",
+          "Unterstützt ein pralleres Hautbild",
+          "Angenehme Behandlung",
+          "Ideal vor Anlässen"
+        ],
+        "duration": "ca. 60 Min.",
+        "longevity": "Regelmäßig oder vor Events sinnvoll",
+        "downtime": "Keine",
+        "process": [
+          "Hautanalyse",
+          "Vorbereitung und Pflege",
+          "Glow-fokussierte Wirkstoffbehandlung",
+          "Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man den Glow?",
+            "answer": "Meist direkt nach der Behandlung."
+          }
+        ],
+        "idealFor": [
+          "Ein sofortiger Glow gewünscht wird",
+          "Die Haut frisch und strahlend wirken soll",
+          "Eine Event-Behandlung gesucht wird",
+          "Der Teint praller und gepflegter erscheinen soll"
+        ]
+      },
+      "skinbloom-signature-lift": {
+        "name": "Skinbloom Signature Lift",
+        "metaTitle": "Skinbloom Signature Lift Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbloom Signature Lift in Basel: Fokus auf Straffung, Spannkraft und ein glatteres Hautbild.",
+        "shortDescription": "Signature-Behandlung mit Fokus auf Lift und Spannkraft.",
+        "definition": "Skinbloom Signature Lift wurde entwickelt, um Spannkraft, Straffung und ein glatteres Hautbild zu unterstützen.",
+        "benefits": [
+          "Unterstützt Spannkraft",
+          "Glatteres Hautbild",
+          "Straffender Effekt",
+          "Professionelle Behandlung",
+          "Geeignet für reifere oder müde Haut"
+        ],
+        "duration": "ca. 60 Min.",
+        "longevity": "Kur oder regelmäßige Anwendung sinnvoll",
+        "downtime": "Keine bis geringe Reizung",
+        "process": [
+          "Analyse des Hautzustands",
+          "Vorbereitung und Behandlung",
+          "Lift-orientierte Wirkstoff- oder Geräteanwendung",
+          "Abschlusskontrolle"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich Signature Lift?",
+            "answer": "Für Haut, die mehr Spannkraft und ein glatteres Gesamtbild erhalten soll."
+          }
+        ],
+        "idealFor": [
+          "Die Haut straffer wirken soll",
+          "Mehr Spannkraft gewünscht wird",
+          "Ein glatteres Hautbild im Fokus steht",
+          "Eine professionelle Lift-Behandlung gesucht wird"
+        ]
+      },
+      "skinbloom-signature-contour": {
+        "name": "Skinbloom Signature Contour",
+        "metaTitle": "Skinbloom Signature Contour Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbloom Signature Contour in Basel: definiertere Konturen und ein modellierteres Hautbild.",
+        "shortDescription": "Signature-Behandlung für definiertere Konturen und ein modelliertes Erscheinungsbild.",
+        "definition": "Skinbloom Signature Contour ist auf definiertere Gesichtskonturen und ein strafferes, modellierteres Hautbild ausgerichtet.",
+        "benefits": [
+          "Unterstützt definiertere Konturen",
+          "Strafferes Erscheinungsbild",
+          "Modellierter Gesamteindruck",
+          "Professionelle Signature-Behandlung",
+          "Geeignet für Contouring-orientierte Skin-Konzepte"
+        ],
+        "duration": "ca. 60 Min.",
+        "longevity": "Kur oder wiederholte Behandlung sinnvoll",
+        "downtime": "Keine bis geringe Reizung",
+        "process": [
+          "Analyse der Gesichtskonturen",
+          "Vorbereitung und Behandlung",
+          "Contour-orientierte Anwendung",
+          "Abschlusskontrolle"
+        ],
+        "faq": [
+          {
+            "question": "Worauf fokussiert Signature Contour?",
+            "answer": "Auf ein definierteres, strafferes und modellierteres Hautbild."
+          }
+        ],
+        "idealFor": [
+          "Konturen definierter erscheinen sollen",
+          "Ein strafferes Gesamtbild gewünscht wird",
+          "Ein modellierter Look angestrebt wird",
+          "Eine Signature-Behandlung mit Contour-Fokus gesucht wird"
+        ]
+      },
+      "fruchtsaeurepeeling-gesicht": {
+        "name": "Fruchtsäurepeeling Gesicht",
+        "metaTitle": "Fruchtsäurepeeling Gesicht Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fruchtsäurepeeling Gesicht in Basel für glattere, frischere und ebenmäßigere Haut.",
+        "shortDescription": "Fruchtsäurepeeling für einen frischeren, glatteren Teint.",
+        "definition": "Dieses Fruchtsäurepeeling für das Gesicht unterstützt Zellerneuerung, Glow und eine glattere Hautstruktur.",
+        "benefits": [
+          "Frischerer Teint",
+          "Glatteres Hautbild",
+          "Unterstützt Ebenmäßigkeit",
+          "Professionelle Exfoliation",
+          "Verbessert Ausstrahlung"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Kur oder regelmäßig sinnvoll",
+        "downtime": "Leichte Empfindlichkeit möglich",
+        "process": [
+          "Hautanalyse",
+          "Vorbereitung und Entfettung",
+          "Auftragen des Peelings",
+          "Beruhigende Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich das Peeling?",
+            "answer": "Für Haut, die Frische, Glätte und Ebenmäßigkeit verbessern soll."
+          }
+        ],
+        "idealFor": [
+          "Der Teint frischer erscheinen soll",
+          "Die Hautstruktur glatter werden soll",
+          "Leichte Unregelmäßigkeiten bestehen",
+          "Professionelle Exfoliation gewünscht wird"
+        ]
+      },
+      "fruchtsaeurepeeling-ruecken": {
+        "name": "Fruchtsäurepeeling Rücken",
+        "metaTitle": "Fruchtsäurepeeling Rücken Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fruchtsäurepeeling Rücken in Basel zur Unterstützung eines klareren, verfeinerten Hautbilds.",
+        "shortDescription": "Fruchtsäurepeeling zur Strukturverbesserung am Rücken.",
+        "definition": "Das Fruchtsäurepeeling für den Rücken wird eingesetzt, um das Hautbild zu verfeinern und die Hautstruktur zu unterstützen.",
+        "benefits": [
+          "Verfeinert die Hautstruktur",
+          "Unterstützt ein klareres Hautbild",
+          "Professionelle Exfoliation",
+          "Geeignet für größere Flächen",
+          "Kurze Behandlungsdauer"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Kur sinnvoll",
+        "downtime": "Leichte Empfindlichkeit möglich",
+        "process": [
+          "Analyse der Haut",
+          "Vorbereitung des Rückens",
+          "Auftragen des Peelings",
+          "Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Wofür eignet sich das Rücken-Peeling?",
+            "answer": "Für Strukturverbesserung und ein verfeinertes Hautbild am Rücken."
+          }
+        ],
+        "idealFor": [
+          "Das Hautbild am Rücken verbessert werden soll",
+          "Eine professionelle Exfoliation für den Rücken gewünscht wird",
+          "Struktur und Ebenmäßigkeit im Fokus stehen",
+          "Eine flächige Behandlung gesucht wird"
+        ]
+      },
+      "fruchtsaeurepeeling-gesicht-hals": {
+        "name": "Fruchtsäurepeeling Gesicht & Hals",
+        "metaTitle": "Fruchtsäurepeeling Gesicht und Hals Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fruchtsäurepeeling für Gesicht und Hals in Basel für glattere, frischere Haut.",
+        "shortDescription": "Peeling für Gesicht und Hals für mehr Frische und Ebenmäßigkeit.",
+        "definition": "Diese Peeling-Behandlung umfasst Gesicht und Hals, um die Hautstruktur zu verbessern und einen frischeren Gesamteindruck zu unterstützen.",
+        "benefits": [
+          "Glatteres Hautbild",
+          "Frischer Gesamteindruck",
+          "Geeignet für Gesicht und Hals",
+          "Professionelle Exfoliation",
+          "Unterstützt Glow und Ebenmäßigkeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Kur sinnvoll",
+        "downtime": "Leichte Empfindlichkeit möglich",
+        "process": [
+          "Analyse",
+          "Vorbereitung der Haut",
+          "Peeling-Anwendung auf Gesicht und Hals",
+          "Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Was ist der Vorteil von Gesicht & Hals kombiniert?",
+            "answer": "Der Übergang wirkt einheitlicher und der Gesamteindruck harmonischer."
+          }
+        ],
+        "idealFor": [
+          "Gesicht und Hals gemeinsam behandelt werden sollen",
+          "Ein einheitlicheres Hautbild gewünscht ist",
+          "Frische und Glow gesteigert werden sollen",
+          "Eine kombinierte Peeling-Behandlung sinnvoll ist"
+        ]
+      },
+      "fruchtsaeurepeeling-gesicht-hals-dekollete": {
+        "name": "Fruchtsäurepeeling Gesicht, Hals & Dekolleté",
+        "metaTitle": "Fruchtsäurepeeling Gesicht Hals Dekolleté Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fruchtsäurepeeling für Gesicht, Hals und Dekolleté in Basel für ein ebenmäßigeres Gesamtbild.",
+        "shortDescription": "Großflächiges Peeling für Gesicht, Hals und Dekolleté.",
+        "definition": "Dieses Fruchtsäurepeeling umfasst Gesicht, Hals und Dekolleté, um Glow, Ebenmäßigkeit und Hautstruktur in mehreren sichtbaren Zonen zu unterstützen.",
+        "benefits": [
+          "Einheitlicheres Gesamtbild",
+          "Mehr Glow auf mehreren Arealen",
+          "Professionelle Exfoliation",
+          "Unterstützt Glätte und Frische",
+          "Geeignet für umfassendere Skin-Health-Konzepte"
+        ],
+        "duration": "ca. 45–60 Min.",
+        "longevity": "Kur sinnvoll",
+        "downtime": "Leichte Empfindlichkeit möglich",
+        "process": [
+          "Analyse der Zonen",
+          "Vorbereitung von Gesicht, Hals und Dekolleté",
+          "Peeling-Anwendung",
+          "Abschlusspflege"
+        ],
+        "faq": [
+          {
+            "question": "Warum Gesicht, Hals und Dekolleté zusammen behandeln?",
+            "answer": "Weil diese Bereiche gemeinsam sichtbar sind und so harmonischer wirken."
+          }
+        ],
+        "idealFor": [
+          "Mehrere sichtbare Areale gemeinsam verbessert werden sollen",
+          "Ein ebenmäßigeres Gesamtbild gewünscht wird",
+          "Glow und Frische gesteigert werden sollen",
+          "Eine umfassende Peeling-Behandlung gesucht wird"
+        ]
+      },
+      "lunch-time-express-facial": {
+        "name": "Lunch Time Express Facial",
+        "metaTitle": "Lunch Time Express Facial Basel | Skinbloom Aesthetics",
+        "metaDescription": "Lunch Time Express Facial in Basel: schnelle Gesichtsbehandlung für Frische und Pflege in kurzer Zeit.",
+        "shortDescription": "Schnelle Gesichtsbehandlung für Frische in kurzer Zeit.",
+        "definition": "Lunch Time Express Facial ist eine kompakte Gesichtsbehandlung für schnelle Pflege und ein frischeres Hautbild.",
+        "benefits": [
+          "Kurze Behandlungszeit",
+          "Sofort frischerer Eindruck",
+          "Ideal für zwischendurch",
+          "Ohne Ausfallzeit",
+          "Pflege in kurzer Zeit"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Regelmäßig sinnvoll",
+        "downtime": "Keine",
+        "process": [
+          "Kurze Hautanalyse",
+          "Reinigung und Pflege",
+          "Gezielte Frische-Behandlung",
+          "Abschluss"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich die Behandlung?",
+            "answer": "Für alle, die in kurzer Zeit sichtbare Frische und Pflege wünschen."
+          }
+        ],
+        "idealFor": [
+          "Wenig Zeit verfügbar ist",
+          "Die Haut schnell frischer wirken soll",
+          "Eine unkomplizierte Pflegebehandlung gesucht wird",
+          "Ein kurzer Beauty-Termin gewünscht ist"
+        ]
+      },
+      "detox-relax": {
+        "name": "Detox & Relax",
+        "metaTitle": "Detox und Relax Basel | Skinbloom Aesthetics",
+        "metaDescription": "Detox & Relax in Basel: reinigende und entspannende Gesichtsbehandlung für ein ausgeglichenes Hautgefühl.",
+        "shortDescription": "Reinigende und entspannende Gesichtsbehandlung.",
+        "definition": "Detox & Relax kombiniert klärende Elemente mit entspannender Pflege für ein ausgeglichenes Hautgefühl.",
+        "benefits": [
+          "Reinigung und Entspannung kombiniert",
+          "Angenehmes Hautgefühl",
+          "Unterstützt Balance und Frische",
+          "Ohne Ausfallzeit",
+          "Geeignet für regelmäßige Pflege"
+        ],
+        "duration": "ca. 45–60 Min.",
+        "longevity": "Regelmäßig sinnvoll",
+        "downtime": "Keine",
+        "process": [
+          "Analyse und Vorbereitung",
+          "Klärende Behandlung",
+          "Entspannende Pflegephase",
+          "Abschluss"
+        ],
+        "faq": [
+          {
+            "question": "Was ist das Ziel von Detox & Relax?",
+            "answer": "Die Haut zu klären und gleichzeitig ein entspanntes, gepflegtes Hautgefühl zu fördern."
+          }
+        ],
+        "idealFor": [
+          "Reinigung und Entspannung gewünscht sind",
+          "Die Haut ausgeglichener wirken soll",
+          "Eine pflegende Wellness-Behandlung gesucht wird",
+          "Regelmäßige Pflege im Vordergrund steht"
+        ]
+      },
+      "luxury-glow-premium": {
+        "name": "Luxury Glow Premium",
+        "metaTitle": "Luxury Glow Premium Basel | Skinbloom Aesthetics",
+        "metaDescription": "Luxury Glow Premium in Basel: hochwertige Glow-Behandlung für frische, gepflegte Ausstrahlung.",
+        "shortDescription": "Hochwertige Glow-Behandlung für strahlende Haut.",
+        "definition": "Luxury Glow Premium ist eine hochwertige Gesichtsbehandlung für sichtbare Ausstrahlung, Pflege und Frische.",
+        "benefits": [
+          "Sichtbarer Glow",
+          "Gepflegteres Hautbild",
+          "Hochwertiges Treatment",
+          "Ideal vor Anlässen",
+          "Ohne Ausfallzeit"
+        ],
+        "duration": "ca. 45–60 Min.",
+        "longevity": "Vor Events oder regelmäßig sinnvoll",
+        "downtime": "Keine",
+        "process": [
+          "Hautanalyse",
+          "Vorbereitung und Pflege",
+          "Glow-fokussierte Anwendung",
+          "Abschlussbehandlung"
+        ],
+        "faq": [
+          {
+            "question": "Wann wirkt die Behandlung?",
+            "answer": "Die Haut wirkt meist direkt nach dem Treatment frischer und strahlender."
+          }
+        ],
+        "idealFor": [
+          "Ein luxuriöser Glow gewünscht wird",
+          "Die Haut vor einem Anlass vorbereitet werden soll",
+          "Frische und Ausstrahlung im Fokus stehen",
+          "Eine hochwertige Gesichtsbehandlung gesucht wird"
+        ]
+      },
+      "anti-aging-collagen-lift": {
+        "name": "Anti-Aging Collagen Lift",
+        "metaTitle": "Anti-Aging Collagen Lift Basel | Skinbloom Aesthetics",
+        "metaDescription": "Anti-Aging Collagen Lift in Basel: straffere, glattere Haut mit Fokus auf Kollagen und Spannkraft.",
+        "shortDescription": "Collagen-Lift-Behandlung für glattere, straffere Haut.",
+        "definition": "Anti-Aging Collagen Lift ist eine Gesichtsbehandlung mit Fokus auf Spannkraft, Glätte und Unterstützung eines jugendlicheren Hautbilds.",
+        "benefits": [
+          "Unterstützt Spannkraft",
+          "Glatteres Hautbild",
+          "Anti-Aging-Fokus",
+          "Professionelle Behandlung",
+          "Unterstützt ein frisches Erscheinungsbild"
+        ],
+        "duration": "ca. 60 Min.",
+        "longevity": "Regelmäßig oder als Kur sinnvoll",
+        "downtime": "Keine bis geringe Reizung",
+        "process": [
+          "Analyse des Hautzustands",
+          "Vorbereitung und Behandlung",
+          "Collagen-Lift-orientierte Anwendung",
+          "Abschlusskontrolle"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich Anti-Aging Collagen Lift?",
+            "answer": "Für Haut, die glatter, straffer und frischer wirken soll."
+          }
+        ],
+        "idealFor": [
+          "Die Haut mehr Spannkraft erhalten soll",
+          "Ein Anti-Aging-Fokus gewünscht wird",
+          "Die Haut glatter wirken soll",
+          "Eine professionelle Lift-Behandlung gesucht wird"
+        ]
+      },
+      "hyaluron-1ml": {
+        "name": "Hyaluron 1 ml",
+        "metaTitle": "Hyaluron 1 ml Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hyaluron 1 ml bei Skinbloom Aesthetics in Basel. Hyaluron 1 ml mit Hyaluron für ein harmonisches und natürliches Ergebnis.",
+        "shortDescription": "Hyaluron 1 ml mit Hyaluron für ein harmonisches und natürliches Ergebnis.",
+        "definition": "Hyaluron 1 ml ist eine minimal-invasive Hyaluron-Behandlung, bei der Volumen, Kontur oder Struktur gezielt verbessert werden können. Bei Skinbloom Aesthetics in Basel wird die Behandlung individuell auf Ihre Anatomie und Ihr gewünschtes Ergebnis abgestimmt.",
+        "benefits": [
+          "Natürliche und harmonische Ergebnisse",
+          "Individuell anpassbare Behandlung",
+          "Kurze Behandlungsdauer",
+          "Sofort sichtbare Wirkung",
+          "Minimal-invasive Methode"
+        ],
+        "duration": "ca. 20–30 Min.",
+        "longevity": "ca. 6–12 Monate",
+        "downtime": "Leichte Schwellung oder Rötung für wenige Tage möglich",
+        "process": [
+          "Persönliche Beratung und Analyse",
+          "Vorbereitung der Behandlungszone",
+          "Präzise Injektion des Produkts",
+          "Kontrolle und Nachsorgehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Ist die Behandlung schmerzhaft?",
+            "answer": "Die Behandlung ist in der Regel gut verträglich. Bei Bedarf wird eine betäubende Creme verwendet."
+          },
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Das Ergebnis ist meist direkt nach der Behandlung sichtbar. Eventuelle Schwellungen klingen in den folgenden Tagen ab."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Je nach Produkt, Stoffwechsel und Behandlungsbereich hält das Ergebnis meist mehrere Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine sanfte Optimierung ohne Operation gewünscht wird",
+          "Volumen oder Kontur gezielt verbessert werden sollen",
+          "Ein natürliches Ergebnis im Vordergrund steht",
+          "Eine kurze, minimal-invasive Behandlung gesucht wird"
+        ]
+      },
+      "botox-zornesfalte": {
+        "name": "Botox Zornesfalte",
+        "metaTitle": "Botox Zornesfalte Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Zornesfalte bei Skinbloom Aesthetics in Basel. Botox Zornesfalte zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Zornesfalte zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Zornesfalte ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-stirnfalten": {
+        "name": "Botox Stirnfalten",
+        "metaTitle": "Botox Stirnfalten Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Stirnfalten bei Skinbloom Aesthetics in Basel. Botox Stirnfalten zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Stirnfalten zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Stirnfalten ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-kraehenfuesse": {
+        "name": "Botox Krähenfüße",
+        "metaTitle": "Botox Krähenfüße Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Krähenfüße bei Skinbloom Aesthetics in Basel. Botox Krähenfüße zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Krähenfüße zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Krähenfüße ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-mundwinkel": {
+        "name": "Botox Mundwinkel",
+        "metaTitle": "Botox Mundwinkel Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Mundwinkel bei Skinbloom Aesthetics in Basel. Botox Mundwinkel zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Mundwinkel zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Mundwinkel ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-lipflip": {
+        "name": "Botox Lipflip",
+        "metaTitle": "Botox Lipflip Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Lipflip bei Skinbloom Aesthetics in Basel. Botox Lipflip zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Lipflip zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Lipflip ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-erdbeerkinn": {
+        "name": "Botox Erdbeerkinn",
+        "metaTitle": "Botox Erdbeerkinn Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Erdbeerkinn bei Skinbloom Aesthetics in Basel. Botox Erdbeerkinn zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Erdbeerkinn zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Erdbeerkinn ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-bunny-lines": {
+        "name": "Botox Bunny Lines",
+        "metaTitle": "Botox Bunny Lines Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Bunny Lines bei Skinbloom Aesthetics in Basel. Botox Bunny Lines zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Bunny Lines zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Bunny Lines ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-browlift": {
+        "name": "Botox Browlift",
+        "metaTitle": "Botox Browlift Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Browlift bei Skinbloom Aesthetics in Basel. Botox Browlift zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Browlift zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Browlift ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-baby-btx": {
+        "name": "Botox Baby BTX",
+        "metaTitle": "Botox Baby BTX Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Baby BTX bei Skinbloom Aesthetics in Basel. Botox Baby BTX zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Baby BTX zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Baby BTX ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-migraene": {
+        "name": "Botox Migräne",
+        "metaTitle": "Botox Migräne Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Migräne bei Skinbloom Aesthetics in Basel. Botox Migräne zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Migräne zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Migräne ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-schweissdruesenbehandlung": {
+        "name": "Botox Schweißdrüsenbehandlung",
+        "metaTitle": "Botox Schweißdrüsenbehandlung Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Schweißdrüsenbehandlung bei Skinbloom Aesthetics in Basel. Botox Schweißdrüsenbehandlung zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Schweißdrüsenbehandlung zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Schweißdrüsenbehandlung ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-face-slimming": {
+        "name": "Botox Face Slimming",
+        "metaTitle": "Botox Face Slimming Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Face Slimming bei Skinbloom Aesthetics in Basel. Botox Face Slimming zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Face Slimming zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Face Slimming ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "botox-masseter-zaehneknirschen": {
+        "name": "Botox Masseter / Zähneknirschen",
+        "metaTitle": "Botox Masseter / Zähneknirschen Basel | Skinbloom Aesthetics",
+        "metaDescription": "Botox Masseter / Zähneknirschen bei Skinbloom Aesthetics in Basel. Botox Masseter / Zähneknirschen zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "shortDescription": "Botox Masseter / Zähneknirschen zur gezielten Entspannung überaktiver Muskeln und zur Milderung von Linien oder funktionellen Beschwerden.",
+        "definition": "Botox Masseter / Zähneknirschen ist eine Botox®️-Behandlung, bei der die betroffene Muskelgruppe präzise behandelt wird. Dadurch können mimische Linien geglättet oder funktionelle Beschwerden wie Zähneknirschen, starkes Schwitzen oder Migräne gezielt unterstützt werden.",
+        "benefits": [
+          "Gezielte Behandlung einzelner Areale",
+          "Kurze und präzise Anwendung",
+          "Minimal-invasive Methode",
+          "Natürlich wirkende Resultate bei korrekter Dosierung",
+          "Alltag meist sofort wieder möglich"
+        ],
+        "duration": "ca. 15–20 Min.",
+        "longevity": "ca. 3–6 Monate",
+        "downtime": "In der Regel keine Ausfallzeit",
+        "process": [
+          "Beratung und Analyse des Zielbereichs",
+          "Markierung der Injektionspunkte",
+          "Präzise Injektion mit feiner Nadel",
+          "Kurze Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann setzt die Wirkung ein?",
+            "answer": "Die Wirkung entwickelt sich in der Regel innerhalb weniger Tage und ist nach etwa 10 bis 14 Tagen vollständig beurteilbar."
+          },
+          {
+            "question": "Wie lange hält das Ergebnis?",
+            "answer": "Die Haltbarkeit liegt meist bei etwa 3 bis 6 Monaten und hängt vom behandelten Bereich ab."
+          },
+          {
+            "question": "Bin ich danach gesellschaftsfähig?",
+            "answer": "Ja, in der Regel sind Sie direkt nach der Behandlung wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Mimische Linien gezielt gemildert werden sollen",
+          "Eine kurze Behandlung ohne Operation gewünscht wird",
+          "Bestimmte Muskelgruppen entspannter wirken sollen",
+          "Ein präziser und kontrollierter Effekt gewünscht ist"
+        ]
+      },
+      "polynukleotide-eyes": {
+        "name": "Polynukleotide Eyes",
+        "metaTitle": "Polynukleotide Eyes Basel | Skinbloom Aesthetics",
+        "metaDescription": "Polynukleotide Eyes bei Skinbloom Aesthetics in Basel. Polynukleotide Eyes zur Unterstützung von Regeneration, Hautqualität und Elastizität.",
+        "shortDescription": "Polynukleotide Eyes zur Unterstützung von Regeneration, Hautqualität und Elastizität.",
+        "definition": "Polynukleotide Eyes ist eine biostimulierende Behandlung, die die Hautregeneration unterstützt und die Hautqualität verbessern kann. Die Behandlung wird individuell auf Hautzustand, Behandlungsbereich und Zielsetzung abgestimmt.",
+        "benefits": [
+          "Unterstützt die Hautregeneration",
+          "Kann Hautqualität und Elastizität verbessern",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Individuell planbar"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Kur empfohlen",
+        "downtime": "Leichte Rötung oder Schwellung möglich",
+        "process": [
+          "Beratung und Analyse des Behandlungsbereichs",
+          "Vorbereitung der Haut",
+          "Präzise Applikation des Produkts",
+          "Abschlusskontrolle und Nachsorge"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich die Behandlung?",
+            "answer": "Die Behandlung eignet sich für Patienten, die die Hautqualität verbessern und Regeneration unterstützen möchten."
+          },
+          {
+            "question": "Wie viele Sitzungen sind sinnvoll?",
+            "answer": "Je nach Ausgangslage wird meist eine Behandlungsserie empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel sind Sie direkt wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Die Hautqualität verbessert werden soll",
+          "Regeneration und Elastizität unterstützt werden sollen",
+          "Ein natürlicher Behandlungsansatz gewünscht wird",
+          "Eine minimal-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "polynukleotide-gesicht": {
+        "name": "Polynukleotide Gesicht",
+        "metaTitle": "Polynukleotide Gesicht Basel | Skinbloom Aesthetics",
+        "metaDescription": "Polynukleotide Gesicht bei Skinbloom Aesthetics in Basel. Polynukleotide Gesicht zur Unterstützung von Regeneration, Hautqualität und Elastizität.",
+        "shortDescription": "Polynukleotide Gesicht zur Unterstützung von Regeneration, Hautqualität und Elastizität.",
+        "definition": "Polynukleotide Gesicht ist eine biostimulierende Behandlung, die die Hautregeneration unterstützt und die Hautqualität verbessern kann. Die Behandlung wird individuell auf Hautzustand, Behandlungsbereich und Zielsetzung abgestimmt.",
+        "benefits": [
+          "Unterstützt die Hautregeneration",
+          "Kann Hautqualität und Elastizität verbessern",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Individuell planbar"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Kur empfohlen",
+        "downtime": "Leichte Rötung oder Schwellung möglich",
+        "process": [
+          "Beratung und Analyse des Behandlungsbereichs",
+          "Vorbereitung der Haut",
+          "Präzise Applikation des Produkts",
+          "Abschlusskontrolle und Nachsorge"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich die Behandlung?",
+            "answer": "Die Behandlung eignet sich für Patienten, die die Hautqualität verbessern und Regeneration unterstützen möchten."
+          },
+          {
+            "question": "Wie viele Sitzungen sind sinnvoll?",
+            "answer": "Je nach Ausgangslage wird meist eine Behandlungsserie empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel sind Sie direkt wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Die Hautqualität verbessert werden soll",
+          "Regeneration und Elastizität unterstützt werden sollen",
+          "Ein natürlicher Behandlungsansatz gewünscht wird",
+          "Eine minimal-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "skinbooster-aknenarben": {
+        "name": "Skinbooster Aknenarben",
+        "metaTitle": "Skinbooster Aknenarben Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbooster Aknenarben bei Skinbloom Aesthetics in Basel. Skinbooster Aknenarben für mehr Feuchtigkeit, Spannkraft und ein glatteres Hautbild.",
+        "shortDescription": "Skinbooster Aknenarben für mehr Feuchtigkeit, Spannkraft und ein glatteres Hautbild.",
+        "definition": "Skinbooster Aknenarben ist eine Behandlung mit Hyaluronsäure zur intensiven Hydration der Haut. Die Haut wird gezielt mit Feuchtigkeit versorgt, wodurch Spannkraft, Glätte und Ausstrahlung verbessert werden können.",
+        "benefits": [
+          "Verbesserte Hydration",
+          "Glatteres Hautbild",
+          "Mehr Spannkraft",
+          "Kurze Behandlungsdauer",
+          "Minimal-invasive Methode"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Meist als Kur mit 3–6 Sitzungen",
+        "downtime": "Leichte Rötung oder kleine Schwellungen möglich",
+        "process": [
+          "Beratung und Hautanalyse",
+          "Vorbereitung der Haut",
+          "Präzise Injektion des Skinboosters",
+          "Abschlusskontrolle und Nachsorgehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Die Haut wirkt oft schon nach der ersten Behandlung frischer und glatter."
+          },
+          {
+            "question": "Wie viele Sitzungen werden empfohlen?",
+            "answer": "Je nach Hautbild werden meist mehrere Sitzungen im Abstand von einigen Wochen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Reizungen klingen schnell ab."
+          }
+        ],
+        "idealFor": [
+          "Die Haut trockener oder müder wirkt",
+          "Feine Linien reduziert werden sollen",
+          "Mehr Glow und Spannkraft gewünscht wird",
+          "Eine minimal-invasive Hautbehandlung gesucht wird"
+        ]
+      },
+      "skinbooster-gesicht": {
+        "name": "Skinbooster Gesicht",
+        "metaTitle": "Skinbooster Gesicht Basel | Skinbloom Aesthetics",
+        "metaDescription": "Skinbooster Gesicht bei Skinbloom Aesthetics in Basel. Skinbooster Gesicht für mehr Feuchtigkeit, Spannkraft und ein glatteres Hautbild.",
+        "shortDescription": "Skinbooster Gesicht für mehr Feuchtigkeit, Spannkraft und ein glatteres Hautbild.",
+        "definition": "Skinbooster Gesicht ist eine Behandlung mit Hyaluronsäure zur intensiven Hydration der Haut. Die Haut wird gezielt mit Feuchtigkeit versorgt, wodurch Spannkraft, Glätte und Ausstrahlung verbessert werden können.",
+        "benefits": [
+          "Verbesserte Hydration",
+          "Glatteres Hautbild",
+          "Mehr Spannkraft",
+          "Kurze Behandlungsdauer",
+          "Minimal-invasive Methode"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Meist als Kur mit 3–6 Sitzungen",
+        "downtime": "Leichte Rötung oder kleine Schwellungen möglich",
+        "process": [
+          "Beratung und Hautanalyse",
+          "Vorbereitung der Haut",
+          "Präzise Injektion des Skinboosters",
+          "Abschlusskontrolle und Nachsorgehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Die Haut wirkt oft schon nach der ersten Behandlung frischer und glatter."
+          },
+          {
+            "question": "Wie viele Sitzungen werden empfohlen?",
+            "answer": "Je nach Hautbild werden meist mehrere Sitzungen im Abstand von einigen Wochen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Reizungen klingen schnell ab."
+          }
+        ],
+        "idealFor": [
+          "Die Haut trockener oder müder wirkt",
+          "Feine Linien reduziert werden sollen",
+          "Mehr Glow und Spannkraft gewünscht wird",
+          "Eine minimal-invasive Hautbehandlung gesucht wird"
+        ]
+      },
+      "profhilo-gesicht": {
+        "name": "Profhilo Gesicht",
+        "metaTitle": "Profhilo Gesicht Basel | Skinbloom Aesthetics",
+        "metaDescription": "Profhilo Gesicht bei Skinbloom Aesthetics in Basel. Profhilo Gesicht für intensive Hauthydration und verbesserte Spannkraft.",
+        "shortDescription": "Profhilo Gesicht für intensive Hauthydration und verbesserte Spannkraft.",
+        "definition": "Profhilo Gesicht ist eine Behandlung mit hochkonzentrierter Hyaluronsäure zur Verbesserung von Hydration, Elastizität und Hautstruktur. Anders als klassische Filler steht nicht das Volumen, sondern die gleichmäßige Hautqualität im Vordergrund.",
+        "benefits": [
+          "Intensive Hauthydration",
+          "Verbesserung der Hautstruktur",
+          "Natürliche, gleichmäßige Ergebnisse",
+          "Kurze Behandlungsdauer",
+          "Minimal-invasive Anwendung"
+        ],
+        "duration": "ca. 30–40 Min.",
+        "longevity": "Meist 2 Sitzungen im Abstand von 4 Wochen",
+        "downtime": "Leichte Rötung oder punktuelle Schwellung möglich",
+        "process": [
+          "Beratung und Analyse des Areals",
+          "Vorbereitung der Haut",
+          "Gezielte Injektion des Produkts",
+          "Abschlusskontrolle und Pflegehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Meist werden zwei Sitzungen im Abstand von etwa vier Wochen empfohlen."
+          },
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Die Haut wirkt häufig schon nach der ersten Behandlung frischer und glatter."
+          },
+          {
+            "question": "Ist die Behandlung alltagstauglich?",
+            "answer": "Ja, in der Regel sind Sie direkt danach wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Feine Linien und Spannkraftverlust behandelt werden sollen",
+          "Die Haut intensiv hydratisiert werden soll",
+          "Eine natürliche Hautverbesserung gewünscht wird",
+          "Eine minimal-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "profhilo-hals": {
+        "name": "Profhilo Hals",
+        "metaTitle": "Profhilo Hals Basel | Skinbloom Aesthetics",
+        "metaDescription": "Profhilo Hals bei Skinbloom Aesthetics in Basel. Profhilo Hals für intensive Hauthydration und verbesserte Spannkraft.",
+        "shortDescription": "Profhilo Hals für intensive Hauthydration und verbesserte Spannkraft.",
+        "definition": "Profhilo Hals ist eine Behandlung mit hochkonzentrierter Hyaluronsäure zur Verbesserung von Hydration, Elastizität und Hautstruktur. Anders als klassische Filler steht nicht das Volumen, sondern die gleichmäßige Hautqualität im Vordergrund.",
+        "benefits": [
+          "Intensive Hauthydration",
+          "Verbesserung der Hautstruktur",
+          "Natürliche, gleichmäßige Ergebnisse",
+          "Kurze Behandlungsdauer",
+          "Minimal-invasive Anwendung"
+        ],
+        "duration": "ca. 30–40 Min.",
+        "longevity": "Meist 2 Sitzungen im Abstand von 4 Wochen",
+        "downtime": "Leichte Rötung oder punktuelle Schwellung möglich",
+        "process": [
+          "Beratung und Analyse des Areals",
+          "Vorbereitung der Haut",
+          "Gezielte Injektion des Produkts",
+          "Abschlusskontrolle und Pflegehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Meist werden zwei Sitzungen im Abstand von etwa vier Wochen empfohlen."
+          },
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Die Haut wirkt häufig schon nach der ersten Behandlung frischer und glatter."
+          },
+          {
+            "question": "Ist die Behandlung alltagstauglich?",
+            "answer": "Ja, in der Regel sind Sie direkt danach wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Feine Linien und Spannkraftverlust behandelt werden sollen",
+          "Die Haut intensiv hydratisiert werden soll",
+          "Eine natürliche Hautverbesserung gewünscht wird",
+          "Eine minimal-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "profhilo-dekollete": {
+        "name": "Profhilo Dekolleté",
+        "metaTitle": "Profhilo Dekolleté Basel | Skinbloom Aesthetics",
+        "metaDescription": "Profhilo Dekolleté bei Skinbloom Aesthetics in Basel. Profhilo Dekolleté für intensive Hauthydration und verbesserte Spannkraft.",
+        "shortDescription": "Profhilo Dekolleté für intensive Hauthydration und verbesserte Spannkraft.",
+        "definition": "Profhilo Dekolleté ist eine Behandlung mit hochkonzentrierter Hyaluronsäure zur Verbesserung von Hydration, Elastizität und Hautstruktur. Anders als klassische Filler steht nicht das Volumen, sondern die gleichmäßige Hautqualität im Vordergrund.",
+        "benefits": [
+          "Intensive Hauthydration",
+          "Verbesserung der Hautstruktur",
+          "Natürliche, gleichmäßige Ergebnisse",
+          "Kurze Behandlungsdauer",
+          "Minimal-invasive Anwendung"
+        ],
+        "duration": "ca. 30–40 Min.",
+        "longevity": "Meist 2 Sitzungen im Abstand von 4 Wochen",
+        "downtime": "Leichte Rötung oder punktuelle Schwellung möglich",
+        "process": [
+          "Beratung und Analyse des Areals",
+          "Vorbereitung der Haut",
+          "Gezielte Injektion des Produkts",
+          "Abschlusskontrolle und Pflegehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Meist werden zwei Sitzungen im Abstand von etwa vier Wochen empfohlen."
+          },
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Die Haut wirkt häufig schon nach der ersten Behandlung frischer und glatter."
+          },
+          {
+            "question": "Ist die Behandlung alltagstauglich?",
+            "answer": "Ja, in der Regel sind Sie direkt danach wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Feine Linien und Spannkraftverlust behandelt werden sollen",
+          "Die Haut intensiv hydratisiert werden soll",
+          "Eine natürliche Hautverbesserung gewünscht wird",
+          "Eine minimal-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "profhilo-haende": {
+        "name": "Profhilo Hände",
+        "metaTitle": "Profhilo Hände Basel | Skinbloom Aesthetics",
+        "metaDescription": "Profhilo Hände bei Skinbloom Aesthetics in Basel. Profhilo Hände für intensive Hauthydration und verbesserte Spannkraft.",
+        "shortDescription": "Profhilo Hände für intensive Hauthydration und verbesserte Spannkraft.",
+        "definition": "Profhilo Hände ist eine Behandlung mit hochkonzentrierter Hyaluronsäure zur Verbesserung von Hydration, Elastizität und Hautstruktur. Anders als klassische Filler steht nicht das Volumen, sondern die gleichmäßige Hautqualität im Vordergrund.",
+        "benefits": [
+          "Intensive Hauthydration",
+          "Verbesserung der Hautstruktur",
+          "Natürliche, gleichmäßige Ergebnisse",
+          "Kurze Behandlungsdauer",
+          "Minimal-invasive Anwendung"
+        ],
+        "duration": "ca. 30–40 Min.",
+        "longevity": "Meist 2 Sitzungen im Abstand von 4 Wochen",
+        "downtime": "Leichte Rötung oder punktuelle Schwellung möglich",
+        "process": [
+          "Beratung und Analyse des Areals",
+          "Vorbereitung der Haut",
+          "Gezielte Injektion des Produkts",
+          "Abschlusskontrolle und Pflegehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Meist werden zwei Sitzungen im Abstand von etwa vier Wochen empfohlen."
+          },
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Die Haut wirkt häufig schon nach der ersten Behandlung frischer und glatter."
+          },
+          {
+            "question": "Ist die Behandlung alltagstauglich?",
+            "answer": "Ja, in der Regel sind Sie direkt danach wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Feine Linien und Spannkraftverlust behandelt werden sollen",
+          "Die Haut intensiv hydratisiert werden soll",
+          "Eine natürliche Hautverbesserung gewünscht wird",
+          "Eine minimal-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "profhilo-kombi": {
+        "name": "Profhilo Kombi Gesicht / Hals / Dekolleté",
+        "metaTitle": "Profhilo Kombi Gesicht / Hals / Dekolleté Basel | Skinbloom Aesthetics",
+        "metaDescription": "Profhilo Kombi Gesicht / Hals / Dekolleté bei Skinbloom Aesthetics in Basel. Profhilo Kombi Gesicht / Hals / Dekolleté für intensive Hauthydration und verbesserte Spannkraft.",
+        "shortDescription": "Profhilo Kombi Gesicht / Hals / Dekolleté für intensive Hauthydration und verbesserte Spannkraft.",
+        "definition": "Profhilo Kombi Gesicht / Hals / Dekolleté ist eine Behandlung mit hochkonzentrierter Hyaluronsäure zur Verbesserung von Hydration, Elastizität und Hautstruktur. Anders als klassische Filler steht nicht das Volumen, sondern die gleichmäßige Hautqualität im Vordergrund.",
+        "benefits": [
+          "Intensive Hauthydration",
+          "Verbesserung der Hautstruktur",
+          "Natürliche, gleichmäßige Ergebnisse",
+          "Kurze Behandlungsdauer",
+          "Minimal-invasive Anwendung"
+        ],
+        "duration": "ca. 30–40 Min.",
+        "longevity": "Meist 2 Sitzungen im Abstand von 4 Wochen",
+        "downtime": "Leichte Rötung oder punktuelle Schwellung möglich",
+        "process": [
+          "Beratung und Analyse des Areals",
+          "Vorbereitung der Haut",
+          "Gezielte Injektion des Produkts",
+          "Abschlusskontrolle und Pflegehinweise"
+        ],
+        "faq": [
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Meist werden zwei Sitzungen im Abstand von etwa vier Wochen empfohlen."
+          },
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Die Haut wirkt häufig schon nach der ersten Behandlung frischer und glatter."
+          },
+          {
+            "question": "Ist die Behandlung alltagstauglich?",
+            "answer": "Ja, in der Regel sind Sie direkt danach wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Feine Linien und Spannkraftverlust behandelt werden sollen",
+          "Die Haut intensiv hydratisiert werden soll",
+          "Eine natürliche Hautverbesserung gewünscht wird",
+          "Eine minimal-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "fett-weg-spritze-kleine-zone": {
+        "name": "Fett-weg-Spritze Kleine Zone",
+        "metaTitle": "Fett-weg-Spritze Kleine Zone Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fett-weg-Spritze Kleine Zone bei Skinbloom Aesthetics in Basel. Fett-weg-Spritze Kleine Zone zur gezielten Reduktion kleiner lokaler Fettdepots ohne Operation.",
+        "shortDescription": "Fett-weg-Spritze Kleine Zone zur gezielten Reduktion kleiner lokaler Fettdepots ohne Operation.",
+        "definition": "Fett-weg-Spritze Kleine Zone ist eine minimal-invasive Behandlung zur Reduktion hartnäckiger Fettpolster. Der Wirkstoff wird gezielt in die gewünschte Zone injiziert, damit der Körper die behandelten Fettzellen nach und nach abbauen kann.",
+        "benefits": [
+          "Gezielte Behandlung kleiner Fettdepots",
+          "Keine Operation erforderlich",
+          "Kurze Behandlungsdauer",
+          "Alltag meist sofort wieder möglich",
+          "Langfristige Reduktion behandelter Fettzellen"
+        ],
+        "duration": "ca. 20–40 Min.",
+        "longevity": "Meist 2–3 Sitzungen",
+        "downtime": "Leichte Schwellung oder Spannungsgefühl möglich",
+        "process": [
+          "Beratung und Analyse der Problemzone",
+          "Markierung des Behandlungsbereichs",
+          "Gezielte Injektion des Wirkstoffs",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Erste Veränderungen zeigen sich häufig nach einigen Wochen."
+          },
+          {
+            "question": "Wie viele Sitzungen sind nötig?",
+            "answer": "Je nach Zone und Ausgangslage werden meist mehrere Sitzungen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Reaktionen klingen meist rasch ab."
+          }
+        ],
+        "idealFor": [
+          "Kleine hartnäckige Fettdepots gezielt reduziert werden sollen",
+          "Eine Behandlung ohne Operation gewünscht wird",
+          "Kurze Termine bevorzugt werden",
+          "Ein natürlich schrittweiser Effekt passend ist"
+        ]
+      },
+      "fett-weg-spritze-mittlere-zone": {
+        "name": "Fett-weg-Spritze Mittlere Zone",
+        "metaTitle": "Fett-weg-Spritze Mittlere Zone Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fett-weg-Spritze Mittlere Zone bei Skinbloom Aesthetics in Basel. Fett-weg-Spritze Mittlere Zone zur gezielten Reduktion kleiner lokaler Fettdepots ohne Operation.",
+        "shortDescription": "Fett-weg-Spritze Mittlere Zone zur gezielten Reduktion kleiner lokaler Fettdepots ohne Operation.",
+        "definition": "Fett-weg-Spritze Mittlere Zone ist eine minimal-invasive Behandlung zur Reduktion hartnäckiger Fettpolster. Der Wirkstoff wird gezielt in die gewünschte Zone injiziert, damit der Körper die behandelten Fettzellen nach und nach abbauen kann.",
+        "benefits": [
+          "Gezielte Behandlung kleiner Fettdepots",
+          "Keine Operation erforderlich",
+          "Kurze Behandlungsdauer",
+          "Alltag meist sofort wieder möglich",
+          "Langfristige Reduktion behandelter Fettzellen"
+        ],
+        "duration": "ca. 20–40 Min.",
+        "longevity": "Meist 2–3 Sitzungen",
+        "downtime": "Leichte Schwellung oder Spannungsgefühl möglich",
+        "process": [
+          "Beratung und Analyse der Problemzone",
+          "Markierung des Behandlungsbereichs",
+          "Gezielte Injektion des Wirkstoffs",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Erste Veränderungen zeigen sich häufig nach einigen Wochen."
+          },
+          {
+            "question": "Wie viele Sitzungen sind nötig?",
+            "answer": "Je nach Zone und Ausgangslage werden meist mehrere Sitzungen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Reaktionen klingen meist rasch ab."
+          }
+        ],
+        "idealFor": [
+          "Kleine hartnäckige Fettdepots gezielt reduziert werden sollen",
+          "Eine Behandlung ohne Operation gewünscht wird",
+          "Kurze Termine bevorzugt werden",
+          "Ein natürlich schrittweiser Effekt passend ist"
+        ]
+      },
+      "fett-weg-spritze-grosse-zone": {
+        "name": "Fett-weg-Spritze Große Zone",
+        "metaTitle": "Fett-weg-Spritze Große Zone Basel | Skinbloom Aesthetics",
+        "metaDescription": "Fett-weg-Spritze Große Zone bei Skinbloom Aesthetics in Basel. Fett-weg-Spritze Große Zone zur gezielten Reduktion kleiner lokaler Fettdepots ohne Operation.",
+        "shortDescription": "Fett-weg-Spritze Große Zone zur gezielten Reduktion kleiner lokaler Fettdepots ohne Operation.",
+        "definition": "Fett-weg-Spritze Große Zone ist eine minimal-invasive Behandlung zur Reduktion hartnäckiger Fettpolster. Der Wirkstoff wird gezielt in die gewünschte Zone injiziert, damit der Körper die behandelten Fettzellen nach und nach abbauen kann.",
+        "benefits": [
+          "Gezielte Behandlung kleiner Fettdepots",
+          "Keine Operation erforderlich",
+          "Kurze Behandlungsdauer",
+          "Alltag meist sofort wieder möglich",
+          "Langfristige Reduktion behandelter Fettzellen"
+        ],
+        "duration": "ca. 20–40 Min.",
+        "longevity": "Meist 2–3 Sitzungen",
+        "downtime": "Leichte Schwellung oder Spannungsgefühl möglich",
+        "process": [
+          "Beratung und Analyse der Problemzone",
+          "Markierung des Behandlungsbereichs",
+          "Gezielte Injektion des Wirkstoffs",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man erste Ergebnisse?",
+            "answer": "Erste Veränderungen zeigen sich häufig nach einigen Wochen."
+          },
+          {
+            "question": "Wie viele Sitzungen sind nötig?",
+            "answer": "Je nach Zone und Ausgangslage werden meist mehrere Sitzungen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Reaktionen klingen meist rasch ab."
+          }
+        ],
+        "idealFor": [
+          "Kleine hartnäckige Fettdepots gezielt reduziert werden sollen",
+          "Eine Behandlung ohne Operation gewünscht wird",
+          "Kurze Termine bevorzugt werden",
+          "Ein natürlich schrittweiser Effekt passend ist"
+        ]
+      },
+      "vitamin-infusion": {
+        "name": "Vitamin Infusion",
+        "metaTitle": "Vitamin Infusion Basel | Skinbloom Aesthetics",
+        "metaDescription": "Vitamin Infusion bei Skinbloom Aesthetics in Basel. Vitamin Infusion zur gezielten Versorgung mit Vitaminen und Nährstoffen.",
+        "shortDescription": "Vitamin Infusion zur gezielten Versorgung mit Vitaminen und Nährstoffen.",
+        "definition": "Vitamin Infusion ist eine Infusionsbehandlung, bei der wichtige Vitamine, Mineralstoffe und unterstützende Nährstoffe direkt über die Vene verabreicht werden. Die Zusammensetzung wird je nach Zielsetzung individuell ausgewählt.",
+        "benefits": [
+          "Direkte Aufnahme über die Vene",
+          "Individuell anpassbar",
+          "Kurze Behandlungsdauer",
+          "Unterstützung von Wohlbefinden und Regeneration",
+          "Ambulante Durchführung"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Individuell je nach Konzept",
+        "downtime": "Keine Ausfallzeit",
+        "process": [
+          "Beratung und Bedarfsermittlung",
+          "Vorbereitung der Infusion",
+          "Verabreichung der Infusion",
+          "Kurze Nachkontrolle"
+        ],
+        "faq": [
+          {
+            "question": "Wie lange dauert die Behandlung?",
+            "answer": "Je nach Infusionskonzept dauert die Behandlung in der Regel etwa 30 bis 45 Minuten."
+          },
+          {
+            "question": "Ist die Behandlung alltagstauglich?",
+            "answer": "Ja, Sie sind in der Regel direkt im Anschluss wieder einsatzfähig."
+          },
+          {
+            "question": "Wie oft ist eine Infusion sinnvoll?",
+            "answer": "Das hängt von Ihrem Ziel und Ihrem individuellen Bedarf ab."
+          }
+        ],
+        "idealFor": [
+          "Eine gezielte Nährstoffzufuhr gewünscht wird",
+          "Regeneration und Wohlbefinden unterstützt werden sollen",
+          "Eine ambulante Behandlung bevorzugt wird",
+          "Ein individuell abgestimmtes Infusionskonzept gesucht wird"
+        ]
+      },
+      "radiofrequenz-microneedling-gesicht": {
+        "name": "RF-Microneedling Gesicht",
+        "metaTitle": "RF-Microneedling Gesicht Basel | Skinbloom Aesthetics",
+        "metaDescription": "RF-Microneedling Gesicht bei Skinbloom Aesthetics in Basel. RF-Microneedling Gesicht zur Verbesserung von Hautstruktur, Straffheit und Regeneration.",
+        "shortDescription": "RF-Microneedling Gesicht zur Verbesserung von Hautstruktur, Straffheit und Regeneration.",
+        "definition": "RF-Microneedling Gesicht kombiniert Microneedling und Radiofrequenz, um tiefere Hautschichten gezielt zu stimulieren. Dadurch kann die Kollagen- und Elastinbildung unterstützt und die Hautstruktur sichtbar verbessert werden.",
+        "benefits": [
+          "Stimuliert Kollagen und Elastin",
+          "Verbessert Hautstruktur und Festigkeit",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Für verschiedene Zonen geeignet"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Meist 3–6 Sitzungen empfohlen",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Haut oder Zone",
+          "Vorbereitung der Haut",
+          "Gezielte RF-Microneedling-Behandlung",
+          "Abschlusspflege und Nachsorge"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich die Behandlung?",
+            "answer": "Die Behandlung eignet sich bei erschlaffter Haut, unruhiger Hautstruktur, Narben oder vergrößerten Poren."
+          },
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Je nach Hautzustand werden meist mehrere Sitzungen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Rötungen klingen meist innerhalb kurzer Zeit ab."
+          }
+        ],
+        "idealFor": [
+          "Die Haut straffer wirken soll",
+          "Narben, Poren oder Struktur verbessert werden sollen",
+          "Eine minimal-invasive Technologie gewünscht wird",
+          "Mehrere Behandlungszonen möglich sein sollen"
+        ]
+      },
+      "radiofrequenz-microneedling-gesicht-hals-dekollete": {
+        "name": "RF-Microneedling Gesicht, Hals & Dekolleté",
+        "metaTitle": "RF-Microneedling Gesicht, Hals & Dekolleté Basel | Skinbloom Aesthetics",
+        "metaDescription": "RF-Microneedling Gesicht, Hals & Dekolleté bei Skinbloom Aesthetics in Basel. RF-Microneedling Gesicht, Hals & Dekolleté zur Verbesserung von Hautstruktur, Straffheit und Regeneration.",
+        "shortDescription": "RF-Microneedling Gesicht, Hals & Dekolleté zur Verbesserung von Hautstruktur, Straffheit und Regeneration.",
+        "definition": "RF-Microneedling Gesicht, Hals & Dekolleté kombiniert Microneedling und Radiofrequenz, um tiefere Hautschichten gezielt zu stimulieren. Dadurch kann die Kollagen- und Elastinbildung unterstützt und die Hautstruktur sichtbar verbessert werden.",
+        "benefits": [
+          "Stimuliert Kollagen und Elastin",
+          "Verbessert Hautstruktur und Festigkeit",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Für verschiedene Zonen geeignet"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Meist 3–6 Sitzungen empfohlen",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Haut oder Zone",
+          "Vorbereitung der Haut",
+          "Gezielte RF-Microneedling-Behandlung",
+          "Abschlusspflege und Nachsorge"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich die Behandlung?",
+            "answer": "Die Behandlung eignet sich bei erschlaffter Haut, unruhiger Hautstruktur, Narben oder vergrößerten Poren."
+          },
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Je nach Hautzustand werden meist mehrere Sitzungen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Rötungen klingen meist innerhalb kurzer Zeit ab."
+          }
+        ],
+        "idealFor": [
+          "Die Haut straffer wirken soll",
+          "Narben, Poren oder Struktur verbessert werden sollen",
+          "Eine minimal-invasive Technologie gewünscht wird",
+          "Mehrere Behandlungszonen möglich sein sollen"
+        ]
+      },
+      "radiofrequenz-microneedling-bauch": {
+        "name": "RF-Microneedling Bauch",
+        "metaTitle": "RF-Microneedling Bauch Basel | Skinbloom Aesthetics",
+        "metaDescription": "RF-Microneedling Bauch bei Skinbloom Aesthetics in Basel. RF-Microneedling Bauch zur Verbesserung von Hautstruktur, Straffheit und Regeneration.",
+        "shortDescription": "RF-Microneedling Bauch zur Verbesserung von Hautstruktur, Straffheit und Regeneration.",
+        "definition": "RF-Microneedling Bauch kombiniert Microneedling und Radiofrequenz, um tiefere Hautschichten gezielt zu stimulieren. Dadurch kann die Kollagen- und Elastinbildung unterstützt und die Hautstruktur sichtbar verbessert werden.",
+        "benefits": [
+          "Stimuliert Kollagen und Elastin",
+          "Verbessert Hautstruktur und Festigkeit",
+          "Minimal-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Für verschiedene Zonen geeignet"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Meist 3–6 Sitzungen empfohlen",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Haut oder Zone",
+          "Vorbereitung der Haut",
+          "Gezielte RF-Microneedling-Behandlung",
+          "Abschlusspflege und Nachsorge"
+        ],
+        "faq": [
+          {
+            "question": "Für wen eignet sich die Behandlung?",
+            "answer": "Die Behandlung eignet sich bei erschlaffter Haut, unruhiger Hautstruktur, Narben oder vergrößerten Poren."
+          },
+          {
+            "question": "Wie viele Sitzungen sind üblich?",
+            "answer": "Je nach Hautzustand werden meist mehrere Sitzungen empfohlen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "In der Regel nicht, leichte Rötungen klingen meist innerhalb kurzer Zeit ab."
+          }
+        ],
+        "idealFor": [
+          "Die Haut straffer wirken soll",
+          "Narben, Poren oder Struktur verbessert werden sollen",
+          "Eine minimal-invasive Technologie gewünscht wird",
+          "Mehrere Behandlungszonen möglich sein sollen"
+        ]
+      },
+      "hydrafacial-basic": {
+        "name": "Hydrafacial Basic",
+        "metaTitle": "Hydrafacial Basic Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hydrafacial Basic bei Skinbloom Aesthetics in Basel. Hydrafacial Basic für Tiefenreinigung, Hydration und einen frischen Glow.",
+        "shortDescription": "Hydrafacial Basic für Tiefenreinigung, Hydration und einen frischen Glow.",
+        "definition": "Hydrafacial Basic ist eine schonende Gesichtsbehandlung, die Reinigung, Peeling, Ausreinigung und Hydration kombiniert. Die Haut wird intensiv gepflegt und wirkt im Anschluss frischer, glatter und strahlender.",
+        "benefits": [
+          "Tiefenreinigung und Hydration",
+          "Sofort frischerer Teint",
+          "Sanfte, nicht-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Für viele Hauttypen geeignet"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Sofortiger Glow, regelmäßige Auffrischung möglich",
+        "downtime": "Keine Ausfallzeit",
+        "process": [
+          "Analyse des Hautbilds",
+          "Reinigung und Peeling",
+          "Ausreinigung und Versorgung mit Wirkstoffen",
+          "Abschlusspflege und Empfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Die Haut wirkt in der Regel direkt nach der Behandlung frischer und strahlender."
+          },
+          {
+            "question": "Ist die Behandlung für empfindliche Haut geeignet?",
+            "answer": "Ja, die Behandlung kann individuell auf den Hautzustand abgestimmt werden."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, Sie sind direkt im Anschluss wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Die Haut intensiv gereinigt werden soll",
+          "Ein schneller Glow-Effekt gewünscht wird",
+          "Die Haut mehr Feuchtigkeit erhalten soll",
+          "Eine sanfte Gesichtsbehandlung bevorzugt wird"
+        ]
+      },
+      "hydrafacial-deluxe": {
+        "name": "Hydrafacial Deluxe",
+        "metaTitle": "Hydrafacial Deluxe Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hydrafacial Deluxe bei Skinbloom Aesthetics in Basel. Hydrafacial Deluxe für Tiefenreinigung, Hydration und einen frischen Glow.",
+        "shortDescription": "Hydrafacial Deluxe für Tiefenreinigung, Hydration und einen frischen Glow.",
+        "definition": "Hydrafacial Deluxe ist eine schonende Gesichtsbehandlung, die Reinigung, Peeling, Ausreinigung und Hydration kombiniert. Die Haut wird intensiv gepflegt und wirkt im Anschluss frischer, glatter und strahlender.",
+        "benefits": [
+          "Tiefenreinigung und Hydration",
+          "Sofort frischerer Teint",
+          "Sanfte, nicht-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Für viele Hauttypen geeignet"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Sofortiger Glow, regelmäßige Auffrischung möglich",
+        "downtime": "Keine Ausfallzeit",
+        "process": [
+          "Analyse des Hautbilds",
+          "Reinigung und Peeling",
+          "Ausreinigung und Versorgung mit Wirkstoffen",
+          "Abschlusspflege und Empfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Die Haut wirkt in der Regel direkt nach der Behandlung frischer und strahlender."
+          },
+          {
+            "question": "Ist die Behandlung für empfindliche Haut geeignet?",
+            "answer": "Ja, die Behandlung kann individuell auf den Hautzustand abgestimmt werden."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, Sie sind direkt im Anschluss wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Die Haut intensiv gereinigt werden soll",
+          "Ein schneller Glow-Effekt gewünscht wird",
+          "Die Haut mehr Feuchtigkeit erhalten soll",
+          "Eine sanfte Gesichtsbehandlung bevorzugt wird"
+        ]
+      },
+      "hydrafacial-platinum": {
+        "name": "Hydrafacial Platinum",
+        "metaTitle": "Hydrafacial Platinum Basel | Skinbloom Aesthetics",
+        "metaDescription": "Hydrafacial Platinum bei Skinbloom Aesthetics in Basel. Hydrafacial Platinum für Tiefenreinigung, Hydration und einen frischen Glow.",
+        "shortDescription": "Hydrafacial Platinum für Tiefenreinigung, Hydration und einen frischen Glow.",
+        "definition": "Hydrafacial Platinum ist eine schonende Gesichtsbehandlung, die Reinigung, Peeling, Ausreinigung und Hydration kombiniert. Die Haut wird intensiv gepflegt und wirkt im Anschluss frischer, glatter und strahlender.",
+        "benefits": [
+          "Tiefenreinigung und Hydration",
+          "Sofort frischerer Teint",
+          "Sanfte, nicht-invasive Behandlung",
+          "Kurze Behandlungsdauer",
+          "Für viele Hauttypen geeignet"
+        ],
+        "duration": "ca. 30–45 Min.",
+        "longevity": "Sofortiger Glow, regelmäßige Auffrischung möglich",
+        "downtime": "Keine Ausfallzeit",
+        "process": [
+          "Analyse des Hautbilds",
+          "Reinigung und Peeling",
+          "Ausreinigung und Versorgung mit Wirkstoffen",
+          "Abschlusspflege und Empfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man das Ergebnis?",
+            "answer": "Die Haut wirkt in der Regel direkt nach der Behandlung frischer und strahlender."
+          },
+          {
+            "question": "Ist die Behandlung für empfindliche Haut geeignet?",
+            "answer": "Ja, die Behandlung kann individuell auf den Hautzustand abgestimmt werden."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, Sie sind direkt im Anschluss wieder gesellschaftsfähig."
+          }
+        ],
+        "idealFor": [
+          "Die Haut intensiv gereinigt werden soll",
+          "Ein schneller Glow-Effekt gewünscht wird",
+          "Die Haut mehr Feuchtigkeit erhalten soll",
+          "Eine sanfte Gesichtsbehandlung bevorzugt wird"
+        ]
+      },
+      "hifu-kleine-bereiche": {
+        "name": "HIFU Kleine Bereiche",
+        "metaTitle": "HIFU Kleine Bereiche Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Kleine Bereiche bei Skinbloom Aesthetics in Basel. HIFU Kleine Bereiche zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Kleine Bereiche zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Kleine Bereiche ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "hifu-hals": {
+        "name": "HIFU Hals",
+        "metaTitle": "HIFU Hals Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Hals bei Skinbloom Aesthetics in Basel. HIFU Hals zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Hals zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Hals ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "hifu-dekollete": {
+        "name": "HIFU Dekolleté",
+        "metaTitle": "HIFU Dekolleté Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Dekolleté bei Skinbloom Aesthetics in Basel. HIFU Dekolleté zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Dekolleté zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Dekolleté ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "hifu-kinnlinie-doppelkinn": {
+        "name": "HIFU Kinnlinie / Doppelkinn",
+        "metaTitle": "HIFU Kinnlinie / Doppelkinn Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Kinnlinie / Doppelkinn bei Skinbloom Aesthetics in Basel. HIFU Kinnlinie / Doppelkinn zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Kinnlinie / Doppelkinn zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Kinnlinie / Doppelkinn ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "hifu-wangen-kinnlinie": {
+        "name": "HIFU Wangen & Kinnlinie",
+        "metaTitle": "HIFU Wangen & Kinnlinie Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Wangen & Kinnlinie bei Skinbloom Aesthetics in Basel. HIFU Wangen & Kinnlinie zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Wangen & Kinnlinie zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Wangen & Kinnlinie ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "hifu-oberarme": {
+        "name": "HIFU Oberarme",
+        "metaTitle": "HIFU Oberarme Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Oberarme bei Skinbloom Aesthetics in Basel. HIFU Oberarme zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Oberarme zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Oberarme ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "hifu-oberschenkel": {
+        "name": "HIFU Oberschenkel",
+        "metaTitle": "HIFU Oberschenkel Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Oberschenkel bei Skinbloom Aesthetics in Basel. HIFU Oberschenkel zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Oberschenkel zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Oberschenkel ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
+      },
+      "hifu-bauch": {
+        "name": "HIFU Bauch",
+        "metaTitle": "HIFU Bauch Basel | Skinbloom Aesthetics",
+        "metaDescription": "HIFU Bauch bei Skinbloom Aesthetics in Basel. HIFU Bauch zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "shortDescription": "HIFU Bauch zur Hautstraffung ohne Operation mit fokussiertem Ultraschall.",
+        "definition": "HIFU Bauch ist eine HIFU-Behandlung, bei der fokussierter Ultraschall gezielt in tiefere Hautschichten abgegeben wird. Dadurch kann die körpereigene Kollagenbildung angeregt und die Haut nach und nach gestrafft werden.",
+        "benefits": [
+          "Alternative zur operativen Straffung",
+          "Keine Schnitte oder Narben",
+          "Anregung der Kollagenproduktion",
+          "Für verschiedene Zonen einsetzbar",
+          "Keine längere Ausfallzeit"
+        ],
+        "duration": "ca. 30–60 Min.",
+        "longevity": "Volle Wirkung nach 6–12 Wochen, Haltbarkeit oft 12–18 Monate",
+        "downtime": "Leichte Rötung oder Wärmegefühl möglich",
+        "process": [
+          "Beratung und Analyse der Zone",
+          "Vorbereitung und Markierung",
+          "Gezielte Applikation des HIFU-Ultraschalls",
+          "Kontrolle und Verhaltensempfehlungen"
+        ],
+        "faq": [
+          {
+            "question": "Wann sieht man Ergebnisse?",
+            "answer": "Erste Effekte können früh sichtbar sein, die volle Wirkung entwickelt sich meist über mehrere Wochen."
+          },
+          {
+            "question": "Gibt es Ausfallzeiten?",
+            "answer": "Nein, in der Regel sind Sie direkt wieder gesellschaftsfähig."
+          },
+          {
+            "question": "Wie lange hält der Effekt?",
+            "answer": "Je nach Hautzustand und Lebensstil hält der Effekt häufig 12 bis 18 Monate an."
+          }
+        ],
+        "idealFor": [
+          "Eine Straffung ohne Operation gewünscht wird",
+          "Bestimmte Gesicht- oder Körperzonen gefestigt werden sollen",
+          "Die Kollagenbildung angeregt werden soll",
+          "Eine nicht-invasive Behandlung bevorzugt wird"
+        ]
       }
     },
     "quickinfoLabels": {
@@ -1676,5 +4242,12 @@
     "body": "Unsere Expertinnen beraten dich persönlich – kostenlos & ohne Verpflichtung.",
     "cta": "Jetzt Termin buchen",
     "dismiss": "Vielleicht später"
+  },
+  "preisseite": {
+    "heroTitle": "Preisliste",
+    "heroSubtitle": "Alle Leistungen und Preise auf einen Blick. Transparenz ist uns wichtig.",
+    "hint": "Individuelle Pakete und Kombi-Behandlungen auf Anfrage.",
+    "ctaTitle": "Bereit für Ihre Behandlung?",
+    "ctaSubtitle": "Vereinbaren Sie jetzt Ihren Termin – wir freuen uns auf Sie."
   }
 }

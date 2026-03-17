@@ -2535,3 +2535,227 @@ footer {
 @media (max-width: 400px) {
   .navbar-brand img { width: 100px; }
 }
+
+/* ────────────────────────────────────────────────────────
+   PREISSEITE – Editorial Layout (nabeau-Stil)
+──────────────────────────────────────────────────────── */
+
+/* Hero */
+.ps-hero {
+  background: #f9f6f3;
+  padding: 120px 0 80px;
+  text-align: center;
+}
+.ps-hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #1F2D3E;
+  margin: 0;
+  line-height: 1;
+}
+.ps-hero-sub {
+  font-family: "Lato", sans-serif;
+  font-size: 1.05rem;
+  color: #777;
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+@media (max-width: 576px) {
+  .ps-hero { padding: 80px 0 60px; }
+  .ps-hero-title { font-size: 3rem; }
+}
+
+/* Section */
+.ps-section {
+  padding: 90px 0 0;
+  background: #f9f6f3;
+}
+.ps-section + .ps-section {
+  border-top: 1px solid rgba(196, 153, 148, 0.25);
+}
+
+/* Info-Zeile: Bild + Text */
+.ps-info-row {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+  padding: 0 48px 64px;
+}
+.ps-section--reverse .ps-info-row {
+  flex-direction: row-reverse;
+}
+
+/* Bild */
+.ps-img-col {
+  flex: 0 0 42%;
+}
+.ps-img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+}
+
+/* Content */
+.ps-content-col {
+  flex: 1;
+}
+
+/* Eyebrow */
+.ps-eyebrow {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #C49994;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Titel */
+.ps-title {
+  font-family: "Playfair Display", serif;
+  font-size: 4.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1F2D3E;
+  line-height: 1.02;
+  margin: 0 0 22px;
+  letter-spacing: 0.01em;
+}
+
+/* Divider */
+.ps-divider {
+  width: 56px;
+  height: 1px;
+  background: #C49994;
+  margin-bottom: 22px;
+}
+
+/* Bullets */
+.ps-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 22px;
+}
+.ps-bullets li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #1F2D3E;
+  margin-bottom: 7px;
+}
+
+/* Description */
+.ps-description {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #5a5a5a;
+  line-height: 1.75;
+  margin-bottom: 32px;
+  max-width: 460px;
+}
+
+/* Preisblock */
+.ps-prices-wrap {
+  background: #f0ece8;
+  padding: 44px 48px 48px;
+}
+.ps-prices-label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.ps-prices-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 48px;
+}
+.ps-price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 13px 0;
+  border-bottom: 1px dashed rgba(196, 153, 148, 0.45);
+  gap: 16px;
+}
+.ps-price-item:last-child,
+.ps-price-item:nth-last-child(2):nth-child(odd) {
+  border-bottom: none;
+}
+.ps-price-name {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #1F2D3E;
+  flex: 1;
+}
+.ps-price-val {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #C49994;
+  white-space: nowrap;
+}
+
+/* CTA Footer */
+.ps-cta {
+  background: #f9f6f3;
+  padding: 100px 0 80px;
+  border-top: 1px solid rgba(196, 153, 148, 0.25);
+}
+.ps-cta-title {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1F2D3E;
+  margin: 0;
+  line-height: 1.05;
+}
+.ps-cta-sub {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #666;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ps-hint {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .ps-info-row,
+  .ps-section--reverse .ps-info-row {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .ps-img-col { flex: none; width: 100%; }
+  .ps-img { aspect-ratio: 16 / 9; }
+  .ps-title { font-size: 3rem; }
+  .ps-prices-grid { grid-template-columns: 1fr; gap: 0; }
+  .ps-price-item:nth-last-child(2):nth-child(odd) { border-bottom: 1px dashed rgba(196,153,148,0.45); }
+}
+@media (max-width: 576px) {
+  .ps-section { padding: 60px 0 0; }
+  .ps-title { font-size: 2.4rem; }
+  .ps-hero-title { font-size: 3rem; }
+  .ps-cta-title { font-size: 2.4rem; }
+  .ps-prices-wrap { padding: 32px 20px 36px; }
+  .ps-info-row { padding: 0 20px 48px; }
+}

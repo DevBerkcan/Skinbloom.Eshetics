@@ -2,7 +2,6 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Hyaluron from "../../components/Modals/Hyaluron/Hyaluron";
-import Preisliste from "../../components/Modals/Preisliste/Preisliste";
 import WeitereBehandlungen from "../../components/Modals/WeitereBehandlungen/WeitereBehandlungen";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
@@ -88,9 +87,9 @@ function Treatments() {
                 <a className="btn-behandlung btn-primary-teal" onClick={() => openModal("hyaluron")}>
                   {t("moreDetails")}
                 </a>
-                <a className="btn-behandlung btn-outline-mauve" onClick={() => openModal("preisliste")}>
+                <Link href={`/${locale}/preise`} className="btn-behandlung btn-outline-mauve">
                   {t("priceList")}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -124,9 +123,9 @@ function Treatments() {
                 <a className="btn-behandlung btn-primary-teal" onClick={() => openModal("weiterebehandlungen")}>
                   {t("moreDetails")}
                 </a>
-                <a className="btn-behandlung btn-outline-mauve" onClick={() => openModal("preisliste")}>
+                <Link href={`/${locale}/preise`} className="btn-behandlung btn-outline-mauve">
                   {t("priceList")}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -134,7 +133,6 @@ function Treatments() {
       </section>
 
       <Hyaluron isOpen={activeModal === "hyaluron"} handleClose={closeModal} />
-      <Preisliste isOpen={activeModal === "preisliste"} handleClose={closeModal} />
       <WeitereBehandlungen isOpen={activeModal === "weiterebehandlungen"} handleClose={closeModal} />
     </>
   );
