@@ -74,33 +74,6 @@
         "Nasolabial Fold"
       ]
     },
-    "botox": {
-      "subtitle": "Botox Treatments",
-      "modalTitle": "Botox",
-      "modalDescription": "Botox is a proven method for treating expression lines and other aesthetic concerns.",
-      "items": [
-        "Botox",
-        "Frown Lines",
-        "Forehead Lines",
-        "Crow's Feet",
-        "Mouth Corners",
-        "Lip Flip",
-        "Strawberry Chin",
-        "Bunny Lines",
-        "Browlift",
-        "Baby BTX",
-        "Migraine",
-        "Sweat Gland Treatment",
-        "Face Slimming",
-        "Masseter / Teeth Grinding"
-      ]
-    },
-    "categoryLabels": {
-      "hyaluron": "Hyaluronic Acid",
-      "botox": "Botox",
-      "weitere": "Further Treatments",
-      "kosmetik": "Cosmetics"
-    },
     "weitere": {
       "subtitle": "Further Treatments",
       "items": [

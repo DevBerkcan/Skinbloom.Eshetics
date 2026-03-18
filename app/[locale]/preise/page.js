@@ -80,7 +80,7 @@ export default async function PreisePage({ params: { locale } }) {
         imageAlt="Hyaluron Behandlung"
         reverse={false}
         prices={[
-          ["Hyaluron 1 ml", ""],
+          ["Hyaluron 1 ml", "CHF 249.-"],
           ["Lippenaufbau / Unterspritzung", "CHF 249.-"],
           ["Jawline", "CHF 249.-"],
           ["Kinnaufbau", "CHF 249.-"],
@@ -88,7 +88,6 @@ export default async function PreisePage({ params: { locale } }) {
           ["Nasolabialfalte", "CHF 249.-"],
           ["Russian Lips", "CHF 299.-"],
           ["Augenringe", "CHF 299.-"],
-          ["Hylase - Hyaluron auflösen", "CHF 150.-"],
         ]}
       />
 
@@ -282,14 +281,14 @@ export default async function PreisePage({ params: { locale } }) {
           </div>
           <div className="ps-content-col">
             <span className="ps-eyebrow">WEITERE LEISTUNGEN</span>
-            <h2 className="ps-title">Infusionen</h2>
+            <h2 className="ps-title">Hylase &amp; Infusionen</h2>
             <div className="ps-divider" />
             <ul className="ps-bullets">
               <li>KORREKTUREN & AUFLÖSUNG</li>
               <li>VITAMIN-INFUSIONSTHERAPIE</li>
             </ul>
             <p className="ps-description">
-              Unsere maßgeschneiderte Vitamin-Infusionstherapie versorgt den Körper direkt mit essenziellen Nährstoffen für mehr Energie und Vitalität.
+              Mit Hylase können unerwünschte Hyaluron-Ergebnisse sicher und schnell aufgelöst werden. Unsere maßgeschneiderte Vitamin-Infusionstherapie versorgt den Körper direkt mit essenziellen Nährstoffen für mehr Energie und Vitalität.
             </p>
             <BookingButton />
           </div>
@@ -298,6 +297,10 @@ export default async function PreisePage({ params: { locale } }) {
           <div className="container">
             <p className="ps-prices-label">PREISE:</p>
             <div className="ps-prices-grid">
+              <div className="ps-price-item">
+                <span className="ps-price-name">Hylase – Hyaluron auflösen</span>
+                <span className="ps-price-val">CHF 150.-</span>
+              </div>
               <div className="ps-price-item">
                 <span className="ps-price-name">Vitamin Infusion / Infusionstherapie</span>
                 <span className="ps-price-val">CHF 129.-</span>

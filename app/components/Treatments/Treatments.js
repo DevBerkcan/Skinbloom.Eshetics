@@ -2,13 +2,12 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Hyaluron from "../../components/Modals/Hyaluron/Hyaluron";
-import Botox from "../../components/Modals/Botox/Botox";
 import WeitereBehandlungen from "../../components/Modals/WeitereBehandlungen/WeitereBehandlungen";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpa } from "@fortawesome/free-solid-svg-icons";
-import { treatments, CATEGORY_IMAGES } from "../../data/treatments";
+import { treatments } from "../../data/treatments";
 
 function useScrollReveal() {
   const ref = useRef(null);
@@ -38,17 +37,17 @@ function Treatments() {
   const openModal = (modalName) => setActiveModal(modalName);
   const closeModal = () => setActiveModal(null);
 
-const hyaluronItems = Array.isArray(t.raw("hyaluron.items")) ? t.raw("hyaluron.items") : [];
-const botoxItems = Array.isArray(t.raw("botox.items")) ? t.raw("botox.items") : [];
-const weitereItems = Array.isArray(t.raw("weitere.items")) ? t.raw("weitere.items") : [];
+  const hyaluronItems = t.raw("hyaluron.items");
+  const weitereItems = t.raw("weitere.items");
 
-
-  const hyaluronSlugs = treatments.filter((tr) => tr.category === "hyaluron").map((tr) => tr.slug);
-  const botoxSlugs = treatments.filter((tr) => tr.category === "botox").map((tr) => tr.slug);
-  const weitereSlugs = treatments.filter((tr) => tr.category === "weitere").map((tr) => tr.slug);
+  const hyaluronSlugs = treatments
+    .filter((tr) => tr.category === "hyaluron")
+    .map((tr) => tr.slug);
+  const weitereSlugs = treatments
+    .filter((tr) => tr.category === "weitere")
+    .map((tr) => tr.slug);
 
   const hyaluronRef = useScrollReveal();
-  const botoxRef = useScrollReveal();
   const weitereRef = useScrollReveal();
 
   return (
@@ -61,13 +60,14 @@ const weitereItems = Array.isArray(t.raw("weitere.items")) ? t.raw("weitere.item
         </div>
       </section>
 
+      {/* Hyaluron – Bild links, Content rechts */}
       <section className="behandlung-block bg-grey" ref={hyaluronRef}>
         <div className="container-fluid">
           <div className="behandlung-row">
             <div className="behandlung-col-img">
               <img
                 className="behandlung-img"
-                src={CATEGORY_IMAGES.hyaluron}
+                src="assets/images/Hyaluron-img.png"
                 alt="Hyaluron Treatment"
               />
             </div>
@@ -96,48 +96,14 @@ const weitereItems = Array.isArray(t.raw("weitere.items")) ? t.raw("weitere.item
         </div>
       </section>
 
-      <section className="behandlung-block" ref={botoxRef}>
+      {/* Weitere Behandlungen – Content links, Bild rechts */}
+      <section className="behandlung-block" ref={weitereRef}>
         <div className="container-fluid">
           <div className="behandlung-row behandlung-row--reverse">
             <div className="behandlung-col-img">
               <img
                 className="behandlung-img"
-                src={CATEGORY_IMAGES.botox}
-                alt="Botox Treatment"
-              />
-            </div>
-            <div className="behandlung-col-content">
-              <p className="behandlung-subtitle">{t("botox.subtitle")}</p>
-              <ul className="behandlung-list">
-                {botoxItems.map((item, i) => (
-                  <li className="behandlung-list-item" key={item}>
-                    <FontAwesomeIcon icon={faSpa} className="behandlung-check" />
-                    <Link href={`/${locale}/behandlungen/${botoxSlugs[i]}`} className="behandlung-item-link">
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <div className="behandlung-actions">
-                <a className="btn-behandlung btn-primary-teal" onClick={() => openModal("botox")}>
-                  {t("moreDetails")}
-                </a>
-                <Link href={`/${locale}/preise`} className="btn-behandlung btn-outline-mauve">
-                  {t("priceList")}
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="behandlung-block bg-grey" ref={weitereRef}>
-        <div className="container-fluid">
-          <div className="behandlung-row">
-            <div className="behandlung-col-img">
-              <img
-                className="behandlung-img"
-                src={CATEGORY_IMAGES.weitere}
+                src="assets/images/Weitere.png"
                 alt="Additional Treatments"
               />
             </div>
@@ -167,7 +133,6 @@ const weitereItems = Array.isArray(t.raw("weitere.items")) ? t.raw("weitere.item
       </section>
 
       <Hyaluron isOpen={activeModal === "hyaluron"} handleClose={closeModal} />
-      <Botox isOpen={activeModal === "botox"} handleClose={closeModal} />
       <WeitereBehandlungen isOpen={activeModal === "weiterebehandlungen"} handleClose={closeModal} />
     </>
   );

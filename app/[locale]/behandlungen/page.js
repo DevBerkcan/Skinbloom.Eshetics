@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import { treatments, CATEGORY_IMAGES } from "../../data/treatments";
+import { treatments } from "../../data/treatments";
 import TreatmentCard from "../../components/TreatmentCard/TreatmentCard";
 
 export async function generateMetadata({ params }) {
@@ -7,8 +7,8 @@ export async function generateMetadata({ params }) {
   return {
     title: locale === "de" ? "Unsere Behandlungen | Skinbloom Aesthetics" : "Our Treatments | Skinbloom Aesthetics",
     description: locale === "de"
-      ? "Alle Ästhetik-Behandlungen bei Skinbloom Aesthetics Basel – Hyaluron, Botox, Anti-Aging, Skinbooster, Microneedling und mehr."
-      : "All aesthetic treatments at Skinbloom Aesthetics Basel – hyaluronic acid, botox, anti-aging, skinbooster, microneedling and more.",
+      ? "Alle Ästhetik-Behandlungen bei Skinbloom Aesthetics Basel – Hyaluron, Anti-Aging, Skinbooster, Microneedling und mehr."
+      : "All aesthetic treatments at Skinbloom Aesthetics Basel – hyaluronic acid, anti-aging, skinbooster, microneedling and more.",
     alternates: { canonical: `/${locale}/behandlungen` },
   };
 }
@@ -17,7 +17,7 @@ export default async function BehandlungenPage({ params }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "behandlungen" });
 
-  const categories = ["hyaluron", "botox", "weitere", "kosmetik"];
+  const categories = ["hyaluron", "weitere", "kosmetik"];
 
   return (
     <main className="behandlungen-overview">
