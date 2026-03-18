@@ -73,6 +73,27 @@
         "Nasolabialfalte"
       ]
     },
+    "botox": {
+      "subtitle": "Botox Behandlungen",
+      "modalTitle": "Botox",
+      "modalDescription": "Botox ist eine bewährte Methode zur Behandlung von Mimikfalten.",
+      "items": [
+        "Botox",
+        "Zornesfalte",
+        "Stirnfalten",
+        "Krähenfüsse",
+        "Mundwinkel",
+        "Lip Flip",
+        "Erdbeerkinn",
+        "Bunny Lines",
+        "Browlift",
+        "Baby BTX",
+        "Migräne",
+        "Schweissdrüsenbehandlung",
+        "Face Slimming",
+        "Masseter / Zähneknirschen"
+      ]
+    },
     "weitere": {
       "subtitle": "Weitere Behandlungen",
       "items": [
