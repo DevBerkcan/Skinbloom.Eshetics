@@ -74,7 +74,7 @@
       ]
     },
     "botox": {
-      "subtitle": "Botox Behandlungen",
+      "subtitle": "Botox",
       "modalTitle": "Botox",
       "modalDescription": "Botox ist eine bewährte Methode zur Behandlung von Mimikfalten.",
       "items": [
@@ -93,6 +93,12 @@
         "Face Slimming",
         "Masseter / Zähneknirschen"
       ]
+    },
+    "categoryLabels": {
+      "hyaluron": "Hyaluron",
+      "botox": "Botox",
+      "weitere": "Weitere Behandlungen",
+      "kosmetik": "Med. Kosmetik"
     },
     "weitere": {
       "subtitle": "Weitere Behandlungen",
@@ -554,6 +560,7 @@
     "backLink": "Alle Behandlungen",
     "categoryLabels": {
       "hyaluron": "Hyaluron",
+      "botox": "Botox",
       "weitere": "Weitere Behandlungen",
       "kosmetik": "Med. Kosmetik"
     },

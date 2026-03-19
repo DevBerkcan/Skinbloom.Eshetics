@@ -75,7 +75,7 @@
       ]
     },
     "botox": {
-      "subtitle": "Botox Treatments",
+      "subtitle": "Botox",
       "modalTitle": "Botox",
       "modalDescription": "Botox is a proven method for treating expression lines and other aesthetic concerns.",
       "items": [
@@ -561,6 +561,7 @@
     "backLink": "All Treatments",
     "categoryLabels": {
       "hyaluron": "Hyaluronic Acid",
+      "botox": "Botox",
       "weitere": "Further Treatments",
       "kosmetik": "Medical Cosmetics"
     },

@@ -1,6 +1,6 @@
 "use client";
 
-import { faPhone, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useRef, useState } from "react";
 import { Link, usePathname } from "../../../i18n/navigation";
@@ -10,9 +10,95 @@ import { treatments } from "../../data/treatments";
 
 const CATEGORIES = [
   { key: "hyaluron", labelKey: "catHyaluron" },
-  { key: "weitere",  labelKey: "catWeitere"  },
+  { key: "botox", labelKey: "catBotox" },
+  { key: "weitere", labelKey: "catWeitere" },
   { key: "kosmetik", labelKey: "catKosmetik" },
 ];
+
+const GROUPED_PREFIXES = {
+  weitere: [
+    { prefix: "polynukleotide", label: "Polynukleotide" },
+    { prefix: "skinbooster", label: "Skinbooster" },
+    { prefix: "profhilo", label: "Profhilo" },
+    { prefix: "fett-weg-spritze", label: "Fett-weg-Spritze" },
+    { prefix: "radiofrequenz-microneedling", label: "Radiofrequenz-Microneedling" },
+    { prefix: "hydrafacial", label: "Hydrafacial" },
+        { prefix: "hifu", label: "HIFU" },
+  ],
+  kosmetik: [
+    { prefix: "microneedling", label: "Microneedling" },
+    { prefix: "skinbloom-signature", label: "Skinbloom Signature" },
+    { prefix: "fruchtsaeurepeeling", label: "Fruchtsäurepeeling" },
+  ],
+};
+
+function groupTreatments(categoryTreatments, categoryKey, tB) {
+  const prefixes = GROUPED_PREFIXES[categoryKey] || [];
+  const grouped = [];
+  const usedSlugs = new Set();
+
+  prefixes.forEach(({ prefix, label }) => {
+    const children = categoryTreatments.filter((tr) => tr.slug.startsWith(prefix));
+    if (children.length === 0) return;
+
+    const exactMatch = children.find((tr) => tr.slug === prefix);
+    const subItems = children.filter((tr) => tr.slug !== prefix);
+
+    grouped.push({
+      type: "group",
+      prefix,
+      label,
+      exactMatch,
+      subItems,
+    });
+
+    children.forEach((tr) => usedSlugs.add(tr.slug));
+  });
+
+  const standalone = categoryTreatments.filter((tr) => !usedSlugs.has(tr.slug));
+
+  return { grouped, standalone };
+}
+
+function GroupedItem({ group, tB, locale, onClose }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="mega-group">
+      <div className="mega-group-header" onClick={() => setOpen((o) => !o)}>
+        {group.exactMatch ? (
+          <Link
+            href={`/behandlungen/${group.exactMatch.slug}`}
+            className="mega-item mega-group-label"
+            onClick={onClose}
+          >
+            {tB(`items.${group.exactMatch.slug}.name`)}
+          </Link>
+        ) : (
+          <span className="mega-item mega-group-label">{group.label}</span>
+        )}
+        <FontAwesomeIcon
+          icon={faChevronRight}
+          className={`mega-group-arrow${open ? " mega-group-arrow--open" : ""}`}
+        />
+      </div>
+      {open && (
+        <div className="mega-group-children">
+          {group.subItems.map((tr) => (
+            <Link
+              key={tr.slug}
+              href={`/behandlungen/${tr.slug}`}
+              className="mega-item mega-item--child"
+              onClick={onClose}
+            >
+              {tB(`items.${tr.slug}.name`)}
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Header() {
   const [megaOpen, setMegaOpen] = useState(false);
@@ -81,6 +167,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+
       <header>
         <Navbar expand="md" className="navbar-light" style={{ backgroundColor: "transparent" }}>
           <Container fluid>
@@ -94,7 +181,6 @@ export default function Header() {
                   <Link href="/#über-uns" className="nav-link">{t("aboutUs")}</Link>
                 </Nav.Item>
 
-                {/* ── Mega Menu ── */}
                 <Nav.Item
                   className="mega-menu-wrapper"
                   onMouseEnter={openMegaMenu}
@@ -112,17 +198,28 @@ export default function Header() {
 
                   {megaOpen && (
                     <div
-                      className="mega-panel"
+                      className="mega-panel mega-panel--wide"
                       onMouseEnter={openMegaMenu}
                       onMouseLeave={closeMegaMenuWithDelay}
                     >
-                      <div className="mega-grid">
-                        {CATEGORIES.map((cat) => (
-                          <div key={cat.key} className="mega-col">
-                            <p className="mega-cat-title">{tB(`categoryLabels.${cat.key}`)}</p>
-                            {treatments
-                              .filter((tr) => tr.category === cat.key)
-                              .map((tr) => (
+                      <div className="mega-grid mega-grid--4col">
+                        {CATEGORIES.map((cat) => {
+                          const categoryTreatments = treatments.filter(
+                            (tr) => tr.category === cat.key
+                          );
+                          const { grouped, standalone } = groupTreatments(
+                            categoryTreatments,
+                            cat.key,
+                            tB
+                          );
+
+                          return (
+                            <div key={cat.key} className="mega-col">
+                              <p className="mega-cat-title">
+                                {tB(`categoryLabels.${cat.key}`)}
+                              </p>
+
+                              {standalone.map((tr) => (
                                 <Link
                                   key={tr.slug}
                                   href={`/behandlungen/${tr.slug}`}
@@ -132,9 +229,21 @@ export default function Header() {
                                   {tB(`items.${tr.slug}.name`)}
                                 </Link>
                               ))}
-                          </div>
-                        ))}
+
+                              {grouped.map((group) => (
+                                <GroupedItem
+                                  key={group.prefix}
+                                  group={group}
+                                  tB={tB}
+                                  locale={locale}
+                                  onClose={() => setMegaOpen(false)}
+                                />
+                              ))}
+                            </div>
+                          );
+                        })}
                       </div>
+
                       <div className="mega-footer">
                         <Link
                           href="/behandlungen"
