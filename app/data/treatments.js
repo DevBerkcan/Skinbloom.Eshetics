@@ -16,6 +16,7 @@ export const treatments = [
   { slug: "marionettenfalte", category: "hyaluron", related: ["russian-lips","wangenaufbau","nasolabialfalte"] },
   { slug: "wangenaufbau", category: "hyaluron", related: ["marionettenfalte","nasolabialfalte","russian-lips"] },
   { slug: "nasolabialfalte", category: "hyaluron", related: ["wangenaufbau","marionettenfalte","hyaluron-1ml"] },
+  { slug: "hylase", category: "hyaluron", related: ["mesotherapie","bcn-revita-ha","hydrafacial-platinum"] },
   // BOTOX (15)
   { slug: "botox", category: "botox", related: ["botox-zornesfalte","botox-stirnfalten","botox-kraehenfuesse"] },
   { slug: "botox-zornesfalte", category: "botox", related: ["botox","botox-stirnfalten","botox-kraehenfuesse"] },
@@ -32,7 +33,6 @@ export const treatments = [
   { slug: "botox-face-slimming", category: "botox", related: ["botox-schweissdruesenbehandlung","botox-masseter-zaehneknirschen","botox"] },
   { slug: "botox-masseter-zaehneknirschen", category: "botox", related: ["botox-face-slimming","botox","botox-zornesfalte"] },
   // WEITERE (32)
-  { slug: "hylase", category: "weitere", related: ["mesotherapie","bcn-revita-ha","hydrafacial-platinum"] },
   { slug: "mesotherapie", category: "weitere", related: ["hylase","bcn-revita-ha","fillmed-nctf-135-ha"] },
   { slug: "bcn-revita-ha", category: "weitere", related: ["mesotherapie","fillmed-nctf-135-ha","polynukleotide-pdrn"] },
   { slug: "fillmed-nctf-135-ha", category: "weitere", related: ["bcn-revita-ha","polynukleotide-pdrn","polynukleotide-eyes"] },

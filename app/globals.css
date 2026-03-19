@@ -1409,6 +1409,138 @@ footer {
   .preisliste-name, .preisliste-preis { font-size: 13px; }
 }
 
+/* Price note */
+.ps-price-note {
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 16px;
+  margin-top: -4px;
+}
+
+/* Responsive fixes */
+.ps-info-row {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.ps-section--reverse .ps-info-row {
+  flex-direction: row-reverse;
+}
+
+.ps-img-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.ps-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+.ps-content-col {
+  flex: 1;
+  min-width: 0;
+}
+
+.ps-prices-wrap {
+  padding: 32px 0;
+  background: #fff;
+}
+
+.ps-prices-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.ps-price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(196, 153, 148, 0.15);
+  gap: 16px;
+}
+
+.ps-price-name {
+  font-size: 14px;
+  color: #1f2d3e;
+}
+
+.ps-price-val {
+  font-size: 14px;
+  font-weight: 700;
+  color: #017374;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .ps-info-row {
+    gap: 32px;
+    padding-top: 40px;
+    padding-bottom: 28px;
+  }
+
+  .ps-prices-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .ps-info-row {
+    flex-direction: column !important;
+    gap: 24px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  .ps-section--reverse .ps-info-row {
+    flex-direction: column !important;
+  }
+
+  .ps-img-col,
+  .ps-content-col {
+    width: 100%;
+  }
+
+  .ps-img {
+    max-height: 280px;
+    object-fit: cover;
+  }
+
+  .ps-prices-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ps-price-item {
+    padding: 10px 0;
+  }
+
+  .ps-hero {
+    padding: 48px 16px;
+  }
+
+  .ps-hero-title {
+    font-size: 28px;
+  }
+
+  .ps-cta {
+    padding: 48px 16px;
+  }
+}
+
+
 /* =============================================
    Behandlung Item-Links
    ============================================= */

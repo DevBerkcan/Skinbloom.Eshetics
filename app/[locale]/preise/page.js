@@ -9,7 +9,7 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-function PriceSection({ eyebrow, title, description, bullets, imageSrc, imageAlt, reverse, prices }) {
+function PriceSection({ eyebrow, title, description, bullets, imageSrc, imageAlt, reverse, prices, priceNote }) {
   return (
     <section className={`ps-section${reverse ? " ps-section--reverse" : ""}`}>
       <div className="ps-info-row container">
@@ -33,6 +33,9 @@ function PriceSection({ eyebrow, title, description, bullets, imageSrc, imageAlt
       <div className="ps-prices-wrap">
         <div className="container">
           <p className="ps-prices-label">PREISE:</p>
+          {priceNote && (
+            <p className="ps-price-note">{priceNote}</p>
+          )}
           <div className="ps-prices-grid">
             {prices.map(([name, price]) => (
               <div key={name} className="ps-price-item">
@@ -53,7 +56,6 @@ export default async function PreisePage({ params: { locale } }) {
   return (
     <main style={{ background: "#f9f6f3" }}>
 
-      {/* Hero */}
       <section className="ps-hero">
         <div className="container text-center">
           <span className="ps-eyebrow d-block mb-2">SKINBLOOM AESTHETICS</span>
@@ -66,7 +68,6 @@ export default async function PreisePage({ params: { locale } }) {
         </div>
       </section>
 
-      {/* 1 — Hyaluron */}
       <PriceSection
         eyebrow="ÄSTHETISCHE BEHANDLUNG"
         title="Hyaluron"
@@ -79,8 +80,8 @@ export default async function PreisePage({ params: { locale } }) {
         imageSrc="/assets/images/Hyaluron-img.png"
         imageAlt="Hyaluron Behandlung"
         reverse={false}
+        priceNote="Alle Preise beinhalten 1 ml Hyaluron. Zusätzliche Mengen auf Anfrage."
         prices={[
-          ["Hyaluron 1 ml", ""],
           ["Lippenaufbau / Unterspritzung", "CHF 249.-"],
           ["Jawline", "CHF 249.-"],
           ["Kinnaufbau", "CHF 249.-"],
@@ -92,7 +93,6 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 2 — Botox */}
       <PriceSection
         eyebrow="MEDIZINISCHE ÄSTHETIK"
         title="Botox®"
@@ -122,7 +122,6 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 3 — Fettreduktion */}
       <PriceSection
         eyebrow="KÖRPERBEHANDLUNG"
         title="Fettreduktion"
@@ -142,7 +141,6 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 4 — HIFU */}
       <PriceSection
         eyebrow="HAUTSTRAFFUNG"
         title="HIFU"
@@ -167,7 +165,6 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 5 — PRP */}
       <PriceSection
         eyebrow="EIGENBLUTTHERAPIE"
         title="PRP"
@@ -186,7 +183,6 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 6 — Hautregeneration & Biostimulatoren */}
       <PriceSection
         eyebrow="BIOSTIMULATOREN"
         title="Hautregeneration"
@@ -215,7 +211,6 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 7 — Microneedling */}
       <PriceSection
         eyebrow="MICRONEEDLING"
         title="Microneedling"
@@ -239,7 +234,6 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 8 — Gesichtsbehandlungen */}
       <PriceSection
         eyebrow="MEDIZINISCHE KOSMETIK"
         title="Gesichtsbehandlungen"
@@ -270,15 +264,10 @@ export default async function PreisePage({ params: { locale } }) {
         ]}
       />
 
-      {/* 9 — Hylase & Vitamin Infusion */}
       <section className="ps-section ps-section--small">
         <div className="ps-info-row container">
           <div className="ps-img-col">
-            <img
-              src="/assets/images/me.jpeg"
-              alt="Weitere Behandlungen"
-              className="ps-img"
-            />
+            <img src="/assets/images/infusion.png" alt="Weitere Behandlungen" className="ps-img" />
           </div>
           <div className="ps-content-col">
             <span className="ps-eyebrow">WEITERE LEISTUNGEN</span>
@@ -307,7 +296,6 @@ export default async function PreisePage({ params: { locale } }) {
         </div>
       </section>
 
-      {/* CTA Footer */}
       <section className="ps-cta">
         <div className="container text-center">
           <span className="ps-eyebrow d-block mb-3">{t("ctaTitle").toUpperCase()}</span>
