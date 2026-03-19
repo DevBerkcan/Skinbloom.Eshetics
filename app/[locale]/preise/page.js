@@ -102,7 +102,7 @@ export default async function PreisePage({ params: { locale } }) {
           "NATÜRLICHES ERGEBNIS",
           "BEWÄHRTE SICHERHEIT",
         ]}
-        imageSrc="/assets/images/Weitere.png"
+        imageSrc="/assets/images/botox.png"
         imageAlt="Botox Behandlung"
         reverse={true}
         prices={[
@@ -225,7 +225,7 @@ export default async function PreisePage({ params: { locale } }) {
           "POREN VERFEINERN",
           "NARBEN REDUZIEREN",
         ]}
-        imageSrc="/assets/images/about1.png"
+        imageSrc="/assets/images/cosmetic.png"
         imageAlt="Microneedling Behandlung"
         reverse={false}
         prices={[
@@ -249,7 +249,7 @@ export default async function PreisePage({ params: { locale } }) {
           "SOFORTIGE GLOW-WIRKUNG",
           "PROFESSIONELLE TECHNOLOGIE",
         ]}
-        imageSrc="/assets/images/cosmetic.png"
+        imageSrc="/assets/images/weitere.png"
         imageAlt="Gesichtsbehandlungen"
         reverse={true}
         prices={[
