@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { Link } from "../../../i18n/navigation";
 import { useTranslations } from "next-intl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,10 +18,13 @@ export default function Footer() {
           <div className="container text-md-start">
             <div className="row mt-3 mb-5">
               <div className="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
-                <img
+                <Image
                   className="footer-logo mb-2"
-                  src="assets/images/footer-logo.png"
+                  src="/assets/images/footer-logo.png"
                   alt="Skinbloom Aesthetics Logo"
+                  width={300}
+                  height={100}
+                  style={{ height: "auto" }}
                 />
                 <p>{t("description")}</p>
                 <div className="mt-2 social-icon d-flex gap-3">
@@ -70,6 +74,11 @@ export default function Footer() {
                     {t("faq")}
                   </Link>
                 </p>
+                <p>
+                  <Link href="/blog" className="text-reset">
+                    Blog
+                  </Link>
+                </p>
               </div>
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -107,29 +116,21 @@ export default function Footer() {
                     +41 78 241 87 04
                   </a>
                 </p>
-                <div style={{ textAlign: "left", marginTop: "20px" }}>
-                  <img
+                <div className="footer-siegel-wrap">
+                  <Image
                     src="/assets/images/img_siegel_v4_light.png"
                     alt="Rechtstexte Siegel"
-                    style={{ maxWidth: "270px", borderRadius: "5px" }}
+                    className="footer-siegel-img"
+                    width={270}
+                    height={270}
+                    style={{ height: "auto" }}
                   />
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <div
-          style={{
-            textAlign: "center",
-            padding: "10px 0",
-            backgroundColor: "black",
-            color: "white",
-            position: "relative",
-            bottom: "0",
-            width: "100%",
-            fontSize: "14px",
-          }}
-        >
+        <div className="footer-copyright">
           {t("copyright")}
         </div>
       </footer>

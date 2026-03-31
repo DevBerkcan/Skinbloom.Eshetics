@@ -1,6 +1,7 @@
 // app/layout.js
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 // Font Awesome
 import "@fortawesome/fontawesome-svg-core/styles.css";
 // Local Fonts
@@ -110,6 +111,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable}`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );

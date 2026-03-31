@@ -1,8 +1,8 @@
 export const CATEGORY_IMAGES = {
-  hyaluron: "assets/images/Hyaluron-img.png",
-  botox: "assets/images/botox.png",
-  weitere: "assets/images/about2.png",
-  kosmetik: "assets/images/about1.png",
+  hyaluron: "/assets/images/Hyaluron-img.png",
+  botox: "/assets/images/botox.png",
+  weitere: "/assets/images/about2.png",
+  kosmetik: "/assets/images/about1.png",
 };
 
 export const treatments = [

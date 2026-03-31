@@ -7,6 +7,7 @@
     "catWeitere": "Further Treatments",
     "catKosmetik": "Medical Cosmetics",
     "prices": "Prices",
+    "blog": "Blog",
     "contact": "Contact",
     "bookNow": "Book Appointment"
   },
@@ -235,9 +236,15 @@
   "contact": {
     "title": "Contact",
     "description": "Do you have questions about our treatments or would you like to make an appointment? We are here for you! Contact us by phone, email or via the contact form. Our experienced team is happy to advise you personally and find the best solution for your individual needs. We look forward to hearing from you.",
-    "contactTitle": "Contact",
-    "contactTitleBrown": "Us",
-    "form": {
+  "contactTitle": "Contact",
+  "contactTitleBrown": "Us",
+  "badges": {
+    "consultation": "Personal Consultation",
+    "discreet": "Discreet & Secure",
+    "central": "Central Location",
+    "response": "Fast Response"
+  },
+  "form": {
       "firstName": "First Name",
       "lastName": "Last Name",
       "email": "Email",
@@ -297,21 +304,41 @@
         "Luxury Glow Premium",
         "Anti-Aging Collagen Lift"
       ],
-      "message": "My Message",
-      "submit": "Send Message",
-      "privacy": "I have read the",
-      "privacyLink": "Privacy Policy",
-      "privacySuffix": "and agree to the processing of my data to handle my request."
-    },
-    "alerts": {
-      "missingPrivacyTitle": "Privacy Notice Missing",
-      "missingPrivacyText": "Please accept the privacy policy to submit the form.",
-      "successTitle": "Email sent successfully!",
-      "successText": "Thank you for your message. We will contact you soon!",
-      "errorTitle": "Error sending message",
-      "errorText": "Please try again later."
-    },
-    "advantages": "Our",
+    "message": "My Message",
+    "submit": "Send Message",
+    "privacy": "I have read the",
+    "privacyLink": "Privacy Policy",
+    "privacySuffix": "and agree to the processing of my data to handle my request."
+  },
+  "validation": {
+    "firstNameMin": "Please enter a first name (at least 2 characters)",
+    "lastNameMin": "Please enter a last name (at least 2 characters)",
+    "emailInvalid": "Please enter a valid email address",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Please enter a valid phone number",
+    "messageMin": "Message is too short (minimum 10 characters)",
+    "messageMax": "Message must not exceed 1000 characters",
+    "privacyRequired": "Please accept the privacy policy"
+  },
+  "alerts": {
+    "missingPrivacyTitle": "Privacy Notice Missing",
+    "missingPrivacyText": "Please accept the privacy policy to submit the form.",
+    "successTitle": "Email sent successfully!",
+    "successText": "Thank you for your message. We will contact you soon!",
+    "errorTitle": "Error sending message",
+    "errorText": "Please try again later.",
+    "invalidRequestText": "Please review your entries and try again.",
+    "serverUnavailableText": "The mail service is currently not configured correctly. Please try again later."
+  },
+  "info": {
+    "openingHoursLabel": "Opening Hours",
+    "openingHoursValue": "Mon – Sat: 09:00 – 20:00",
+    "addressLabel": "Address",
+    "addressValue": "Elisabethenstrasse 41, 4051 Basel",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email"
+  },
+  "advantages": "Our",
     "advantagesBrown": "Advantages",
     "contactUsText": "We offer customised treatments for anti-aging, wrinkle reduction and lip augmentation. With state-of-the-art technology and personal consultation, we ensure natural and long-lasting results.",
     "faqItems": [

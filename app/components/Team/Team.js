@@ -1,35 +1,38 @@
 "use client";
 
-import React, { useRef, useEffect } from "react";
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 const memberImages = [
-  "assets/images/marianna.jpeg",
-  "assets/images/christina.jpg",
+  "/assets/images/marianna.jpeg",
+  "/assets/images/christina.jpg",
 ];
+
+const headerVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
+
+const rowVariants = {
+  hidden: { opacity: 0, y: 48 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } },
+};
+
+const badgeContainer = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.07 } },
+};
+
+const badgeItem = {
+  hidden: { opacity: 0, scale: 0.85 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.3 } },
+};
 
 function Team() {
   const t = useTranslations("team");
   const members = t.raw("members");
-  const headerRef = useRef(null);
-  const rowRefs = useRef([]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) =>
-        entries.forEach((e) => {
-          if (e.isIntersecting) {
-            e.target.classList.add("is-visible");
-            observer.unobserve(e.target);
-          }
-        }),
-      { threshold: 0.2 }
-    );
-    [headerRef.current, ...rowRefs.current].forEach(
-      (el) => el && observer.observe(el)
-    );
-    return () => observer.disconnect();
-  }, []);
 
   const renderDescription = (text) => {
     const lines = text
@@ -66,51 +69,67 @@ function Team() {
   return (
     <section className="team-section my-5">
       <div className="container-fluid">
-        <div
-          className="team-header team-header--anim"
-          ref={headerRef}
+        <motion.div
+          className="team-header"
+          variants={headerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
         >
-          <h3 className="title mb-2">
+          <span className="section-eyebrow">UNSER TEAM</span>
+          <h2 className="title mb-2">
             {t("title")} <span className="text-brown">{t("titleBrown")}</span>
-          </h3>
+          </h2>
           <p className="team-section-subtitle">{t("subtitle")}</p>
-        </div>
+        </motion.div>
 
         <div className="team-rows mt-5">
           {members.map((member, index) => (
-            <div
+            <motion.div
               key={member.name}
               className={`team-member-row${index % 2 === 1 ? " team-member-row--reverse" : ""}`}
-              ref={(el) => (rowRefs.current[index] = el)}
+              variants={rowVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
             >
               <div className="team-col-img">
                 <div className="team-portrait-wrap">
-                  <img
+                  <Image
                     className={`team-portrait-img${index === 0 ? " tm-marianna" : " tm-christina"}`}
                     src={memberImages[index]}
                     alt={member.imgAlt}
+                    width={400}
+                    height={533}
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
                   />
                 </div>
               </div>
 
               <div className="team-col-content">
-                <h4 className="team-name">{member.name}</h4>
+                <h3 className="team-name">{member.name}</h3>
                 <p className="team-role">{member.role}</p>
                 <div className="team-role-line" />
-                <div className="team-badges mb-3">
-                  {member.badges.map((badge, bi) => (
-                    <span
+                <motion.div
+                  className="team-badges mb-3"
+                  variants={badgeContainer}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                >
+                  {member.badges.map((badge) => (
+                    <motion.span
                       className="team-badge"
                       key={badge}
-                      style={{ transitionDelay: `${0.5 + bi * 0.07}s` }}
+                      variants={badgeItem}
                     >
                       {badge}
-                    </span>
+                    </motion.span>
                   ))}
-                </div>
+                </motion.div>
                 {renderDescription(member.description)}
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

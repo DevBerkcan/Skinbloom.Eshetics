@@ -7,6 +7,7 @@
     "catWeitere": "Weitere Behandlungen",
     "catKosmetik": "Medizinische Kosmetik",
     "prices": "Preise",
+    "blog": "Blog",
     "contact": "Kontakt",
     "bookNow": "Termin buchen"
   },
@@ -234,9 +235,15 @@
   "contact": {
     "title": "Kontakt",
     "description": "Haben Sie Fragen zu unseren Behandlungen oder möchten Sie einen Termin vereinbaren? Wir sind für Sie da! Kontaktieren Sie uns telefonisch, per E-Mail oder über das Kontaktformular. Unser erfahrenes Team berät Sie gerne persönlich und findet die beste Lösung für Ihre individuellen Bedürfnisse. Wir freuen uns darauf, von Ihnen zu hören.",
-    "contactTitle": "Kontaktieren Sie",
-    "contactTitleBrown": "uns",
-    "form": {
+  "contactTitle": "Kontaktieren Sie",
+  "contactTitleBrown": "uns",
+  "badges": {
+    "consultation": "Persönliche Beratung",
+    "discreet": "Diskret & sicher",
+    "central": "Zentrale Lage",
+    "response": "Schnelle Rückmeldung"
+  },
+  "form": {
       "firstName": "Vorname",
       "lastName": "Nachname",
       "email": "E-Mail",
@@ -296,21 +303,41 @@
         "Luxury Glow Premium",
         "Anti-Aging Collagen Lift"
       ],
-      "message": "Meine Nachricht",
-      "submit": "Nachricht absenden",
-      "privacy": "Ich habe die",
-      "privacyLink": "Datenschutzerklärung",
-      "privacySuffix": "gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu."
-    },
-    "alerts": {
-      "missingPrivacyTitle": "Datenschutzhinweis fehlt",
-      "missingPrivacyText": "Bitte akzeptieren Sie die Datenschutzerklärung, um das Formular zu senden.",
-      "successTitle": "E-Mail erfolgreich versendet!",
-      "successText": "Vielen Dank für Ihre Nachricht. Wir werden Sie bald kontaktieren!",
-      "errorTitle": "Fehler beim Senden der Nachricht",
-      "errorText": "Bitte versuchen Sie es später erneut."
-    },
-    "advantages": "Unsere",
+    "message": "Meine Nachricht",
+    "submit": "Nachricht absenden",
+    "privacy": "Ich habe die",
+    "privacyLink": "Datenschutzerklärung",
+    "privacySuffix": "gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu."
+  },
+  "validation": {
+    "firstNameMin": "Bitte Vornamen eingeben (mind. 2 Zeichen)",
+    "lastNameMin": "Bitte Nachnamen eingeben (mind. 2 Zeichen)",
+    "emailInvalid": "Bitte eine gültige E-Mail-Adresse eingeben",
+    "phoneRequired": "Telefonnummer ist erforderlich",
+    "phoneInvalid": "Bitte eine gültige Telefonnummer eingeben",
+    "messageMin": "Nachricht ist zu kurz (mind. 10 Zeichen)",
+    "messageMax": "Nachricht darf max. 1000 Zeichen haben",
+    "privacyRequired": "Bitte Datenschutzrichtlinie akzeptieren"
+  },
+  "alerts": {
+    "missingPrivacyTitle": "Datenschutzhinweis fehlt",
+    "missingPrivacyText": "Bitte akzeptieren Sie die Datenschutzerklärung, um das Formular zu senden.",
+    "successTitle": "E-Mail erfolgreich versendet!",
+    "successText": "Vielen Dank für Ihre Nachricht. Wir werden Sie bald kontaktieren!",
+    "errorTitle": "Fehler beim Senden der Nachricht",
+    "errorText": "Bitte versuchen Sie es später erneut.",
+    "invalidRequestText": "Bitte prüfen Sie Ihre Eingaben und versuchen Sie es erneut.",
+    "serverUnavailableText": "Der Mail-Service ist aktuell nicht korrekt konfiguriert. Bitte versuchen Sie es später erneut."
+  },
+  "info": {
+    "openingHoursLabel": "Öffnungszeiten",
+    "openingHoursValue": "Mo – Sa: 09:00 – 20:00 Uhr",
+    "addressLabel": "Adresse",
+    "addressValue": "Elisabethenstrasse 41, 4051 Basel",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail"
+  },
+  "advantages": "Unsere",
     "advantagesBrown": "Vorteile",
     "contactUsText": "Wir bietet maßgeschneiderte Behandlungen für Anti-Aging, Faltenreduktion und Lippenoptimierung. Mit modernster Technik und persönlicher Beratung sorgen wir für natürliche und langanhaltende Ergebnisse.",
     "faqItems": [

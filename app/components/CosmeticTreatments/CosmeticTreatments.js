@@ -1,12 +1,21 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import KosmetikModal from "../Modals/KosmetikModal/KosmetikModal";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpa } from "@fortawesome/free-solid-svg-icons";
 import { treatments } from "../../data/treatments";
+
+const menuContainer = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.06, delayChildren: 0.1 } },
+};
+
+const menuItem = {
+  hidden: { opacity: 0, x: -20 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.4, ease: "easeOut" } },
+};
 
 function CosmeticTreatments() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -18,57 +27,51 @@ function CosmeticTreatments() {
     .filter((tr) => tr.category === "kosmetik")
     .map((tr) => tr.slug);
 
-  const sectionRef = useRef(null);
-  useEffect(() => {
-    const el = sectionRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          el.classList.add("is-visible");
-          observer.unobserve(el);
-        }
-      },
-      { threshold: 0.15 }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <>
-      {/* Medizinische Kosmetik – Bild links, Content rechts */}
-      <section className="behandlung-block bg-grey" ref={sectionRef}>
+      <motion.section
+        className="behandlung-block bg-grey"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.15 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="container-fluid">
           <div className="behandlung-row">
             <div className="behandlung-col-img">
               <img
                 className="behandlung-img"
-                src="assets/images/cosmetic.png"
+                src="/assets/images/cosmetic.png"
                 alt="Kosmetische Behandlungen bei Skinbloom Aesthetics"
               />
             </div>
             <div className="behandlung-col-content">
               <p className="behandlung-subtitle">{t("subtitle")}</p>
-              <ul className="behandlung-list">
+              <motion.div
+                className="tr-menu"
+                variants={menuContainer}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.2 }}
+              >
                 {items.map((item, i) => (
-                  <li className="behandlung-list-item" key={item}>
-                    <FontAwesomeIcon icon={faSpa} className="behandlung-check" />
-                    <Link href={`/${locale}/behandlungen/${kosmetikSlugs[i]}`} className="behandlung-item-link">
-                      {item}
+                  <motion.div key={item} variants={menuItem}>
+                    <Link href={`/${locale}/behandlungen/${kosmetikSlugs[i]}`} className="tr-menu-item">
+                      <span className="tr-menu-name">{item}</span>
+                      <span className="tr-menu-arrow">→</span>
                     </Link>
-                  </li>
+                  </motion.div>
                 ))}
-              </ul>
+              </motion.div>
               <div className="behandlung-actions">
-                <a className="btn-behandlung btn-primary-teal" onClick={() => setModalOpen(true)}>
+                <button type="button" className="btn-behandlung btn-primary-teal" onClick={() => setModalOpen(true)}>
                   {t("moreDetails")}
-                </a>
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
 
       <KosmetikModal
         isOpen={modalOpen}

@@ -1,14 +1,15 @@
 "use client";
 
 import Banner from "../components/Banner/Banner";
+import TrustBar from "../components/TrustBar/TrustBar";
 import About from "../components/About/About";
 import Reviews from "../components/Reviews/Reviews";
 import Team from "../components/Team/Team";
-import Treatments from "../components/Treatments/Treatments";
-import CosmeticTreatments from "../components/CosmeticTreatments/CosmeticTreatments";
+import Behandlungen from "../components/Behandlungen/Behandlungen";
 import BeforeAfter from "../components/BeforeAfter/BeforeAfter";
 import InstagramCTA from "../components/InstagramCTA/InstagramCTA";
 import Philosophy from "../components/Philosophy/Philosophy";
+import BlogPreview from "../components/BlogPreview/BlogPreview";
 import FAQ from "../components/FAQ/FAQ";
 import Contact from "../components/Contact/Contact";
 import WhatsAppButton from "../components/WhatsAppButton/WhatsAppButton";
@@ -69,14 +70,15 @@ export default function Home() {
       />
       <WhatsAppButton />
       <Banner />
-      <About />
-      <Reviews />
-      <Team />
-      <Treatments />
-      <CosmeticTreatments />
+      <TrustBar />
+      <Behandlungen />
       <BeforeAfter />
-      <InstagramCTA />
+      <Reviews />
+      <About />
+      <Team />
       <Philosophy />
+      <InstagramCTA />
+      <BlogPreview />
       <FAQ />
       <Contact />
     </div>

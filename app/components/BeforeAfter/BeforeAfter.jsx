@@ -1,8 +1,19 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import { ReactCompareSlider, ReactCompareSliderImage, ReactCompareSliderHandle } from "react-compare-slider";
 import { useTranslations } from "next-intl";
+
+const containerVariants = {
+  hidden: {},
+  visible: { transition: { staggerChildren: 0.15 } },
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
 
 // Placeholder pairs – replace with real images in public/assets/images/ba/
 const pairs = [
@@ -92,16 +103,23 @@ export default function BeforeAfter() {
         </h2>
         <p className="ba-subtitle text-center">{t("sectionSubtitle")}</p>
 
-        <div className="ba-grid">
+        <motion.div
+          className="ba-grid"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           {pairs.map((pair, i) => (
-            <BACard
-              key={i}
-              pair={pair}
-              labelBefore={t("labelBefore")}
-              labelAfter={t("labelAfter")}
-            />
+            <motion.div key={i} variants={cardVariants}>
+              <BACard
+                pair={pair}
+                labelBefore={t("labelBefore")}
+                labelAfter={t("labelAfter")}
+              />
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         <p className="ba-disclaimer text-center">{t("disclaimer")}</p>
       </div>

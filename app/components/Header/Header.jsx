@@ -2,6 +2,7 @@
 
 import { faPhone, faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import { Link, usePathname } from "../../../i18n/navigation";
 import { Navbar, Nav, Container } from "react-bootstrap";
@@ -172,7 +173,7 @@ export default function Header() {
         <Navbar expand="md" className="navbar-light" style={{ backgroundColor: "transparent" }}>
           <Container fluid>
             <Link href="/" className="navbar-brand d-md-none">
-              <img src="/assets/images/logo.png" alt="Logo" />
+              <Image src="/assets/images/logo.png" alt="Logo" width={300} height={100} style={{ height: "auto" }} />
             </Link>
             <Navbar.Toggle aria-controls="navbarNav" />
             <Navbar.Collapse id="navbarNav">
@@ -259,11 +260,14 @@ export default function Header() {
 
                 <Nav.Item className="d-none d-md-block">
                   <Link href="/" className="navbar-brand">
-                    <img src="/assets/images/logo.png" alt="Logo" />
+                    <Image src="/assets/images/logo.png" alt="Logo" width={300} height={100} style={{ height: "auto" }} />
                   </Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Link href="/preise" className="nav-link">{t("prices")}</Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Link href="/blog" className="nav-link">{t("blog")}</Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Link href="/kontakt" className="nav-link">{t("contact")}</Link>

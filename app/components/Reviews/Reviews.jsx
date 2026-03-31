@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,9 +18,18 @@ export default function Reviews() {
   return (
     <section id="reviews" className="reviews-section">
       <div className="container-fluid">
-        <h2 className="title text-center">
-          {t("title")} <span className="text-brown">{t("titleBrown")}</span> {t("titleSuffix")}
-        </h2>
+        <motion.div
+          className="text-center mb-5"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <span className="section-eyebrow">KUNDENSTIMMEN</span>
+          <h2 className="title">
+            {t("title")} <span className="text-brown">{t("titleBrown")}</span> {t("titleSuffix")}
+          </h2>
+        </motion.div>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={24}

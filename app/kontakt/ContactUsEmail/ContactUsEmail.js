@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Swal from "sweetalert2";
 import Loader from "../../components/Loader/Loader";
 import { useTranslations } from "next-intl";
 
@@ -9,6 +8,8 @@ function ContactUsEmail() {
   const t = useTranslations("contact.form");
   const tAlerts = useTranslations("contact.alerts");
   const [loading, setLoading] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState("");
+  const [submitError, setSubmitError] = useState("");
   const [formData, setFormData] = useState({
     fname: "",
     lname: "",
@@ -25,39 +26,35 @@ function ContactUsEmail() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setSubmitError("");
+    setSubmitSuccess("");
     try {
-      const res = await fetch("/api/sendEmail", {
+      const res = await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
+      const payload = await res.json().catch(() => null);
 
-      if (res.ok) {
-        if (res?.status === 200) {
-          Swal.fire({
-            icon: "success",
-            title: tAlerts("successTitle"),
-            text: tAlerts("successText"),
-          });
-          setFormData({ fname: "", lname: "", email: "", phone: "", content: "" });
-        } else {
-          Swal.fire({
-            icon: "error",
-            title: tAlerts("errorTitle"),
-            text: tAlerts("errorText"),
-          });
-        }
+      if (res.ok && res.status === 200) {
+        setSubmitSuccess(tAlerts("successText"));
+        setFormData({ fname: "", lname: "", email: "", phone: "", content: "" });
       } else {
-        const errorText = await res.text();
-        throw new Error(`Error: ${res.status} - ${errorText}`);
+        let errorMessage = tAlerts("errorText");
+
+        if (res.status === 400) {
+          errorMessage = tAlerts("invalidRequestText");
+        } else if (payload?.code === "mail_config_missing") {
+          errorMessage = tAlerts("serverUnavailableText");
+        } else if (payload?.message) {
+          errorMessage = payload.message;
+        }
+
+        throw new Error(errorMessage);
       }
     } catch (error) {
       console.error("Error:", error);
-      Swal.fire({
-        icon: "error",
-        title: tAlerts("errorTitle"),
-        text: tAlerts("errorText"),
-      });
+      setSubmitError(error?.message || tAlerts("errorText"));
     } finally {
       setLoading(false);
     }
@@ -65,6 +62,18 @@ function ContactUsEmail() {
 
   return (
     <form onSubmit={handleSubmit}>
+      {submitError && (
+        <div className="contact-inline-error mb-4" role="alert" aria-live="assertive">
+          <strong>{tAlerts("errorTitle")}</strong>
+          <span>{submitError}</span>
+        </div>
+      )}
+      {submitSuccess && (
+        <div className="contact-inline-success mb-4" role="status" aria-live="polite">
+          <strong>{tAlerts("successTitle")}</strong>
+          <span>{submitSuccess}</span>
+        </div>
+      )}
       <div className="row mb-4">
         <div className="col">
           <input
@@ -127,7 +136,7 @@ function ContactUsEmail() {
       </div>
       <div className="row mb-4">
         <div className="col">
-          <button type="submit" className="bg-green btn-submit">
+          <button type="submit" className="bg-green btn-submit" disabled={loading} aria-busy={loading}>
             {loading ? <Loader /> : t("submit")}
           </button>
         </div>

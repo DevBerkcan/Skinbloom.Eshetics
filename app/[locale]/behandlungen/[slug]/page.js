@@ -1,9 +1,11 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { treatments, CATEGORY_IMAGES } from "../../../data/treatments";
 import TreatmentCard from "../../../components/TreatmentCard/TreatmentCard";
 import AccordionServer from "../../../components/AccordionServer/AccordionServer";
+import Breadcrumb from "../../../components/Breadcrumb/Breadcrumb";
 
 const BOOKING_URL = "https://skinbloombooking.gentlegroup.de/booking";
 
@@ -87,6 +89,17 @@ export default async function TreatmentPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      {/* BREADCRUMB */}
+      <div className="container pt-4">
+        <Breadcrumb
+          items={[
+            { label: "Startseite", href: "/" },
+            { label: "Behandlungen", href: "/behandlungen" },
+            { label: name },
+          ]}
+        />
+      </div>
+
       {/* HERO */}
       <section
         className="treatment-hero"
@@ -144,10 +157,13 @@ export default async function TreatmentPage({ params }) {
               <p className="treatment-definition-text">{definition}</p>
             </div>
             <div className="col-md-5 text-center">
-              <img
+              <Image
                 src="/assets/images/contact-img.png"
                 alt={name}
                 className="treatment-definition-img"
+                width={400}
+                height={400}
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </div>

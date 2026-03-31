@@ -1,5 +1,7 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import BookingButton from "../../components/BookingButton/BookingButton";
+import PriceSection from "../../components/PriceSection/PriceSection";
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: "preisseite" });
@@ -9,46 +11,6 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-function PriceSection({ eyebrow, title, description, bullets, imageSrc, imageAlt, reverse, prices, priceNote }) {
-  return (
-    <section className={`ps-section${reverse ? " ps-section--reverse" : ""}`}>
-      <div className="ps-info-row container">
-        <div className="ps-img-col">
-          <img src={imageSrc} alt={imageAlt} className="ps-img" />
-        </div>
-        <div className="ps-content-col">
-          <span className="ps-eyebrow">{eyebrow}</span>
-          <h2 className="ps-title">{title}</h2>
-          <div className="ps-divider" />
-          <ul className="ps-bullets">
-            {bullets.map((b) => (
-              <li key={b}>{b}</li>
-            ))}
-          </ul>
-          <p className="ps-description">{description}</p>
-          <BookingButton />
-        </div>
-      </div>
-
-      <div className="ps-prices-wrap">
-        <div className="container">
-          <p className="ps-prices-label">PREISE:</p>
-          {priceNote && (
-            <p className="ps-price-note">{priceNote}</p>
-          )}
-          <div className="ps-prices-grid">
-            {prices.map(([name, price]) => (
-              <div key={name} className="ps-price-item">
-                <span className="ps-price-name">{name}</span>
-                <span className="ps-price-val">{price}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 export default async function PreisePage({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: "preisseite" });
@@ -267,7 +229,7 @@ export default async function PreisePage({ params: { locale } }) {
       <section className="ps-section ps-section--small">
         <div className="ps-info-row container">
           <div className="ps-img-col">
-            <img src="/assets/images/infusion.png" alt="Weitere Behandlungen" className="ps-img" />
+            <Image src="/assets/images/infusion.png" alt="Weitere Behandlungen" className="ps-img" width={600} height={750} style={{ width: "100%", height: "auto" }} />
           </div>
           <div className="ps-content-col">
             <span className="ps-eyebrow">WEITERE LEISTUNGEN</span>

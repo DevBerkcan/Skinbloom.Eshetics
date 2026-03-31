@@ -1,109 +1,3 @@
-// export const generateEmailTemplate = ({
-//   fname,
-//   lname,
-//   email,
-//   phone,
-//   content,
-//   date,
-// }) => `
-// <!DOCTYPE html>
-// <html>
-//   <head>
-//     <style>
-//       body {
-//         font-family: Arial, sans-serif;
-//         line-height: 1.6;
-//         color: #333333;
-//       }
-//       .container {
-//         max-width: 600px;
-//         margin: 0 auto;
-//         padding: 20px;
-//         background-color: #f9f9f9;
-//       }
-//       .header {
-//         background-color: #004d99;
-//         color: white;
-//         padding: 20px;
-//         text-align: center;
-//         border-radius: 5px 5px 0 0;
-//       }
-//       .content {
-//         background-color: white;
-//         padding: 20px;
-//         border-radius: 0 0 5px 5px;
-//         border: 1px solid #dddddd;
-//       }
-//       .field {
-//         margin-bottom: 15px;
-//       }
-//       .label {
-//         font-weight: bold;
-//         color: #004d99;
-//       }
-//       .footer {
-//         text-align: center;
-//         margin-top: 20px;
-//         font-size: 0.8em;
-//         color: #666666;
-//       }
-//     </style>
-//   </head>
-//   <body>
-//     <div class="container">
-//       <div class="header">
-//         <h2>New Contact Form Submission</h2>
-//       </div>
-//       <div class="content">
-//         <div class="field">
-//           <p class="label">Full Name:</p>
-//           <p>${fname} ${lname}</p>
-//         </div>
-//         <div class="field">
-//           <p class="label">Email:</p>
-//           <p>${email}</p>
-//         </div>
-//         ${
-//           phone
-//             ? `
-//         <div class="field">
-//           <p class="label">Phone:</p>
-//           <p>${phone}</p>
-//         </div>
-//         `
-//             : ""
-//         }
-//         <div class="field">
-//           <p class="label">Message:</p>
-//           <p>${content}</p>
-//         </div>
-//       </div>
-//       <div class="footer">
-//         <p>This message was sent on ${date}</p>
-//         <p>© ${new Date().getFullYear()} Your Company Name. All rights reserved.</p>
-//       </div>
-//     </div>
-//   </body>
-// </html>
-// `;
-
-// export const generatePlainTextEmail = ({
-//   fname,
-//   lname,
-//   email,
-//   phone,
-//   content,
-//   date,
-// }) => `
-// New Contact Form Submission
-
-// Full Name: ${fname} ${lname}
-// Email: ${email}
-// ${phone ? `Phone: ${phone}\n` : ""}
-// Message: ${content}
-
-// Sent on: ${date}
-// `;
 export const generateEmailTemplate = ({
   fname,
   lname,
@@ -117,159 +11,152 @@ export const generateEmailTemplate = ({
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form Submission</title>
+    <title>Skinbloom Kontaktanfrage</title>
     <style>
-      /* Reset styles */
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
-      
+
       body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.6;
-        color: #2d3748;
-        background-color: #f7fafc;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.65;
+        color: #1f2d3e;
+        background: #f6f1ee;
+        padding: 28px 14px;
       }
 
-      /* Container styles */
       .container {
-        max-width: 600px;
+        max-width: 640px;
         margin: 0 auto;
-        background-color: #ffffff;
-        border-radius: 8px;
+        background: #ffffff;
+        border-radius: 24px;
         overflow: hidden;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 20px 60px rgba(31, 45, 62, 0.12);
       }
 
-      /* Header styles */
       .header {
-        background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
-        color: white;
-        padding: 32px 24px;
-        text-align: center;
+        padding: 34px 28px 28px;
+        background:
+          radial-gradient(circle at top right, rgba(1, 115, 116, 0.22), transparent 34%),
+          linear-gradient(135deg, #1f2d3e 0%, #24384d 100%);
+        color: #ffffff;
       }
 
-      .header h2 {
-        font-size: 24px;
-        font-weight: 600;
-        margin-bottom: 8px;
-        letter-spacing: -0.025em;
+      .eyebrow {
+        display: inline-block;
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #c49994;
+        margin-bottom: 14px;
+      }
+
+      .header h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.12;
+        margin-bottom: 10px;
+        letter-spacing: -0.02em;
       }
 
       .header p {
-        font-size: 16px;
-        opacity: 0.9;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.84);
       }
 
-      /* Content styles */
       .content {
-        padding: 32px 24px;
-        background-color: white;
+        padding: 28px;
       }
 
-      .section {
-        margin-bottom: 24px;
-        padding: 20px;
-        background-color: #f8fafc;
-        border-radius: 6px;
-        border: 1px solid #e2e8f0;
+      .meta-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        margin-bottom: 18px;
       }
 
-      .section:last-child {
-        margin-bottom: 0;
-      }
-
-      .field {
-        margin-bottom: 16px;
-      }
-
-      .field:last-child {
-        margin-bottom: 0;
+      .card {
+        padding: 18px;
+        border-radius: 18px;
+        background: linear-gradient(180deg, rgba(248, 244, 242, 0.88) 0%, rgba(255, 255, 255, 0.96) 100%);
+        border: 1px solid rgba(196, 153, 148, 0.18);
       }
 
       .label {
-        font-size: 14px;
-        font-weight: 600;
-        color: #64748b;
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
-        letter-spacing: 0.05em;
-        margin-bottom: 4px;
+        color: #c49994;
+        margin-bottom: 6px;
       }
 
       .value {
-        font-size: 16px;
-        color: #1e293b;
-        background-color: white;
-        padding: 12px;
-        border-radius: 4px;
-        border: 1px solid #e2e8f0;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #1f2d3e;
+        background: #ffffff;
+        border: 1px solid rgba(196, 153, 148, 0.14);
+        border-radius: 12px;
+        padding: 12px 14px;
+      }
+
+      .message-card {
+        margin-top: 4px;
       }
 
       .message-content {
         white-space: pre-line;
-        line-height: 1.8;
       }
 
-      /* Divider */
-      .divider {
-        height: 1px;
-        background-color: #e2e8f0;
-        margin: 24px 0;
-      }
-
-      /* Footer styles */
       .footer {
-        background-color: #f8fafc;
-        padding: 24px;
+        padding: 22px 28px 28px;
+        background: #f8f4f2;
+        border-top: 1px solid rgba(196, 153, 148, 0.18);
         text-align: center;
-        border-top: 1px solid #e2e8f0;
       }
 
-      .timestamp {
-        font-size: 14px;
-        color: #64748b;
-        margin-bottom: 12px;
+      .footer p {
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        line-height: 1.75;
+        color: #6f7a86;
       }
 
-      .copyright {
-        font-size: 14px;
-        color: #94a3b8;
-      }
-
-      /* Highlights and Badges */
-      .priority-badge {
-        display: inline-block;
-        padding: 4px 12px;
-        background-color: #818cf8;
-        color: white;
-        border-radius: 9999px;
-        font-size: 12px;
-        font-weight: 500;
+      .footer p + p {
         margin-top: 8px;
       }
 
-      /* Responsive design */
       @media only screen and (max-width: 600px) {
+        body {
+          padding: 0;
+        }
+
         .container {
-          width: 100%;
-          margin: 0;
           border-radius: 0;
         }
 
-        .header {
-          padding: 24px 16px;
+        .header,
+        .content,
+        .footer {
+          padding-left: 18px;
+          padding-right: 18px;
         }
 
-        .content {
-          padding: 24px 16px;
+        .header h1 {
+          font-size: 24px;
         }
 
-        .section {
-          padding: 16px;
+        .meta-grid {
+          grid-template-columns: 1fr;
         }
       }
     </style>
@@ -277,47 +164,42 @@ export const generateEmailTemplate = ({
   <body>
     <div class="container">
       <div class="header">
-        <h2>New Contact Inquiry</h2>
-        <p>A new message has been received through the contact form</p>
+        <span class="eyebrow">Skinbloom Aesthetics</span>
+        <h1>Neue Kontaktanfrage</h1>
+        <p>Ueber das Kontaktformular ist eine neue Nachricht eingegangen. Die wichtigsten Angaben finden Sie unten kompakt aufbereitet.</p>
       </div>
 
       <div class="content">
-        <!-- Contact Information Section -->
-        <div class="section">
-          <div class="field">
-            <div class="label">Contact Details</div>
-            <div class="value">
-              <strong>${fname} ${lname}</strong>
-              ${phone ? `<br>📞 ${phone}` : ""}
-              <br>📧 ${email}
-            </div>
+        <div class="meta-grid">
+          <div class="card">
+            <div class="label">Name</div>
+            <div class="value">${fname} ${lname}</div>
+          </div>
+          <div class="card">
+            <div class="label">E-Mail</div>
+            <div class="value">${email}</div>
+          </div>
+          ${phone ? `
+          <div class="card">
+            <div class="label">Telefon</div>
+            <div class="value">${phone}</div>
+          </div>
+          ` : ""}
+          <div class="card">
+            <div class="label">Eingang</div>
+            <div class="value">${date}</div>
           </div>
         </div>
 
-        <!-- Message Content Section -->
-        <div class="section">
-          <div class="field">
-            <div class="label">Message Content</div>
-            <div class="value message-content">
-              ${content}
-            </div>
-          </div>
-        </div>
-
-        <div class="priority-badge">
-          New Message
+        <div class="card message-card">
+          <div class="label">Nachricht</div>
+          <div class="value message-content">${content}</div>
         </div>
       </div>
 
       <div class="footer">
-        <div class="timestamp">
-          📅 Received on ${date}
-        </div>
-        <div class="divider"></div>
-        <div class="copyright">
-          © ${new Date().getFullYear()} Your Company Name<br>
-          <small>This is an automated message. Please do not reply directly to this email.</small>
-        </div>
+        <p>Automatisch generiert ueber das Kontaktformular von Skinbloom Aesthetics.</p>
+        <p>Bitte direkt an ${email} antworten, wenn Sie auf diese Anfrage reagieren moechten.</p>
       </div>
     </div>
   </body>
@@ -332,20 +214,13 @@ export const generatePlainTextEmail = ({
   content,
   date,
 }) => `
-NEW CONTACT FORM SUBMISSION
---------------------------
+NEUE KONTAKTANFRAGE
+-------------------
 
-CONTACT DETAILS
---------------
 Name: ${fname} ${lname}
-Email: ${email}
-${phone ? `Phone: ${phone}\n` : ""}
+E-Mail: ${email}
+${phone ? `Telefon: ${phone}\n` : ""}Datum: ${date}
 
-MESSAGE
--------
+Nachricht:
 ${content}
-
---------------------------
-Sent on: ${date}
-Skinbloom
 `;
